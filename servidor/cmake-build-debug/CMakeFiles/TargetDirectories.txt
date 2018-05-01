@@ -1,0 +1,3 @@
+/home/fmurillom/Documents/Tec/DatosII/Proyecto II/servidor/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Proyecto II/servidor/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Proyecto II/servidor/cmake-build-debug/CMakeFiles/servidor.dir
