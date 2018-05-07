@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/live555.dir/main.cpp.o CMakeFiles/live555.dir/src/server.cpp.o  -o ../bin/live555 -Wl,-rpath,"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/bin" ../bin/liblive.so -lpthread 

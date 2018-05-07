@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/testH264VideoStreamer.dir/testH264VideoStreamer.cpp.o  -o ../../../bin/testH264VideoStreamer ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/testRTSPClient.dir/testRTSPClient.cpp.o  -o ../../../bin/testRTSPClient ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 

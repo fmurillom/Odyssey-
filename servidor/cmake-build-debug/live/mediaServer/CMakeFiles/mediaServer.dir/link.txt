@@ -1,0 +1,1 @@
+/usr/bin/c++  -g  -rdynamic CMakeFiles/mediaServer.dir/DynamicRTSPServer.cpp.o CMakeFiles/mediaServer.dir/live555MediaServer.cpp.o  -o ../../../bin/mediaServer ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 

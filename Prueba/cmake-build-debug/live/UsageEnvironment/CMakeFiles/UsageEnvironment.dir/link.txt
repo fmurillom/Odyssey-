@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libUsageEnvironment.a  CMakeFiles/UsageEnvironment.dir/HashTable.cpp.o CMakeFiles/UsageEnvironment.dir/strDup.cpp.o CMakeFiles/UsageEnvironment.dir/UsageEnvironment.cpp.o
+/usr/bin/ranlib ../../../lib/libUsageEnvironment.a

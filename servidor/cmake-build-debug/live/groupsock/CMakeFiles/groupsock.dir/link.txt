@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libgroupsock.a  CMakeFiles/groupsock.dir/GroupEId.cpp.o CMakeFiles/groupsock.dir/Groupsock.cpp.o CMakeFiles/groupsock.dir/GroupsockHelper.cpp.o CMakeFiles/groupsock.dir/inet.c.o CMakeFiles/groupsock.dir/IOHandlers.cpp.o CMakeFiles/groupsock.dir/NetAddress.cpp.o CMakeFiles/groupsock.dir/NetInterface.cpp.o
+/usr/bin/ranlib ../../../lib/libgroupsock.a
