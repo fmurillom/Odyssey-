@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../lib/libBasicUsageEnvironment.a  CMakeFiles/BasicUsageEnvironment.dir/BasicHashTable.cpp.o CMakeFiles/BasicUsageEnvironment.dir/BasicTaskScheduler.cpp.o CMakeFiles/BasicUsageEnvironment.dir/BasicTaskScheduler0.cpp.o CMakeFiles/BasicUsageEnvironment.dir/BasicUsageEnvironment.cpp.o CMakeFiles/BasicUsageEnvironment.dir/BasicUsageEnvironment0.cpp.o CMakeFiles/BasicUsageEnvironment.dir/DelayQueue.cpp.o
-/usr/bin/ranlib ../../../lib/libBasicUsageEnvironment.a

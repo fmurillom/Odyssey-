@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/playSip.dir/playCommon.cpp.o CMakeFiles/playSip.dir/playSIP.cpp.o  -o ../../../bin/playSip ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 

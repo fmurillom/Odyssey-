@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/openRTSP.dir/openRTSP.cpp.o CMakeFiles/openRTSP.dir/playCommon.cpp.o  -o ../../../bin/openRTSP ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g  -rdynamic CMakeFiles/testAmrAudioStreamer.dir/testAMRAudioStreamer.cpp.o  -o ../../../bin/testAmrAudioStreamer ../../../lib/libBasicUsageEnvironment.a ../../../lib/libgroupsock.a ../../../lib/libliveMedia.a ../../../lib/libUsageEnvironment.a -lws2_32 -lwinmm 
