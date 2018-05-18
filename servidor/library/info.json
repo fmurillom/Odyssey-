@@ -1,0 +1,14 @@
+{
+	"size" : 1,
+	"library" : [
+		{
+			"Title" : "MyHero",
+			"Album" : "All Might",
+			"Genre" : "OST",
+			"Artist" : "Deku",
+			"Rating" : "*****",
+			"FileName" : "../library/MyHero.mp3",
+			"StreamAdress" : "rtsp://192.168.1.11:8544/MyHero"
+		}
+	]
+}

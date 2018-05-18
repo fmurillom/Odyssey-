@@ -48,10 +48,10 @@ RM = /snap/clion/19/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba"
+CMAKE_SOURCE_DIR = /home/fmurillom/Documents/Tec/DatosII/Prueba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -182,6 +182,33 @@ live666/fast:
 	$(MAKE) -f live/CMakeFiles/live666.dir/build.make live/CMakeFiles/live666.dir/build
 .PHONY : live666/fast
 
+base64/base64.o: base64/base64.cpp.o
+
+.PHONY : base64/base64.o
+
+# target to build an object file
+base64/base64.cpp.o:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/base64/base64.cpp.o
+.PHONY : base64/base64.cpp.o
+
+base64/base64.i: base64/base64.cpp.i
+
+.PHONY : base64/base64.i
+
+# target to preprocess a source file
+base64/base64.cpp.i:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/base64/base64.cpp.i
+.PHONY : base64/base64.cpp.i
+
+base64/base64.s: base64/base64.cpp.s
+
+.PHONY : base64/base64.s
+
+# target to generate assembly for a file
+base64/base64.cpp.s:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/base64/base64.cpp.s
+.PHONY : base64/base64.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -208,6 +235,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/User.o: src/User.cpp.o
+
+.PHONY : src/User.o
+
+# target to build an object file
+src/User.cpp.o:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/User.cpp.o
+.PHONY : src/User.cpp.o
+
+src/User.i: src/User.cpp.i
+
+.PHONY : src/User.i
+
+# target to preprocess a source file
+src/User.cpp.i:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/User.cpp.i
+.PHONY : src/User.cpp.i
+
+src/User.s: src/User.cpp.s
+
+.PHONY : src/User.s
+
+# target to generate assembly for a file
+src/User.cpp.s:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/User.cpp.s
+.PHONY : src/User.cpp.s
 
 src/server.o: src/server.cpp.o
 
@@ -250,9 +304,15 @@ help:
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... live666"
+	@echo "... base64/base64.o"
+	@echo "... base64/base64.i"
+	@echo "... base64/base64.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/User.o"
+	@echo "... src/User.i"
+	@echo "... src/User.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"

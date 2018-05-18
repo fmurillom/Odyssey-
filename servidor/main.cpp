@@ -3,23 +3,83 @@
 #include "live/groupsock/include/GroupsockHelper.hh"
 #include <iostream>
 #include "include/server.h"
+#include "include/BsearchTree.h"
 
-///////////////////////////////////////////////////////////////////////////////
-// TESTS
-int main()
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <fstream>
+#include <tinyxml.h>
+
+void dostuff(int sock, StreamServer *server); /* function prototype */
+void error(const char *msg)
 {
-    StreamServer stream;
-    int retval = 0;
+    perror(msg);
+    exit(1);
+}
 
-    // This is how we add files to the streaming server. Both these files
-    // should exist in our working directory.
-    stream.addMP3("../test.mp3", "test_mp3");
-    std::cout << stream.getURL("test_mp3") << std::endl;
-    stream.run();
-    //stream.stop();
+int socketServer(int port, StreamServer *server);
+
+
+//192.168.1.11
+int main(int argc, char *argv[])
+{
+    StreamServer *server = new StreamServer();
+    server->loadUserDB();
+    server->loadSongInfo();
+    server->sortByAlbum();
+    cout << "Starting Streaming Server" << endl;
+    server->run();
+    server->printAdress();
     while(true){
-        std::cout << stream.getURL("test_mp3") << std::endl;
+        socketServer(8080, server);
     }
+}
 
+
+int socketServer(int port, StreamServer *server){
+    int sockfd, newsockfd, portno;
+    socklen_t clilen;
+    char buffer[100];
+    struct sockaddr_in serv_addr, cli_addr;
+    int n;
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd < 0)
+        error("ERROR opening socket");
+    bzero((char *) &serv_addr, sizeof(serv_addr));
+    portno = port;
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = INADDR_ANY;
+    serv_addr.sin_port = htons(portno);
+    if (bind(sockfd, (struct sockaddr *) &serv_addr,
+             sizeof(serv_addr)) < 0)
+        error("ERROR on binding");
+    listen(sockfd,5);
+    clilen = sizeof(cli_addr);
+    newsockfd = accept(sockfd,
+                       (struct sockaddr *) &cli_addr,
+                       &clilen);
+    if (newsockfd < 0)
+        error("ERROR on accept");
+    int k = 0;
+    std::ofstream file("../coms/coms.xml" , std::ios::out | std::ios::binary);
+    while(true){
+        n = recv(newsockfd, buffer, 100, 0);
+        k += n;
+        std::cout << n << std::endl;
+        if(n == 0){
+            break;
+        }
+        file.write(buffer, n);
+    }
+    file.close();
+    printf("Here is the message: %s\n",buffer);
+    close(newsockfd);
+    close(sockfd);
+    server->parseXML("../coms/coms.xml");
     return 0;
 }

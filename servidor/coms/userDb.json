@@ -1,0 +1,31 @@
+{
+	"size" : 2,
+	"users" : [
+		{
+			"UserName" : "master",
+			"Password" : "",
+			"Name" : "",
+			"Age" : "",
+			"Genre" : [],
+			"Friend" : [],
+			"Fsize" : 0,
+			"Gsize" : 0
+		},
+		{
+			"UserName" : "priramro",
+			"Password" : "1V621O1L1IE111",
+			"Name" : "Priscilla Ramirez",
+			"Age" : "21",
+			"Genre" : [
+				"pop",
+				"rock"
+			],
+			"Friend" : [
+				"loop",
+				"chizco06"
+			],
+			"Fsize" : 2,
+			"Gsize" : 2
+		}
+	]
+}

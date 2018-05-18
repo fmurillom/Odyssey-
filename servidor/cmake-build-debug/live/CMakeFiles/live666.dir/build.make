@@ -43,10 +43,10 @@ RM = /snap/clion/19/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba"
+CMAKE_SOURCE_DIR = /home/fmurillom/Documents/Tec/DatosII/Prueba
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug"
+CMAKE_BINARY_DIR = /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include live/CMakeFiles/live666.dir/depend.make
@@ -59,16 +59,16 @@ include live/CMakeFiles/live666.dir/flags.make
 
 live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o: ../live/UsageEnvironment/HashTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/HashTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/HashTable.cpp
 
 live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/HashTable.cpp" > CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/HashTable.cpp > CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.i
 
 live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/HashTable.cpp" -o CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/HashTable.cpp -o CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.s
 
 live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o.requires:
 
@@ -83,16 +83,16 @@ live/CMakeFiles/live666.dir/UsageEnvironment/HashTable.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o: ../live/UsageEnvironment/strDup.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/strDup.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/strDup.cpp
 
 live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/strDup.cpp" > CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/strDup.cpp > CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.i
 
 live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/strDup.cpp" -o CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/strDup.cpp -o CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.s
 
 live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o.requires:
 
@@ -107,16 +107,16 @@ live/CMakeFiles/live666.dir/UsageEnvironment/strDup.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o: ../live/UsageEnvironment/UsageEnvironment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/UsageEnvironment.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/UsageEnvironment.cpp
 
 live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/UsageEnvironment.cpp" > CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/UsageEnvironment.cpp > CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.i
 
 live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/UsageEnvironment.cpp" -o CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/UsageEnvironment.cpp -o CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.s
 
 live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o.requires:
 
@@ -131,16 +131,16 @@ live/CMakeFiles/live666.dir/UsageEnvironment/UsageEnvironment.cpp.o.provides.bui
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o: ../live/BasicUsageEnvironment/BasicHashTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o.requires:
 
@@ -155,16 +155,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicHashTable.cpp.o.provides.
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o: ../live/BasicUsageEnvironment/BasicTaskScheduler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o.requires:
 
@@ -179,16 +179,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler.cpp.o.provi
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o: ../live/BasicUsageEnvironment/BasicTaskScheduler0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicTaskScheduler0.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o.requires:
 
@@ -203,16 +203,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicTaskScheduler0.cpp.o.prov
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o: ../live/BasicUsageEnvironment/BasicUsageEnvironment.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o.requires:
 
@@ -227,16 +227,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment.cpp.o.pr
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o: ../live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicUsageEnvironment0.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o.requires:
 
@@ -251,16 +251,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/BasicUsageEnvironment0.cpp.o.p
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o: ../live/BasicUsageEnvironment/DelayQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp" > CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp > CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.i
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp" -o CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/DelayQueue.cpp -o CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.s
 
 live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o.requires:
 
@@ -275,16 +275,16 @@ live/CMakeFiles/live666.dir/BasicUsageEnvironment/DelayQueue.cpp.o.provides.buil
 
 live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o: ../live/groupsock/GroupEId.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupEId.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupEId.cpp
 
 live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/GroupEId.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupEId.cpp" > CMakeFiles/live666.dir/groupsock/GroupEId.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupEId.cpp > CMakeFiles/live666.dir/groupsock/GroupEId.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/GroupEId.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupEId.cpp" -o CMakeFiles/live666.dir/groupsock/GroupEId.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupEId.cpp -o CMakeFiles/live666.dir/groupsock/GroupEId.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o.requires:
 
@@ -299,16 +299,16 @@ live/CMakeFiles/live666.dir/groupsock/GroupEId.cpp.o.provides.build: live/CMakeF
 
 live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o: ../live/groupsock/Groupsock.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/Groupsock.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/Groupsock.cpp
 
 live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/Groupsock.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/Groupsock.cpp" > CMakeFiles/live666.dir/groupsock/Groupsock.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/Groupsock.cpp > CMakeFiles/live666.dir/groupsock/Groupsock.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/Groupsock.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/Groupsock.cpp" -o CMakeFiles/live666.dir/groupsock/Groupsock.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/Groupsock.cpp -o CMakeFiles/live666.dir/groupsock/Groupsock.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o.requires:
 
@@ -323,16 +323,16 @@ live/CMakeFiles/live666.dir/groupsock/Groupsock.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o: ../live/groupsock/GroupsockHelper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupsockHelper.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupsockHelper.cpp
 
 live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupsockHelper.cpp" > CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupsockHelper.cpp > CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/GroupsockHelper.cpp" -o CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/GroupsockHelper.cpp -o CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o.requires:
 
@@ -347,16 +347,16 @@ live/CMakeFiles/live666.dir/groupsock/GroupsockHelper.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/groupsock/inet.c.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/inet.c.o: ../live/groupsock/inet.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object live/CMakeFiles/live666.dir/groupsock/inet.c.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/live666.dir/groupsock/inet.c.o   -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/inet.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object live/CMakeFiles/live666.dir/groupsock/inet.c.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/live666.dir/groupsock/inet.c.o   -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/inet.c
 
 live/CMakeFiles/live666.dir/groupsock/inet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/live666.dir/groupsock/inet.c.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/inet.c" > CMakeFiles/live666.dir/groupsock/inet.c.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/inet.c > CMakeFiles/live666.dir/groupsock/inet.c.i
 
 live/CMakeFiles/live666.dir/groupsock/inet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/live666.dir/groupsock/inet.c.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/inet.c" -o CMakeFiles/live666.dir/groupsock/inet.c.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/inet.c -o CMakeFiles/live666.dir/groupsock/inet.c.s
 
 live/CMakeFiles/live666.dir/groupsock/inet.c.o.requires:
 
@@ -371,16 +371,16 @@ live/CMakeFiles/live666.dir/groupsock/inet.c.o.provides.build: live/CMakeFiles/l
 
 live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o: ../live/groupsock/IOHandlers.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/IOHandlers.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/IOHandlers.cpp
 
 live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/IOHandlers.cpp" > CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/IOHandlers.cpp > CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/IOHandlers.cpp" -o CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/IOHandlers.cpp -o CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o.requires:
 
@@ -395,16 +395,16 @@ live/CMakeFiles/live666.dir/groupsock/IOHandlers.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o: ../live/groupsock/NetAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetAddress.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetAddress.cpp
 
 live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/NetAddress.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetAddress.cpp" > CMakeFiles/live666.dir/groupsock/NetAddress.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetAddress.cpp > CMakeFiles/live666.dir/groupsock/NetAddress.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/NetAddress.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetAddress.cpp" -o CMakeFiles/live666.dir/groupsock/NetAddress.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetAddress.cpp -o CMakeFiles/live666.dir/groupsock/NetAddress.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o.requires:
 
@@ -419,16 +419,16 @@ live/CMakeFiles/live666.dir/groupsock/NetAddress.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o: ../live/groupsock/NetInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetInterface.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetInterface.cpp
 
 live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/groupsock/NetInterface.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetInterface.cpp" > CMakeFiles/live666.dir/groupsock/NetInterface.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetInterface.cpp > CMakeFiles/live666.dir/groupsock/NetInterface.cpp.i
 
 live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/groupsock/NetInterface.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/NetInterface.cpp" -o CMakeFiles/live666.dir/groupsock/NetInterface.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/NetInterface.cpp -o CMakeFiles/live666.dir/groupsock/NetInterface.cpp.s
 
 live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o.requires:
 
@@ -443,16 +443,16 @@ live/CMakeFiles/live666.dir/groupsock/NetInterface.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o: ../live/liveMedia/AC3AudioFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o.requires:
 
@@ -467,16 +467,16 @@ live/CMakeFiles/live666.dir/liveMedia/AC3AudioFileServerMediaSubsession.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o: ../live/liveMedia/AC3AudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o.requires:
 
@@ -491,16 +491,16 @@ live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o: ../live/liveMedia/AC3AudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o.requires:
 
@@ -515,16 +515,16 @@ live/CMakeFiles/live666.dir/liveMedia/AC3AudioRTPSource.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o: ../live/liveMedia/AC3AudioStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AC3AudioStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o.requires:
 
@@ -539,16 +539,16 @@ live/CMakeFiles/live666.dir/liveMedia/AC3AudioStreamFramer.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o: ../live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o.requires:
 
@@ -563,16 +563,16 @@ live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileServerMediaSubsession.cpp.o.p
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o: ../live/liveMedia/ADTSAudioFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileSource.cpp > CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ADTSAudioFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ADTSAudioFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o.requires:
 
@@ -587,16 +587,16 @@ live/CMakeFiles/live666.dir/liveMedia/ADTSAudioFileSource.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o: ../live/liveMedia/AMRAudioFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o.requires:
 
@@ -611,16 +611,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileServerMediaSubsession.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o: ../live/liveMedia/AMRAudioFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSink.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o.requires:
 
@@ -635,16 +635,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSink.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o: ../live/liveMedia/AMRAudioFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSource.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o.requires:
 
@@ -659,16 +659,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioFileSource.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o: ../live/liveMedia/AMRAudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o.requires:
 
@@ -683,16 +683,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o: ../live/liveMedia/AMRAudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o.requires:
 
@@ -707,16 +707,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioRTPSource.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o: ../live/liveMedia/AMRAudioSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioSource.cpp" > CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioSource.cpp > CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AMRAudioSource.cpp" -o CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AMRAudioSource.cpp -o CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o.requires:
 
@@ -731,16 +731,16 @@ live/CMakeFiles/live666.dir/liveMedia/AMRAudioSource.cpp.o.provides.build: live/
 
 live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o: ../live/liveMedia/AudioInputDevice.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioInputDevice.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioInputDevice.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioInputDevice.cpp" > CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioInputDevice.cpp > CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioInputDevice.cpp" -o CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioInputDevice.cpp -o CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o.requires:
 
@@ -755,16 +755,16 @@ live/CMakeFiles/live666.dir/liveMedia/AudioInputDevice.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o: ../live/liveMedia/AudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o.requires:
 
@@ -779,16 +779,16 @@ live/CMakeFiles/live666.dir/liveMedia/AudioRTPSink.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o: ../live/liveMedia/AVIFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AVIFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AVIFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AVIFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AVIFileSink.cpp > CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/AVIFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/AVIFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o.requires:
 
@@ -803,16 +803,16 @@ live/CMakeFiles/live666.dir/liveMedia/AVIFileSink.cpp.o.provides.build: live/CMa
 
 live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o: ../live/liveMedia/Base64.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Base64.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Base64.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Base64.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Base64.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/Base64.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Base64.cpp" > CMakeFiles/live666.dir/liveMedia/Base64.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Base64.cpp > CMakeFiles/live666.dir/liveMedia/Base64.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/Base64.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Base64.cpp" -o CMakeFiles/live666.dir/liveMedia/Base64.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Base64.cpp -o CMakeFiles/live666.dir/liveMedia/Base64.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o.requires:
 
@@ -827,16 +827,16 @@ live/CMakeFiles/live666.dir/liveMedia/Base64.cpp.o.provides.build: live/CMakeFil
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o: ../live/liveMedia/BasicUDPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSink.cpp" > CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSink.cpp > CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSink.cpp -o CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o.requires:
 
@@ -851,16 +851,16 @@ live/CMakeFiles/live666.dir/liveMedia/BasicUDPSink.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o: ../live/liveMedia/BasicUDPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSource.cpp" > CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSource.cpp > CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BasicUDPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BasicUDPSource.cpp -o CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o.requires:
 
@@ -875,16 +875,16 @@ live/CMakeFiles/live666.dir/liveMedia/BasicUDPSource.cpp.o.provides.build: live/
 
 live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o: ../live/liveMedia/BitVector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BitVector.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BitVector.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/BitVector.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BitVector.cpp" > CMakeFiles/live666.dir/liveMedia/BitVector.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BitVector.cpp > CMakeFiles/live666.dir/liveMedia/BitVector.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/BitVector.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/BitVector.cpp" -o CMakeFiles/live666.dir/liveMedia/BitVector.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/BitVector.cpp -o CMakeFiles/live666.dir/liveMedia/BitVector.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o.requires:
 
@@ -899,16 +899,16 @@ live/CMakeFiles/live666.dir/liveMedia/BitVector.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o: ../live/liveMedia/ByteStreamFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamFileSource.cpp > CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o.requires:
 
@@ -923,16 +923,16 @@ live/CMakeFiles/live666.dir/liveMedia/ByteStreamFileSource.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o: ../live/liveMedia/ByteStreamMemoryBufferSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp" > CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp > CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp" -o CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMemoryBufferSource.cpp -o CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o.requires:
 
@@ -947,16 +947,16 @@ live/CMakeFiles/live666.dir/liveMedia/ByteStreamMemoryBufferSource.cpp.o.provide
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o: ../live/liveMedia/ByteStreamMultiFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp > CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ByteStreamMultiFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o.requires:
 
@@ -971,16 +971,16 @@ live/CMakeFiles/live666.dir/liveMedia/ByteStreamMultiFileSource.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o: ../live/liveMedia/DeviceSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DeviceSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DeviceSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DeviceSource.cpp" > CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DeviceSource.cpp > CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DeviceSource.cpp" -o CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DeviceSource.cpp -o CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o.requires:
 
@@ -995,16 +995,16 @@ live/CMakeFiles/live666.dir/liveMedia/DeviceSource.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o: ../live/liveMedia/DigestAuthentication.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DigestAuthentication.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DigestAuthentication.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DigestAuthentication.cpp" > CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DigestAuthentication.cpp > CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DigestAuthentication.cpp" -o CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DigestAuthentication.cpp -o CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o.requires:
 
@@ -1019,16 +1019,16 @@ live/CMakeFiles/live666.dir/liveMedia/DigestAuthentication.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/DVVideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -1043,16 +1043,16 @@ live/CMakeFiles/live666.dir/liveMedia/DVVideoFileServerMediaSubsession.cpp.o.pro
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o: ../live/liveMedia/DVVideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o.requires:
 
@@ -1067,16 +1067,16 @@ live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSink.cpp.o.provides.build: live/
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o: ../live/liveMedia/DVVideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o.requires:
 
@@ -1091,16 +1091,16 @@ live/CMakeFiles/live666.dir/liveMedia/DVVideoRTPSource.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o: ../live/liveMedia/DVVideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/DVVideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/DVVideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o.requires:
 
@@ -1115,16 +1115,16 @@ live/CMakeFiles/live666.dir/liveMedia/DVVideoStreamFramer.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o: ../live/liveMedia/EBMLNumber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/EBMLNumber.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/EBMLNumber.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/EBMLNumber.cpp" > CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/EBMLNumber.cpp > CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/EBMLNumber.cpp" -o CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/EBMLNumber.cpp -o CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o.requires:
 
@@ -1139,16 +1139,16 @@ live/CMakeFiles/live666.dir/liveMedia/EBMLNumber.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o: ../live/liveMedia/FileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o.requires:
 
@@ -1163,16 +1163,16 @@ live/CMakeFiles/live666.dir/liveMedia/FileServerMediaSubsession.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o: ../live/liveMedia/FileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/FileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileSink.cpp" > CMakeFiles/live666.dir/liveMedia/FileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileSink.cpp > CMakeFiles/live666.dir/liveMedia/FileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/FileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/FileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FileSink.cpp -o CMakeFiles/live666.dir/liveMedia/FileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o.requires:
 
@@ -1187,16 +1187,16 @@ live/CMakeFiles/live666.dir/liveMedia/FileSink.cpp.o.provides.build: live/CMakeF
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o: ../live/liveMedia/FramedFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFileSource.cpp > CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o.requires:
 
@@ -1211,16 +1211,16 @@ live/CMakeFiles/live666.dir/liveMedia/FramedFileSource.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o: ../live/liveMedia/FramedFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFilter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFilter.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFilter.cpp" > CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFilter.cpp > CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedFilter.cpp" -o CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedFilter.cpp -o CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o.requires:
 
@@ -1235,16 +1235,16 @@ live/CMakeFiles/live666.dir/liveMedia/FramedFilter.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o: ../live/liveMedia/FramedSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedSource.cpp" > CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedSource.cpp > CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/FramedSource.cpp" -o CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/FramedSource.cpp -o CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o.requires:
 
@@ -1259,16 +1259,16 @@ live/CMakeFiles/live666.dir/liveMedia/FramedSource.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o: ../live/liveMedia/GenericMediaServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GenericMediaServer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GenericMediaServer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GenericMediaServer.cpp" > CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GenericMediaServer.cpp > CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GenericMediaServer.cpp" -o CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GenericMediaServer.cpp -o CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o.requires:
 
@@ -1283,16 +1283,16 @@ live/CMakeFiles/live666.dir/liveMedia/GenericMediaServer.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o: ../live/liveMedia/GSMAudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GSMAudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GSMAudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GSMAudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GSMAudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/GSMAudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/GSMAudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o.requires:
 
@@ -1307,16 +1307,16 @@ live/CMakeFiles/live666.dir/liveMedia/GSMAudioRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o: ../live/liveMedia/H261VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H261VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H261VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H261VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H261VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H261VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H261VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o.requires:
 
@@ -1331,16 +1331,16 @@ live/CMakeFiles/live666.dir/liveMedia/H261VideoRTPSource.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -1355,16 +1355,16 @@ live/CMakeFiles/live666.dir/liveMedia/H263plusVideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o: ../live/liveMedia/H263plusVideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o.requires:
 
@@ -1379,16 +1379,16 @@ live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSink.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o: ../live/liveMedia/H263plusVideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o.requires:
 
@@ -1403,16 +1403,16 @@ live/CMakeFiles/live666.dir/liveMedia/H263plusVideoRTPSource.cpp.o.provides.buil
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o: ../live/liveMedia/H263plusVideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o.requires:
 
@@ -1427,16 +1427,16 @@ live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamFramer.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o: ../live/liveMedia/H263plusVideoStreamParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp" > CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp > CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp" -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H263plusVideoStreamParser.cpp -o CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o.requires:
 
@@ -1451,16 +1451,16 @@ live/CMakeFiles/live666.dir/liveMedia/H263plusVideoStreamParser.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o: ../live/liveMedia/H264or5VideoFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoFileSink.cpp > CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o.requires:
 
@@ -1475,16 +1475,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264or5VideoFileSink.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o: ../live/liveMedia/H264or5VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o.requires:
 
@@ -1499,16 +1499,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264or5VideoRTPSink.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o: ../live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp > CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamDiscreteFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o.requires:
 
@@ -1523,16 +1523,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamDiscreteFramer.cpp.o.pro
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o: ../live/liveMedia/H264or5VideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264or5VideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o.requires:
 
@@ -1547,16 +1547,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264or5VideoStreamFramer.cpp.o.provides.bu
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/H264VideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -1571,16 +1571,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoFileServerMediaSubsession.cpp.o.p
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o: ../live/liveMedia/H264VideoFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileSink.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o.requires:
 
@@ -1595,16 +1595,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoFileSink.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o: ../live/liveMedia/H264VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o.requires:
 
@@ -1619,16 +1619,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSink.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o: ../live/liveMedia/H264VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o.requires:
 
@@ -1643,16 +1643,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoRTPSource.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o: ../live/liveMedia/H264VideoStreamDiscreteFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamDiscreteFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o.requires:
 
@@ -1667,16 +1667,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamDiscreteFramer.cpp.o.provid
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o: ../live/liveMedia/H264VideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H264VideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H264VideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o.requires:
 
@@ -1691,16 +1691,16 @@ live/CMakeFiles/live666.dir/liveMedia/H264VideoStreamFramer.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/H265VideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -1715,16 +1715,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoFileServerMediaSubsession.cpp.o.p
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o: ../live/liveMedia/H265VideoFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileSink.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o.requires:
 
@@ -1739,16 +1739,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoFileSink.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o: ../live/liveMedia/H265VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o.requires:
 
@@ -1763,16 +1763,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSink.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o: ../live/liveMedia/H265VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o.requires:
 
@@ -1787,16 +1787,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoRTPSource.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o: ../live/liveMedia/H265VideoStreamDiscreteFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamDiscreteFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o.requires:
 
@@ -1811,16 +1811,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamDiscreteFramer.cpp.o.provid
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o: ../live/liveMedia/H265VideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/H265VideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/H265VideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o.requires:
 
@@ -1835,16 +1835,16 @@ live/CMakeFiles/live666.dir/liveMedia/H265VideoStreamFramer.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o: ../live/liveMedia/InputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/InputFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/InputFile.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/InputFile.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/InputFile.cpp" > CMakeFiles/live666.dir/liveMedia/InputFile.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/InputFile.cpp > CMakeFiles/live666.dir/liveMedia/InputFile.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/InputFile.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/InputFile.cpp" -o CMakeFiles/live666.dir/liveMedia/InputFile.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/InputFile.cpp -o CMakeFiles/live666.dir/liveMedia/InputFile.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o.requires:
 
@@ -1859,16 +1859,16 @@ live/CMakeFiles/live666.dir/liveMedia/InputFile.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o: ../live/liveMedia/JPEGVideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o.requires:
 
@@ -1883,16 +1883,16 @@ live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSink.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o: ../live/liveMedia/JPEGVideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o.requires:
 
@@ -1907,16 +1907,16 @@ live/CMakeFiles/live666.dir/liveMedia/JPEGVideoRTPSource.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o: ../live/liveMedia/JPEGVideoSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoSource.cpp" > CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoSource.cpp > CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/JPEGVideoSource.cpp" -o CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/JPEGVideoSource.cpp -o CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o.requires:
 
@@ -1931,16 +1931,16 @@ live/CMakeFiles/live666.dir/liveMedia/JPEGVideoSource.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o: ../live/liveMedia/Locale.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Locale.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Locale.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Locale.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Locale.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/Locale.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Locale.cpp" > CMakeFiles/live666.dir/liveMedia/Locale.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Locale.cpp > CMakeFiles/live666.dir/liveMedia/Locale.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/Locale.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Locale.cpp" -o CMakeFiles/live666.dir/liveMedia/Locale.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Locale.cpp -o CMakeFiles/live666.dir/liveMedia/Locale.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o.requires:
 
@@ -1955,16 +1955,16 @@ live/CMakeFiles/live666.dir/liveMedia/Locale.cpp.o.provides.build: live/CMakeFil
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o: ../live/liveMedia/MatroskaDemuxedTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp" > CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp > CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp" -o CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaDemuxedTrack.cpp -o CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o.requires:
 
@@ -1979,16 +1979,16 @@ live/CMakeFiles/live666.dir/liveMedia/MatroskaDemuxedTrack.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o: ../live/liveMedia/MatroskaFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFile.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFile.cpp" > CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFile.cpp > CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFile.cpp" -o CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFile.cpp -o CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o.requires:
 
@@ -2003,16 +2003,16 @@ live/CMakeFiles/live666.dir/liveMedia/MatroskaFile.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o: ../live/liveMedia/MatroskaFileParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileParser.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileParser.cpp" > CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileParser.cpp > CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileParser.cpp" -o CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileParser.cpp -o CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o.requires:
 
@@ -2027,16 +2027,16 @@ live/CMakeFiles/live666.dir/liveMedia/MatroskaFileParser.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o: ../live/liveMedia/MatroskaFileServerDemux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp" > CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp > CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp" -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerDemux.cpp -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o.requires:
 
@@ -2051,16 +2051,16 @@ live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerDemux.cpp.o.provides.bui
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o: ../live/liveMedia/MatroskaFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MatroskaFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o.requires:
 
@@ -2075,16 +2075,16 @@ live/CMakeFiles/live666.dir/liveMedia/MatroskaFileServerMediaSubsession.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o: ../live/liveMedia/Media.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Media.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Media.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/Media.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Media.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/Media.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/Media.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Media.cpp" > CMakeFiles/live666.dir/liveMedia/Media.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Media.cpp > CMakeFiles/live666.dir/liveMedia/Media.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/Media.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/Media.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/Media.cpp" -o CMakeFiles/live666.dir/liveMedia/Media.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/Media.cpp -o CMakeFiles/live666.dir/liveMedia/Media.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o.requires:
 
@@ -2099,16 +2099,16 @@ live/CMakeFiles/live666.dir/liveMedia/Media.cpp.o.provides.build: live/CMakeFile
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o: ../live/liveMedia/MediaSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSession.cpp" > CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSession.cpp > CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSession.cpp" -o CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSession.cpp -o CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o.requires:
 
@@ -2123,16 +2123,16 @@ live/CMakeFiles/live666.dir/liveMedia/MediaSession.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o: ../live/liveMedia/MediaSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSink.cpp" > CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSink.cpp > CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSink.cpp -o CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o.requires:
 
@@ -2147,16 +2147,16 @@ live/CMakeFiles/live666.dir/liveMedia/MediaSink.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o: ../live/liveMedia/MediaSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSource.cpp" > CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSource.cpp > CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MediaSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MediaSource.cpp -o CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o.requires:
 
@@ -2171,16 +2171,16 @@ live/CMakeFiles/live666.dir/liveMedia/MediaSource.cpp.o.provides.build: live/CMa
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o: ../live/liveMedia/MP3ADU.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADU.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADU.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADU.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADU.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADU.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADU.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o.requires:
 
@@ -2195,16 +2195,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADU.cpp.o.provides.build: live/CMakeFil
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o: ../live/liveMedia/MP3ADUdescriptor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUdescriptor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUdescriptor.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUdescriptor.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUdescriptor.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUdescriptor.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUdescriptor.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o.requires:
 
@@ -2219,16 +2219,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADUdescriptor.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o: ../live/liveMedia/MP3ADUinterleaving.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUinterleaving.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUinterleaving.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUinterleaving.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUinterleaving.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUinterleaving.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUinterleaving.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o.requires:
 
@@ -2243,16 +2243,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADUinterleaving.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o: ../live/liveMedia/MP3ADURTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o.requires:
 
@@ -2267,16 +2267,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSink.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o: ../live/liveMedia/MP3ADURTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADURTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADURTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o.requires:
 
@@ -2291,16 +2291,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADURTPSource.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o: ../live/liveMedia/MP3ADUTranscoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUTranscoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUTranscoder.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUTranscoder.cpp" > CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUTranscoder.cpp > CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3ADUTranscoder.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3ADUTranscoder.cpp -o CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o.requires:
 
@@ -2315,16 +2315,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3ADUTranscoder.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o: ../live/liveMedia/MP3AudioFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o.requires:
 
@@ -2339,16 +2339,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3AudioFileServerMediaSubsession.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o: ../live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.cpp.o.requires:
 
@@ -2363,16 +2363,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3AudioMatroskaFileServerMediaSubsession.
 
 live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o: ../live/liveMedia/MP3FileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3FileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3FileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3FileSource.cpp" > CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3FileSource.cpp > CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3FileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3FileSource.cpp -o CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o.requires:
 
@@ -2387,16 +2387,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3FileSource.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o: ../live/liveMedia/MP3Internals.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Internals.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Internals.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Internals.cpp" > CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Internals.cpp > CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Internals.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Internals.cpp -o CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o.requires:
 
@@ -2411,16 +2411,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3Internals.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o: ../live/liveMedia/MP3InternalsHuffman.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffman.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffman.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffman.cpp" > CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffman.cpp > CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffman.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffman.cpp -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o.requires:
 
@@ -2435,16 +2435,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffman.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o: ../live/liveMedia/MP3InternalsHuffmanTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp" > CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp > CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3InternalsHuffmanTable.cpp -o CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o.requires:
 
@@ -2459,16 +2459,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3InternalsHuffmanTable.cpp.o.provides.bu
 
 live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o: ../live/liveMedia/MP3StreamState.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3StreamState.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3StreamState.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3StreamState.cpp" > CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3StreamState.cpp > CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3StreamState.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3StreamState.cpp -o CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o.requires:
 
@@ -2483,16 +2483,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3StreamState.cpp.o.provides.build: live/
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o: ../live/liveMedia/MP3Transcoder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Transcoder.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Transcoder.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Transcoder.cpp" > CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Transcoder.cpp > CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MP3Transcoder.cpp" -o CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MP3Transcoder.cpp -o CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o.requires:
 
@@ -2507,16 +2507,16 @@ live/CMakeFiles/live666.dir/liveMedia/MP3Transcoder.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o: ../live/liveMedia/MPEG1or2AudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o.requires:
 
@@ -2531,16 +2531,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSink.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o: ../live/liveMedia/MPEG1or2AudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o.requires:
 
@@ -2555,16 +2555,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioRTPSource.cpp.o.provides.buil
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o: ../live/liveMedia/MPEG1or2AudioStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2AudioStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o.requires:
 
@@ -2579,16 +2579,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2AudioStreamFramer.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o: ../live/liveMedia/MPEG1or2Demux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2Demux.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2Demux.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2Demux.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2Demux.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2Demux.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2Demux.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o.requires:
 
@@ -2603,16 +2603,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2Demux.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o: ../live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedElementaryStream.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o.requires:
 
@@ -2627,16 +2627,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedElementaryStream.cpp.o.prov
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o: ../live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o.requires:
 
@@ -2651,16 +2651,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2DemuxedServerMediaSubsession.cpp.o
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o: ../live/liveMedia/MPEG1or2FileServerDemux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2FileServerDemux.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o.requires:
 
@@ -2675,16 +2675,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2FileServerDemux.cpp.o.provides.bui
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -2699,16 +2699,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o: ../live/liveMedia/MPEG1or2VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o.requires:
 
@@ -2723,16 +2723,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSink.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o: ../live/liveMedia/MPEG1or2VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o.requires:
 
@@ -2747,16 +2747,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoRTPSource.cpp.o.provides.buil
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o: ../live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o.requires:
 
@@ -2771,16 +2771,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamDiscreteFramer.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o: ../live/liveMedia/MPEG1or2VideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG1or2VideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o.requires:
 
@@ -2795,16 +2795,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG1or2VideoStreamFramer.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o: ../live/liveMedia/MPEG2IndexFromTransportStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2IndexFromTransportStream.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o.requires:
 
@@ -2819,16 +2819,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2IndexFromTransportStream.cpp.o.provid
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o: ../live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cpp.o.requires:
 
@@ -2843,16 +2843,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportFileServerMediaSubsession.cp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o: ../live/liveMedia/MPEG2TransportStreamAccumulator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamAccumulator.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o.requires:
 
@@ -2867,16 +2867,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamAccumulator.cpp.o.prov
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o: ../live/liveMedia/MPEG2TransportStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o.requires:
 
@@ -2891,16 +2891,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFramer.cpp.o.provides.
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o: ../live/liveMedia/MPEG2TransportStreamFromESSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromESSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o.requires:
 
@@ -2915,16 +2915,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromESSource.cpp.o.pro
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o: ../live/liveMedia/MPEG2TransportStreamFromPESSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamFromPESSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o.requires:
 
@@ -2939,16 +2939,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamFromPESSource.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o: ../live/liveMedia/MPEG2TransportStreamIndexFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamIndexFile.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o.requires:
 
@@ -2963,16 +2963,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamIndexFile.cpp.o.provid
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o: ../live/liveMedia/MPEG2TransportStreamMultiplexor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamMultiplexor.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o.requires:
 
@@ -2987,16 +2987,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamMultiplexor.cpp.o.prov
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o: ../live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o.requires:
 
@@ -3011,16 +3011,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportStreamTrickModeFilter.cpp.o.
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o: ../live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp.o.requires:
 
@@ -3035,16 +3035,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG2TransportUDPServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o: ../live/liveMedia/MPEG4ESVideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o.requires:
 
@@ -3059,16 +3059,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSink.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o: ../live/liveMedia/MPEG4ESVideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4ESVideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o.requires:
 
@@ -3083,16 +3083,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4ESVideoRTPSource.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o: ../live/liveMedia/MPEG4GenericRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o.requires:
 
@@ -3107,16 +3107,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSink.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o: ../live/liveMedia/MPEG4GenericRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4GenericRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o.requires:
 
@@ -3131,16 +3131,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4GenericRTPSource.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o: ../live/liveMedia/MPEG4LATMAudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o.requires:
 
@@ -3155,16 +3155,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSink.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o: ../live/liveMedia/MPEG4LATMAudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4LATMAudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o.requires:
 
@@ -3179,16 +3179,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4LATMAudioRTPSource.cpp.o.provides.bui
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o: ../live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o.requires:
 
@@ -3203,16 +3203,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoFileServerMediaSubsession.cpp.o.
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o: ../live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o.requires:
 
@@ -3227,16 +3227,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamDiscreteFramer.cpp.o.provi
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o: ../live/liveMedia/MPEG4VideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEG4VideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o.requires:
 
@@ -3251,16 +3251,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEG4VideoStreamFramer.cpp.o.provides.buil
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o: ../live/liveMedia/MPEGVideoStreamFramer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp" > CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp > CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamFramer.cpp -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o.requires:
 
@@ -3275,16 +3275,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamFramer.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o: ../live/liveMedia/MPEGVideoStreamParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp" > CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp > CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp" -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MPEGVideoStreamParser.cpp -o CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o.requires:
 
@@ -3299,16 +3299,16 @@ live/CMakeFiles/live666.dir/liveMedia/MPEGVideoStreamParser.cpp.o.provides.build
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o: ../live/liveMedia/MultiFramedRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o.requires:
 
@@ -3323,16 +3323,16 @@ live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSink.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o: ../live/liveMedia/MultiFramedRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/MultiFramedRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/MultiFramedRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o.requires:
 
@@ -3347,16 +3347,16 @@ live/CMakeFiles/live666.dir/liveMedia/MultiFramedRTPSource.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o: ../live/liveMedia/OggDemuxedTrack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggDemuxedTrack.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggDemuxedTrack.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggDemuxedTrack.cpp" > CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggDemuxedTrack.cpp > CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggDemuxedTrack.cpp" -o CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggDemuxedTrack.cpp -o CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o.requires:
 
@@ -3371,16 +3371,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggDemuxedTrack.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o: ../live/liveMedia/OggFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFile.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggFile.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFile.cpp" > CMakeFiles/live666.dir/liveMedia/OggFile.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFile.cpp > CMakeFiles/live666.dir/liveMedia/OggFile.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggFile.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFile.cpp" -o CMakeFiles/live666.dir/liveMedia/OggFile.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFile.cpp -o CMakeFiles/live666.dir/liveMedia/OggFile.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o.requires:
 
@@ -3395,16 +3395,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggFile.cpp.o.provides.build: live/CMakeFi
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o: ../live/liveMedia/OggFileParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileParser.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileParser.cpp" > CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileParser.cpp > CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileParser.cpp" -o CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileParser.cpp -o CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o.requires:
 
@@ -3419,16 +3419,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggFileParser.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o: ../live/liveMedia/OggFileServerDemux.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerDemux.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerDemux.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerDemux.cpp" > CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerDemux.cpp > CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerDemux.cpp" -o CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerDemux.cpp -o CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o.requires:
 
@@ -3443,16 +3443,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggFileServerDemux.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o: ../live/liveMedia/OggFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o.requires:
 
@@ -3467,16 +3467,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggFileServerMediaSubsession.cpp.o.provide
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o: ../live/liveMedia/OggFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileSink.cpp > CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OggFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OggFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o.requires:
 
@@ -3491,16 +3491,16 @@ live/CMakeFiles/live666.dir/liveMedia/OggFileSink.cpp.o.provides.build: live/CMa
 
 live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o: ../live/liveMedia/OnDemandServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OnDemandServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o.requires:
 
@@ -3515,16 +3515,16 @@ live/CMakeFiles/live666.dir/liveMedia/OnDemandServerMediaSubsession.cpp.o.provid
 
 live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o: ../live/liveMedia/ourMD5.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ourMD5.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ourMD5.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ourMD5.cpp" > CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ourMD5.cpp > CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ourMD5.cpp" -o CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ourMD5.cpp -o CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o.requires:
 
@@ -3539,16 +3539,16 @@ live/CMakeFiles/live666.dir/liveMedia/ourMD5.cpp.o.provides.build: live/CMakeFil
 
 live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o: ../live/liveMedia/OutputFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OutputFile.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OutputFile.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OutputFile.cpp" > CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OutputFile.cpp > CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/OutputFile.cpp" -o CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/OutputFile.cpp -o CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o.requires:
 
@@ -3563,16 +3563,16 @@ live/CMakeFiles/live666.dir/liveMedia/OutputFile.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o: ../live/liveMedia/PassiveServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/PassiveServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o.requires:
 
@@ -3587,16 +3587,16 @@ live/CMakeFiles/live666.dir/liveMedia/PassiveServerMediaSubsession.cpp.o.provide
 
 live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o: ../live/liveMedia/ProxyServerMediaSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ProxyServerMediaSession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ProxyServerMediaSession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ProxyServerMediaSession.cpp" > CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ProxyServerMediaSession.cpp > CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ProxyServerMediaSession.cpp" -o CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ProxyServerMediaSession.cpp -o CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o.requires:
 
@@ -3611,16 +3611,16 @@ live/CMakeFiles/live666.dir/liveMedia/ProxyServerMediaSession.cpp.o.provides.bui
 
 live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o: ../live/liveMedia/QCELPAudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QCELPAudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o.requires:
 
@@ -3635,16 +3635,16 @@ live/CMakeFiles/live666.dir/liveMedia/QCELPAudioRTPSource.cpp.o.provides.build: 
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o: ../live/liveMedia/QuickTimeFileSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeFileSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeFileSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeFileSink.cpp" > CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeFileSink.cpp > CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeFileSink.cpp" -o CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeFileSink.cpp -o CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o.requires:
 
@@ -3659,16 +3659,16 @@ live/CMakeFiles/live666.dir/liveMedia/QuickTimeFileSink.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o: ../live/liveMedia/QuickTimeGenericRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/QuickTimeGenericRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o.requires:
 
@@ -3683,16 +3683,16 @@ live/CMakeFiles/live666.dir/liveMedia/QuickTimeGenericRTPSource.cpp.o.provides.b
 
 live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o: ../live/liveMedia/RTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTCP.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTCP.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTCP.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTCP.cpp" > CMakeFiles/live666.dir/liveMedia/RTCP.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTCP.cpp > CMakeFiles/live666.dir/liveMedia/RTCP.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTCP.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTCP.cpp" -o CMakeFiles/live666.dir/liveMedia/RTCP.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTCP.cpp -o CMakeFiles/live666.dir/liveMedia/RTCP.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o.requires:
 
@@ -3707,16 +3707,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTCP.cpp.o.provides.build: live/CMakeFiles
 
 live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o: ../live/liveMedia/rtcp_from_spec.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building C object live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o   -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/rtcp_from_spec.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o   -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/rtcp_from_spec.c
 
 live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/rtcp_from_spec.c" > CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/rtcp_from_spec.c > CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.i
 
 live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/rtcp_from_spec.c" -o CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/rtcp_from_spec.c -o CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.s
 
 live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o.requires:
 
@@ -3731,16 +3731,16 @@ live/CMakeFiles/live666.dir/liveMedia/rtcp_from_spec.c.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o: ../live/liveMedia/RTPInterface.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPInterface.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPInterface.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPInterface.cpp" > CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPInterface.cpp > CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPInterface.cpp" -o CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPInterface.cpp -o CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o.requires:
 
@@ -3755,16 +3755,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTPInterface.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o: ../live/liveMedia/RTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSink.cpp > CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o.requires:
 
@@ -3779,16 +3779,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTPSink.cpp.o.provides.build: live/CMakeFi
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o: ../live/liveMedia/RTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSource.cpp > CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o.requires:
 
@@ -3803,16 +3803,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTPSource.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o: ../live/liveMedia/RTSPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPClient.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPClient.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPClient.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPClient.cpp > CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPClient.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPClient.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o.requires:
 
@@ -3827,16 +3827,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPClient.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o: ../live/liveMedia/RTSPCommon.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPCommon.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPCommon.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPCommon.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPCommon.cpp > CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPCommon.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPCommon.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o.requires:
 
@@ -3851,16 +3851,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPCommon.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o: ../live/liveMedia/RTSPRegisterSender.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPRegisterSender.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPRegisterSender.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPRegisterSender.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPRegisterSender.cpp > CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPRegisterSender.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPRegisterSender.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o.requires:
 
@@ -3875,16 +3875,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPRegisterSender.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o: ../live/liveMedia/RTSPServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServer.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServer.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServer.cpp > CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServer.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServer.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o.requires:
 
@@ -3899,16 +3899,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPServer.cpp.o.provides.build: live/CMak
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o: ../live/liveMedia/RTSPServerRegister.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerRegister.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerRegister.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerRegister.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerRegister.cpp > CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerRegister.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerRegister.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o.requires:
 
@@ -3923,16 +3923,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPServerRegister.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o: ../live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp" > CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp > CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp" -o CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/RTSPServerSupportingHTTPStreaming.cpp -o CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o.requires:
 
@@ -3947,16 +3947,16 @@ live/CMakeFiles/live666.dir/liveMedia/RTSPServerSupportingHTTPStreaming.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o: ../live/liveMedia/ServerMediaSession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ServerMediaSession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ServerMediaSession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ServerMediaSession.cpp" > CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ServerMediaSession.cpp > CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/ServerMediaSession.cpp" -o CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/ServerMediaSession.cpp -o CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o.requires:
 
@@ -3971,16 +3971,16 @@ live/CMakeFiles/live666.dir/liveMedia/ServerMediaSession.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o: ../live/liveMedia/SimpleRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o.requires:
 
@@ -3995,16 +3995,16 @@ live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSink.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o: ../live/liveMedia/SimpleRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SimpleRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SimpleRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o.requires:
 
@@ -4019,16 +4019,16 @@ live/CMakeFiles/live666.dir/liveMedia/SimpleRTPSource.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o: ../live/liveMedia/SIPClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SIPClient.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SIPClient.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SIPClient.cpp" > CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SIPClient.cpp > CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/SIPClient.cpp" -o CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/SIPClient.cpp -o CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o.requires:
 
@@ -4043,16 +4043,16 @@ live/CMakeFiles/live666.dir/liveMedia/SIPClient.cpp.o.provides.build: live/CMake
 
 live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o: ../live/liveMedia/StreamParser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamParser.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamParser.cpp" > CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamParser.cpp > CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamParser.cpp" -o CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamParser.cpp -o CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o.requires:
 
@@ -4067,16 +4067,16 @@ live/CMakeFiles/live666.dir/liveMedia/StreamParser.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o: ../live/liveMedia/StreamReplicator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamReplicator.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamReplicator.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamReplicator.cpp" > CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamReplicator.cpp > CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/StreamReplicator.cpp" -o CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/StreamReplicator.cpp -o CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o.requires:
 
@@ -4091,16 +4091,16 @@ live/CMakeFiles/live666.dir/liveMedia/StreamReplicator.cpp.o.provides.build: liv
 
 live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o: ../live/liveMedia/T140TextRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/T140TextRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/T140TextRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/T140TextRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/T140TextRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/T140TextRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/T140TextRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o.requires:
 
@@ -4115,16 +4115,16 @@ live/CMakeFiles/live666.dir/liveMedia/T140TextRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o: ../live/liveMedia/TCPStreamSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TCPStreamSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TCPStreamSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TCPStreamSink.cpp" > CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TCPStreamSink.cpp > CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TCPStreamSink.cpp" -o CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TCPStreamSink.cpp -o CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o.requires:
 
@@ -4139,16 +4139,16 @@ live/CMakeFiles/live666.dir/liveMedia/TCPStreamSink.cpp.o.provides.build: live/C
 
 live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o: ../live/liveMedia/TextRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TextRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TextRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TextRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TextRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TextRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TextRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o.requires:
 
@@ -4163,16 +4163,16 @@ live/CMakeFiles/live666.dir/liveMedia/TextRTPSink.cpp.o.provides.build: live/CMa
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o: ../live/liveMedia/TheoraVideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o.requires:
 
@@ -4187,16 +4187,16 @@ live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSink.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o: ../live/liveMedia/TheoraVideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/TheoraVideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o.requires:
 
@@ -4211,16 +4211,16 @@ live/CMakeFiles/live666.dir/liveMedia/TheoraVideoRTPSource.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o: ../live/liveMedia/uLawAudioFilter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/uLawAudioFilter.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/uLawAudioFilter.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/uLawAudioFilter.cpp" > CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/uLawAudioFilter.cpp > CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/uLawAudioFilter.cpp" -o CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/uLawAudioFilter.cpp -o CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o.requires:
 
@@ -4235,16 +4235,16 @@ live/CMakeFiles/live666.dir/liveMedia/uLawAudioFilter.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o: ../live/liveMedia/VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o.requires:
 
@@ -4259,16 +4259,16 @@ live/CMakeFiles/live666.dir/liveMedia/VideoRTPSink.cpp.o.provides.build: live/CM
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o: ../live/liveMedia/VorbisAudioRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o.requires:
 
@@ -4283,16 +4283,16 @@ live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSink.cpp.o.provides.build: l
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o: ../live/liveMedia/VorbisAudioRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VorbisAudioRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o.requires:
 
@@ -4307,16 +4307,16 @@ live/CMakeFiles/live666.dir/liveMedia/VorbisAudioRTPSource.cpp.o.provides.build:
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o: ../live/liveMedia/VP8VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o.requires:
 
@@ -4331,16 +4331,16 @@ live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o: ../live/liveMedia/VP8VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP8VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP8VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o.requires:
 
@@ -4355,16 +4355,16 @@ live/CMakeFiles/live666.dir/liveMedia/VP8VideoRTPSource.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o: ../live/liveMedia/VP9VideoRTPSink.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSink.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSink.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSink.cpp" > CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSink.cpp > CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSink.cpp" -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSink.cpp -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o.requires:
 
@@ -4379,16 +4379,16 @@ live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSink.cpp.o.provides.build: live
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o: ../live/liveMedia/VP9VideoRTPSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSource.cpp" > CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSource.cpp > CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/VP9VideoRTPSource.cpp" -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/VP9VideoRTPSource.cpp -o CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o.requires:
 
@@ -4403,16 +4403,16 @@ live/CMakeFiles/live666.dir/liveMedia/VP9VideoRTPSource.cpp.o.provides.build: li
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o: ../live/liveMedia/WAVAudioFileServerMediaSubsession.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp" > CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp > CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp" -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileServerMediaSubsession.cpp -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o.requires:
 
@@ -4427,16 +4427,16 @@ live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileServerMediaSubsession.cpp.o.pr
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o: live/CMakeFiles/live666.dir/flags.make
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o: ../live/liveMedia/WAVAudioFileSource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o -c "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileSource.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building CXX object live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileSource.cpp
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.i"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileSource.cpp" > CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.i
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileSource.cpp > CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.i
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.s"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/WAVAudioFileSource.cpp" -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.s
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/WAVAudioFileSource.cpp -o CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.s
 
 live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o.requires:
 
@@ -4823,8 +4823,8 @@ live666_EXTERNAL_OBJECTS =
 ../bin/liblive666-debug.so: live/CMakeFiles/live666.dir/liveMedia/WAVAudioFileSource.cpp.o
 ../bin/liblive666-debug.so: live/CMakeFiles/live666.dir/build.make
 ../bin/liblive666-debug.so: live/CMakeFiles/live666.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Linking CXX shared library ../../bin/liblive666-debug.so"
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/live666.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Linking CXX shared library ../../bin/liblive666-debug.so"
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/live666.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 live/CMakeFiles/live666.dir/build: ../bin/liblive666-debug.so
@@ -5018,10 +5018,10 @@ live/CMakeFiles/live666.dir/requires: live/CMakeFiles/live666.dir/liveMedia/WAVA
 .PHONY : live/CMakeFiles/live666.dir/requires
 
 live/CMakeFiles/live666.dir/clean:
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" && $(CMAKE_COMMAND) -P CMakeFiles/live666.dir/cmake_clean.cmake
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live && $(CMAKE_COMMAND) -P CMakeFiles/live666.dir/cmake_clean.cmake
 .PHONY : live/CMakeFiles/live666.dir/clean
 
 live/CMakeFiles/live666.dir/depend:
-	cd "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live" "/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/live666.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fmurillom/Documents/Tec/DatosII/Prueba /home/fmurillom/Documents/Tec/DatosII/Prueba/live /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/live666.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : live/CMakeFiles/live666.dir/depend
 

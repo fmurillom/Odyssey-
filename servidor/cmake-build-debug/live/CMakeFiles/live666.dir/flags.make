@@ -7,11 +7,11 @@ C_FLAGS =   -Wno-unused-private-field -Wno-self-assign -Wno-self-assign-field -W
 
 C_DEFINES = -DLIVEMEDIA_EXPORTS -DSOCKLEN_T=socklen_t -Dlive666_EXPORTS
 
-C_INCLUDES = -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/include" 
+C_INCLUDES = -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/include 
 
 CXX_FLAGS =  -fpermissive  -Wno-unused-private-field -Wno-self-assign -Wno-self-assign-field -Wno-format -Wno-int-to-pointer-cast -Wno-array-bounds -Wno-tautological-undefined-compare -g  -fPIC  
 
 CXX_DEFINES = -DLIVEMEDIA_EXPORTS -DSOCKLEN_T=socklen_t -Dlive666_EXPORTS
 
-CXX_INCLUDES = -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/UsageEnvironment/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/BasicUsageEnvironment/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/groupsock/include" -I"/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/live/liveMedia/include" 
+CXX_INCLUDES = -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/UsageEnvironment/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/groupsock/include -I/home/fmurillom/Documents/Tec/DatosII/Prueba/live/liveMedia/include 
 

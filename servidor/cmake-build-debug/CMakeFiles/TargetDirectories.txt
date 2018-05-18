@@ -1,14 +1,14 @@
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/install/strip.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/install/local.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/live555.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/install.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/CMakeFiles/list_install_components.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/install/strip.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/install/local.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/live666.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/edit_cache.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/rebuild_cache.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/install.dir
-/home/fmurillom/Documents/Tec/DatosII/Proyecto II/Prueba/cmake-build-debug/live/CMakeFiles/list_install_components.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/install/strip.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/install/local.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/live555.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/install.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles/list_install_components.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/install/strip.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/install/local.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/live666.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/edit_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/rebuild_cache.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/install.dir
+/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/live/CMakeFiles/list_install_components.dir
