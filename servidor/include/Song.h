@@ -10,6 +10,9 @@
 using namespace std;
 
 
+/*!
+ * Clase utilizada para representar todo lo que tenga que ver con una cancion
+ */
 class Song{
 private:
     string name;
@@ -28,6 +31,16 @@ public:
 
     Song(){}
 
+    /*!
+     * metodo constructor para la clase
+     * @param name nombre de la cancion
+     * @param artist nombre del artista
+     * @param rating rating de la cancion
+     * @param lyrics letra de la cancion
+     * @param genre genero de la cancion
+     * @param filename path del archivo
+     * @param album album de la cancion
+     */
     Song(const string &name, const string &artist,const string &rating, const string &lyrics, const string &genre,
          const string &filename,const string &album) : name(name), artist(artist), rating(rating), lyrics(lyrics), genre(genre), filename(filename), album(album) {}
 
@@ -92,7 +105,7 @@ public:
     }
 
     bool operator==(const Song &rhs) const {
-        return name == rhs.name;
+        return name == rhs.name || artist == rhs.artist || album == rhs.album;
     }
 
     bool operator!=(const Song &rhs) const {

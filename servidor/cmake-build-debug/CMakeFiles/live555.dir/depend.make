@@ -178,6 +178,11 @@ CMakeFiles/live555.dir/main.cpp.o: ../live/liveMedia/include/liveMedia_version.h
 CMakeFiles/live555.dir/main.cpp.o: ../live/liveMedia/include/uLawAudioFilter.hh
 CMakeFiles/live555.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/live555.dir/src/Sorter.cpp.o: ../include/S_List.h
+CMakeFiles/live555.dir/src/Sorter.cpp.o: ../include/Song.h
+CMakeFiles/live555.dir/src/Sorter.cpp.o: ../include/Sorter.h
+CMakeFiles/live555.dir/src/Sorter.cpp.o: ../src/Sorter.cpp
+
 CMakeFiles/live555.dir/src/User.cpp.o: ../include/S_List.h
 CMakeFiles/live555.dir/src/User.cpp.o: ../include/Song.h
 CMakeFiles/live555.dir/src/User.cpp.o: ../include/User.h
@@ -187,6 +192,7 @@ CMakeFiles/live555.dir/src/server.cpp.o: ../include/AVLTree.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/BsearchTree.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/S_List.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/Song.h
+CMakeFiles/live555.dir/src/server.cpp.o: ../include/Sorter.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/User.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/cajun/json/elements.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/cajun/json/elements.inl
@@ -196,6 +202,7 @@ CMakeFiles/live555.dir/src/server.cpp.o: ../include/cajun/json/visitor.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/cajun/json/writer.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/cajun/json/writer.inl
 CMakeFiles/live555.dir/src/server.cpp.o: ../include/server.h
+CMakeFiles/live555.dir/src/server.cpp.o: ../include/tinyxml2.h
 CMakeFiles/live555.dir/src/server.cpp.o: ../live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh
 CMakeFiles/live555.dir/src/server.cpp.o: ../live/BasicUsageEnvironment/include/BasicUsageEnvironment0.hh
 CMakeFiles/live555.dir/src/server.cpp.o: ../live/BasicUsageEnvironment/include/BasicUsageEnvironment_version.hh
@@ -354,4 +361,7 @@ CMakeFiles/live555.dir/src/server.cpp.o: ../live/liveMedia/include/liveMedia.hh
 CMakeFiles/live555.dir/src/server.cpp.o: ../live/liveMedia/include/liveMedia_version.hh
 CMakeFiles/live555.dir/src/server.cpp.o: ../live/liveMedia/include/uLawAudioFilter.hh
 CMakeFiles/live555.dir/src/server.cpp.o: ../src/server.cpp
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o: ../include/tinyxml2.h
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o: ../src/tinyxml2.cpp
 

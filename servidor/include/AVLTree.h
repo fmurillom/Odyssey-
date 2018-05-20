@@ -11,10 +11,17 @@
 
 using namespace std;
 
+/*!
+ * Clase para implementar un arbol AVL
+ */
 class AVLTree
 {
+    /*!
+     * Estructura que se encargara de representar las hojas del arbol.
+     */
     struct node
     {
+
         std::string data;
         Song songData;
         node* left;
@@ -24,6 +31,10 @@ class AVLTree
 
     node* root;
 
+    /*!
+     * metodo para vacear un nodo
+     * @param t nodo que se desea vacear
+     */
     void makeEmpty(node* t)
     {
         if(t == NULL)
@@ -33,6 +44,12 @@ class AVLTree
         delete t;
     }
 
+    /*!
+     * Metodo encargado de insertar una hoja en el arbol
+     * @param x identificador de la hoja a insertar
+     * @param t nodo en el que se desea insertar
+     * @return el nodo una ves fue insertado
+     */
     node* insert(string x, node* t)
     {
         if(t == NULL)
@@ -69,6 +86,11 @@ class AVLTree
         return t;
     }
 
+    /*!
+     * metodo para realizar una rotacion derecha simple
+     * @param t nodo que al rededor el cual se debe rotar
+     * @return nodo rotado
+     */
     node* singleRightRotate(node* &t)
     {
         node* u = t->left;
@@ -78,7 +100,11 @@ class AVLTree
         u->height = max(height(u->left), t->height)+1;
         return u;
     }
-
+/*!
+    * metodo para realizar una rotacion izquierda simple
+    * @param t nodo que al rededor el cual se debe rotar
+    * @return nodo rotado
+    */
     node* singleLeftRotate(node* &t)
     {
         node* u = t->right;
@@ -89,18 +115,33 @@ class AVLTree
         return u;
     }
 
+    /*!
+     * metodo para realizar una rotacion izquierda doble
+     * @param t nodo que al rededor el cual se debe rotar
+     * @return nodo rotado
+     */
     node* doubleLeftRotate(node* &t)
     {
         t->right = singleRightRotate(t->right);
         return singleLeftRotate(t);
     }
 
+    /*!
+    * metodo para realizar una rotacion derecha doble
+    * @param t nodo que al rededor el cual se debe rotar
+    * @return nodo rotado
+    */
     node* doubleRightRotate(node* &t)
     {
         t->left = singleLeftRotate(t->left);
         return singleRightRotate(t);
     }
 
+    /*!
+     * Metodo encargado de buscar el nodo minimo
+     * @param t nodo por el cual comenzar
+     * @return
+     */
     node* findMin(node* t)
     {
         if(t == NULL)
@@ -111,6 +152,11 @@ class AVLTree
             return findMin(t->left);
     }
 
+    /*!
+     * Metodo encargado de buscar el nodo maximo
+     * @param t nodo por el cual empezar
+     * @return
+     */
     node* findMax(node* t)
     {
         if(t == NULL)
@@ -121,29 +167,32 @@ class AVLTree
             return findMax(t->right);
     }
 
+    /*!
+     * metodo para eliminar un nodo del arbol
+     * @param x nodo a eliminar
+     * @param t donde empezar a buscar
+     * @return
+     */
     node* remove(string x, node* t)
     {
         node* temp;
 
-        // Element not found
         if(t == NULL)
             return NULL;
 
-            // Searching for element
         else if(!comesFirst(x,  t->data))
             t->left = remove(x, t->left);
         else if(comesFirst(x , t->data))
             t->right = remove(x, t->right);
 
-            // Element found
-            // With 2 children
+
         else if(t->left && t->right)
         {
             temp = findMin(t->right);
             t->data = temp->data;
             t->right = remove(t->data, t->right);
         }
-            // With one or zero child
+
         else
         {
             temp = t;
@@ -158,30 +207,32 @@ class AVLTree
 
         t->height = max(height(t->left), height(t->right))+1;
 
-        // If node is unbalanced
-        // If left node is deleted, right case
         if(height(t->left) - height(t->right) == 2)
         {
-            // right right case
+
             if(height(t->left->left) - height(t->left->right) == 1)
                 return singleLeftRotate(t);
-                // right left case
+
             else
                 return doubleLeftRotate(t);
         }
-            // If right node is deleted, left case
+
         else if(height(t->right) - height(t->left) == 2)
         {
-            // left left case
+
             if(height(t->right->right) - height(t->right->left) == 1)
                 return singleRightRotate(t);
-                // left right case
+
             else
                 return doubleRightRotate(t);
         }
         return t;
     }
-
+/*!
+ * retorna la altura en la que se encuentra el nodo deseado
+ * @param t nodo que se desea saber la altura
+ * @return altura del nodo
+ */
     int height(node* t)
     {
         return (t == NULL ? -1 : t->height);
@@ -194,7 +245,10 @@ class AVLTree
         else
             return height(t->left) - height(t->right);
     }
-
+/*!
+ * Funcion auxiliar para imprimir el arbol en notacion enorden
+ * @param t nodo por el cual empezar
+ */
     void inorder(node* t)
     {
         if(t == NULL)
@@ -204,6 +258,12 @@ class AVLTree
         inorder(t->right);
     }
 
+    /*!
+  * metodo encargado de verificiar el orden alfabetico entre strings
+  * @param wordA palabra 1
+  * @param wordB parlabra 1
+  * @return true si wordA > wordB
+  */
     bool comesFirst(std::string wordA, std::string wordB){
         S_List<string> *letter = new S_List<string>;
         letter->add("A");

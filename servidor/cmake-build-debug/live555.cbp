@@ -200,6 +200,9 @@
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/Song.h">
 			<Option target="live555"/>
 		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/Sorter.h">
+			<Option target="live555"/>
+		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/User.h">
 			<Option target="live555"/>
 		</Unit>
@@ -207,6 +210,9 @@
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/server.h">
+			<Option target="live555"/>
+		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/tinyxml2.h">
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/live/BasicUsageEnvironment/BasicHashTable.cpp">
@@ -1328,10 +1334,16 @@
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/main.cpp">
 			<Option target="live555"/>
 		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/Sorter.cpp">
+			<Option target="live555"/>
+		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/User.cpp">
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/server.cpp">
+			<Option target="live555"/>
+		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/tinyxml2.cpp">
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/CMakeLists.txt">

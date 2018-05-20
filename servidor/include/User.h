@@ -10,7 +10,9 @@
 #include "Song.h"
 
 using namespace std;
-
+/*!
+ * Clase utilizada para abstraer los usuarios con toda su informacion
+ */
 class User{
 private:
     string usrName;
@@ -19,6 +21,7 @@ private:
     string age;
     S_List<string> *favGenres;
     S_List<string> *friendList;
+    S_List<string> *recomendaTions;
 
 public:
 
@@ -29,6 +32,7 @@ public:
         age = "";
         favGenres = new S_List<string>;
         friendList = new S_List<string>;
+        recomendaTions = new  S_List<string>;
 
     }
 
@@ -52,6 +56,9 @@ public:
 
     void setAge(string age);
 
+    void addRecomendation(string title);
+
+    S_List<string>* getRecomendation();
 
     S_List<string> &getFavGenres() const;
 

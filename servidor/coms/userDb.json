@@ -2,6 +2,22 @@
 	"size" : 2,
 	"users" : [
 		{
+			"UserName" : "LOOP",
+			"Password" : "11OOP1L1",
+			"Name" : "A",
+			"Age" : "20",
+			"Genre" : [
+				"lalala"
+			],
+			"Friend" : [
+				"lol"
+			],
+			"Fsize" : 1,
+			"Gsize" : 1,
+			"Recomend" : [],
+			"Rsize" : 0
+		},
+		{
 			"UserName" : "master",
 			"Password" : "",
 			"Name" : "",
@@ -9,23 +25,9 @@
 			"Genre" : [],
 			"Friend" : [],
 			"Fsize" : 0,
-			"Gsize" : 0
-		},
-		{
-			"UserName" : "priramro",
-			"Password" : "1V621O1L1IE111",
-			"Name" : "Priscilla Ramirez",
-			"Age" : "21",
-			"Genre" : [
-				"pop",
-				"rock"
-			],
-			"Friend" : [
-				"loop",
-				"chizco06"
-			],
-			"Fsize" : 2,
-			"Gsize" : 2
+			"Gsize" : 0,
+			"Recomend" : [],
+			"Rsize" : 0
 		}
 	]
 }

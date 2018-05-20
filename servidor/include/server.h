@@ -5,12 +5,12 @@
 #ifndef LIVE555_SERVER_H
 #define LIVE555_SERVER_H
 
+#include <tinyxml.h>
 #include "../live/liveMedia/include/liveMedia.hh"
 #include "../live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh"
 #include "BsearchTree.h"
 #include "AVLTree.h"
 
-#define PORT 8080
 
 class StreamServerError {};
 class StreamServerRunError {};
@@ -55,7 +55,7 @@ public:
 
     int recieveFile(std::string filename);
 
-    void parseXML(std::string parse);
+    void parseXML(std::string parse, TiXmlDocument *doc2);
 
     void loadSongInfo();
 
@@ -65,24 +65,51 @@ public:
 
     void printAdress();
 
-    void sortByAlbum();
+    void generateAlbumList();
 
     string generateHash(std::string pass);
 
-    void testNewParser(std::string file);
+    void sendLibrary(std::string file, S_List<Song> *songList);
+
+    S_List<Song>* sortByAlbum();
+
+    void sortByArtist();
+
+    S_List<Song>* sortByTitle();
+
+    void sendFriend(string usrName);
+
+    void sendRecomend(string usrName);
 
 private:
     const int port;
+
     RTSPServer* rtsp;
+
     UsageEnvironment* env;
+
     char notRunning;
+
     pthread_t thread;
+
     BsearchTree<string, Song> *treeName;
+
     AVLTree *artistTree;
+
+    bool login;
+
     static void* listenClose(void* inst);
+
     void saveUserDB();
 
     void saveSongInfo();
+
+    void StreamServer::sendLoginInfo(string status);
+
+    int StreamServer::sendFileJava(int port, char *lfile);
+
+    int pageCount;
+
 
 
 };

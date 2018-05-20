@@ -236,6 +236,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+src/Sorter.o: src/Sorter.cpp.o
+
+.PHONY : src/Sorter.o
+
+# target to build an object file
+src/Sorter.cpp.o:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Sorter.cpp.o
+.PHONY : src/Sorter.cpp.o
+
+src/Sorter.i: src/Sorter.cpp.i
+
+.PHONY : src/Sorter.i
+
+# target to preprocess a source file
+src/Sorter.cpp.i:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Sorter.cpp.i
+.PHONY : src/Sorter.cpp.i
+
+src/Sorter.s: src/Sorter.cpp.s
+
+.PHONY : src/Sorter.s
+
+# target to generate assembly for a file
+src/Sorter.cpp.s:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Sorter.cpp.s
+.PHONY : src/Sorter.cpp.s
+
 src/User.o: src/User.cpp.o
 
 .PHONY : src/User.o
@@ -290,6 +317,33 @@ src/server.cpp.s:
 	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/server.cpp.s
 .PHONY : src/server.cpp.s
 
+src/tinyxml2.o: src/tinyxml2.cpp.o
+
+.PHONY : src/tinyxml2.o
+
+# target to build an object file
+src/tinyxml2.cpp.o:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/tinyxml2.cpp.o
+.PHONY : src/tinyxml2.cpp.o
+
+src/tinyxml2.i: src/tinyxml2.cpp.i
+
+.PHONY : src/tinyxml2.i
+
+# target to preprocess a source file
+src/tinyxml2.cpp.i:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/tinyxml2.cpp.i
+.PHONY : src/tinyxml2.cpp.i
+
+src/tinyxml2.s: src/tinyxml2.cpp.s
+
+.PHONY : src/tinyxml2.s
+
+# target to generate assembly for a file
+src/tinyxml2.cpp.s:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/tinyxml2.cpp.s
+.PHONY : src/tinyxml2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -310,12 +364,18 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Sorter.o"
+	@echo "... src/Sorter.i"
+	@echo "... src/Sorter.s"
 	@echo "... src/User.o"
 	@echo "... src/User.i"
 	@echo "... src/User.s"
 	@echo "... src/server.o"
 	@echo "... src/server.i"
 	@echo "... src/server.s"
+	@echo "... src/tinyxml2.o"
+	@echo "... src/tinyxml2.i"
+	@echo "... src/tinyxml2.s"
 .PHONY : help
 
 

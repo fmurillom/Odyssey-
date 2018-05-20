@@ -153,12 +153,62 @@ CMakeFiles/live555.dir/base64/base64.cpp.o.provides: CMakeFiles/live555.dir/base
 CMakeFiles/live555.dir/base64/base64.cpp.o.provides.build: CMakeFiles/live555.dir/base64/base64.cpp.o
 
 
+CMakeFiles/live555.dir/src/Sorter.cpp.o: CMakeFiles/live555.dir/flags.make
+CMakeFiles/live555.dir/src/Sorter.cpp.o: ../src/Sorter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/live555.dir/src/Sorter.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live555.dir/src/Sorter.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/src/Sorter.cpp
+
+CMakeFiles/live555.dir/src/Sorter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live555.dir/src/Sorter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/src/Sorter.cpp > CMakeFiles/live555.dir/src/Sorter.cpp.i
+
+CMakeFiles/live555.dir/src/Sorter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live555.dir/src/Sorter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/src/Sorter.cpp -o CMakeFiles/live555.dir/src/Sorter.cpp.s
+
+CMakeFiles/live555.dir/src/Sorter.cpp.o.requires:
+
+.PHONY : CMakeFiles/live555.dir/src/Sorter.cpp.o.requires
+
+CMakeFiles/live555.dir/src/Sorter.cpp.o.provides: CMakeFiles/live555.dir/src/Sorter.cpp.o.requires
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Sorter.cpp.o.provides.build
+.PHONY : CMakeFiles/live555.dir/src/Sorter.cpp.o.provides
+
+CMakeFiles/live555.dir/src/Sorter.cpp.o.provides.build: CMakeFiles/live555.dir/src/Sorter.cpp.o
+
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o: CMakeFiles/live555.dir/flags.make
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o: ../src/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/live555.dir/src/tinyxml2.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/live555.dir/src/tinyxml2.cpp.o -c /home/fmurillom/Documents/Tec/DatosII/Prueba/src/tinyxml2.cpp
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/live555.dir/src/tinyxml2.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fmurillom/Documents/Tec/DatosII/Prueba/src/tinyxml2.cpp > CMakeFiles/live555.dir/src/tinyxml2.cpp.i
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/live555.dir/src/tinyxml2.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fmurillom/Documents/Tec/DatosII/Prueba/src/tinyxml2.cpp -o CMakeFiles/live555.dir/src/tinyxml2.cpp.s
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o.requires:
+
+.PHONY : CMakeFiles/live555.dir/src/tinyxml2.cpp.o.requires
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o.provides: CMakeFiles/live555.dir/src/tinyxml2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/tinyxml2.cpp.o.provides.build
+.PHONY : CMakeFiles/live555.dir/src/tinyxml2.cpp.o.provides
+
+CMakeFiles/live555.dir/src/tinyxml2.cpp.o.provides.build: CMakeFiles/live555.dir/src/tinyxml2.cpp.o
+
+
 # Object files for target live555
 live555_OBJECTS = \
 "CMakeFiles/live555.dir/main.cpp.o" \
 "CMakeFiles/live555.dir/src/server.cpp.o" \
 "CMakeFiles/live555.dir/src/User.cpp.o" \
-"CMakeFiles/live555.dir/base64/base64.cpp.o"
+"CMakeFiles/live555.dir/base64/base64.cpp.o" \
+"CMakeFiles/live555.dir/src/Sorter.cpp.o" \
+"CMakeFiles/live555.dir/src/tinyxml2.cpp.o"
 
 # External object files for target live555
 live555_EXTERNAL_OBJECTS =
@@ -167,11 +217,13 @@ live555_EXTERNAL_OBJECTS =
 ../bin/live555: CMakeFiles/live555.dir/src/server.cpp.o
 ../bin/live555: CMakeFiles/live555.dir/src/User.cpp.o
 ../bin/live555: CMakeFiles/live555.dir/base64/base64.cpp.o
+../bin/live555: CMakeFiles/live555.dir/src/Sorter.cpp.o
+../bin/live555: CMakeFiles/live555.dir/src/tinyxml2.cpp.o
 ../bin/live555: CMakeFiles/live555.dir/build.make
 ../bin/live555: ../bin/liblive.so
 ../bin/live555: ../bin/libticpp.a
 ../bin/live555: CMakeFiles/live555.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../bin/live555"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../bin/live555"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/live555.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -183,6 +235,8 @@ CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/main.cpp.o.requires
 CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/src/server.cpp.o.requires
 CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/src/User.cpp.o.requires
 CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/base64/base64.cpp.o.requires
+CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/src/Sorter.cpp.o.requires
+CMakeFiles/live555.dir/requires: CMakeFiles/live555.dir/src/tinyxml2.cpp.o.requires
 
 .PHONY : CMakeFiles/live555.dir/requires
 

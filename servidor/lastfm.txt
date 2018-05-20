@@ -1,0 +1,4 @@
+Application name 	Odyssey++
+API key 	79df36a8c8f5ab3b719d2e8327ee2ba8
+Shared secret 	85d3f5ee7bb6b94c23b737faab1f94e8
+Registered to 	chizco06

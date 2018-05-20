@@ -1,14 +1,23 @@
 {
-	"size" : 1,
+	"size" : 2,
 	"library" : [
 		{
-			"Title" : "MyHero",
-			"Album" : "All Might",
-			"Genre" : "OST",
-			"Artist" : "Deku",
+			"Title" : "Make_a_Move",
+			"Album" : "Nose",
+			"Genre" : "Rock",
+			"Artist" : "Icon for Hire",
 			"Rating" : "*****",
-			"FileName" : "../library/MyHero.mp3",
-			"StreamAdress" : "rtsp://192.168.1.11:8544/MyHero"
+			"FileName" : "../library/Make_a_Move.mp3",
+			"StreamAdress" : "rtsp://192.168.1.11:8544/Make_a_Move"
+		},
+		{
+			"Title" : "Overklok",
+			"Album" : "No se 2",
+			"Genre" : "Metalstep",
+			"Artist" : "Blue Stahli",
+			"Rating" : "****",
+			"FileName" : "../library/Overklok.mp3",
+			"StreamAdress" : "rtsp://192.168.1.11:8544/Overklok"
 		}
 	]
 }

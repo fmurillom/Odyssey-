@@ -384,7 +384,8 @@ void RTSPServer::RTSPClientConnection
 static void lookForHeader(char const* headerName, char const* source, unsigned sourceLen, char* resultStr, unsigned resultMaxSize) {
   resultStr[0] = '\0';  // by default, return an empty string
   unsigned headerNameLen = strlen(headerName);
-  for (int i = 0; i < (int)(sourceLen-headerNameLen); ++i) {
+  for (int i = 0; i < (int)(sourceLen-headerNameLen); ++i)
+  {
     if (strncmp(&source[i], headerName, headerNameLen) == 0 && source[i+headerNameLen] == ':') {
       // We found the header.  Skip over any whitespace, then copy the rest of the line to "resultStr":
       for (i += headerNameLen+1; i < (int)sourceLen && (source[i] == ' ' || source[i] == '\t'); ++i) {}

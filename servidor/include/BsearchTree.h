@@ -15,12 +15,21 @@
 using namespace std;
 
 template <class T, class B>
+/*!
+ * Estructura utilizada para representar las hojas del arbol
+ *
+ */
 struct NodeB {
+
     T value;
     B userData;
     NodeB<T, B> *left;
     NodeB<T, B> *right;
-
+/*!
+ * Constructor de nodos
+ * @param val vvalor de identificador
+ * @param userData dato que debe guardar el nodo
+ */
     NodeB(T val, B userData) {
         this->value = val;
         this->userData = userData;
@@ -37,9 +46,18 @@ struct NodeB {
 
 template <class T, class B>
 class BsearchTree{
+    /*!
+     * Clase utilizada para representar una arbolB
+     */
 private:
     NodeB<T, B> *root;
 
+    /*!
+     * Funcion auxiliar encargada de anadir nodos al arbol
+     * @param root raiz del arbol a agragar
+     * @param val valor de identificador
+     * @param usrData valro de dato que se desea almacenar
+     */
     void addHelper(NodeB<std::string, B> *root, std::string val, B usrData) {
         if (comesFirst(root->value, val)) {
             if (!root->left) {
@@ -56,23 +74,39 @@ private:
         }
     }
 
+    /*!
+     * Metodo auxiliar recursivo utilizado para imprimir el arbol en preorden
+     * @param root raiz de donde se quiere comenzar a imprimir
+     */
     void printHelper(NodeB<T, B> *root) {
         if (!root) return;
         printHelper(root->left);
         cout<<root->value<<' ';
         printHelper(root->right);
     }
-
+/*!
+ * Metodo recursivo utilizado para contar la cantidad de nodos en el arbol
+ * @param root raiz de donde se desea comenzar a contar
+ * @return
+ */
     int nodesCountHelper(NodeB<T, B> *root) {
         if (!root) return 0;
         else return 1 + nodesCountHelper(root->left) + nodesCountHelper(root->right);
     }
 
+    /*!
+     * metodo auxiliar para obtener la altura del nodo deseado
+     * @param root nodo para obtener su altura.
+     * @return
+     */
     int heightHelper(NodeB<T, B> *root) {
         if (!root) return 0;
         else return 1 + max(heightHelper(root->left), heightHelper(root->right));
     }
-
+/*!
+ * Metodo recursivo para imprimir el arbol en posorden
+ * @param root nodo del cual se desea imprimir
+ */
     void printMaxPathHelper(NodeB<T, B> *root) {
         if (!root) return;
         cout<<root->value<<' ';
@@ -83,6 +117,13 @@ private:
         }
     }
 
+    /*!
+     * Metodo recursivo utilizado para eliminar valores del arbol
+     * @param parent nodo padra del nodo a eliminar
+     * @param current nodo que se desea eliminar
+     * @param value valor que se desea eliminar
+     * @return booleano para indicar si pudo eliminar
+     */
     bool deleteValueHelper(NodeB<T, B>* parent, NodeB<T, B>* current, T value) {
         if (!current) return false;
         if (current->value == value) {
@@ -114,7 +155,12 @@ private:
         return deleteValueHelper(current, current->left, value) ||
                deleteValueHelper(current, current->right, value);
     }
-
+    /*!
+    * metodo encargado de verificiar el orden alfabetico entre strings
+    * @param wordA palabra 1
+    * @param wordB parlabra 1
+    * @return true si wordA > wordB
+    */
     bool comesFirst(std::string wordA, std::string wordB){
         S_List<string> *letter = new S_List<string>;
         letter->add("A");
@@ -156,20 +202,33 @@ private:
             }
         }
     }
-
-    bool searchUsrHelper(string usr, NodeB<T, B> *root, bool &found) {
+/*!
+ * Metodo utilizado para buscar un elemento en la tabla y obtener una referencia a este
+ * @param usr usuario a buscar
+ * @param root nodo por el cual empezar
+ * @param found booleano que indica si fue encontrado
+ * @param element elemento que almacenara la referencia
+ * @return
+ */
+    bool searchUsrHelper(string usr, NodeB<T, B> *root, bool &found, B *&element) {
         if(!root) return false;
         if(root->value == usr){
             found = true;
+            element = &root->userData;
             return true;
         }
         if(!found){
-            searchUsrHelper(usr, root->left, found);
-            searchUsrHelper(usr, root->right, found);
+            searchUsrHelper(usr, root->left, found, element);
+            searchUsrHelper(usr, root->right, found, element);
         }
         return found;
     }
 
+    /*!
+     * Metodo auxiliar para conveetir todo el arbol a elementos json
+     * @param root raiz del arbol
+     * @param usrArray array para guardar todos los elementos del nodo
+     */
     void toJsonHelper(NodeB<T, B> *root, json::Array &usrArray){
         using namespace json;
         if(!root) return;
@@ -177,6 +236,7 @@ private:
         Object json;
         Array genreArray;
         Array friendArray;
+        Array recomendaTionArray;
         json["UserName"] = String(root->userData.getUsrName());
         json["Password"] = String(root->userData.getHashPass());
         json["Name"] = String(root->userData.getName());
@@ -189,10 +249,16 @@ private:
             std::string aux = root->userData.getFriendList().get(i);
             friendArray.Insert(String(aux));
         }
+        for(int i = 0; i < root->userData.getRecomendation()->getSize(); i++){
+            std::string aux = root->userData.getRecomendation()->get(i);
+            recomendaTionArray.Insert(String(aux));
+        }
         json["Genre"] = genreArray;
         json["Friend"] = friendArray;
         json["Fsize"] = Number(root->userData.getFriendList().getSize());
         json["Gsize"] = Number(root->userData.getFavGenres().getSize());
+        json["Recomend"] = recomendaTionArray;
+        json["Rsize"] = Number(root->userData.getRecomendation()->getSize());
         usrArray.Insert(json);
         toJsonHelper(root->right, usrArray);
     }
@@ -227,9 +293,11 @@ public:
         return this->deleteValueHelper(NULL, this->root, value);
     }
 
-    bool searchUsr(string usr) {
+    B* searchUsr(string usr) {
         bool found = false;
-        return this->searchUsrHelper(usr, this->root, found);
+        B *aux = NULL;
+        this->searchUsrHelper(usr, this->root, found, aux);
+        return aux;
     }
 
     void toJson(){

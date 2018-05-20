@@ -3,6 +3,7 @@
 //
 
 #include "../include/User.h"
+
 void User::addFavGenre(string genre) {
     this->favGenres->add(genre);
 }
@@ -53,6 +54,14 @@ S_List<string> &User::getFavGenres() const {
 
 S_List<string> &User::getFriendList() const {
     return *friendList;
+}
+
+void User::addRecomendation(string title) {
+    this->recomendaTions->add(title);
+}
+
+S_List<string>* User::getRecomendation() {
+    return this->recomendaTions;
 }
 
 ostream &operator<<(ostream &os, const User &user) {

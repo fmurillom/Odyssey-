@@ -15,6 +15,8 @@
 #include <fstream>
 #include <tinyxml.h>
 
+TiXmlDocument *doc2 = new TiXmlDocument();
+
 void dostuff(int sock, StreamServer *server); /* function prototype */
 void error(const char *msg)
 {
@@ -22,7 +24,7 @@ void error(const char *msg)
     exit(1);
 }
 
-int socketServer(int port, StreamServer *server);
+void socketServer(int port, StreamServer *server);
 
 
 //192.168.1.11
@@ -31,7 +33,7 @@ int main(int argc, char *argv[])
     StreamServer *server = new StreamServer();
     server->loadUserDB();
     server->loadSongInfo();
-    server->sortByAlbum();
+    server->sendLibrary("../coms/coms.xml", server->songList);
     cout << "Starting Streaming Server" << endl;
     server->run();
     server->printAdress();
@@ -41,7 +43,7 @@ int main(int argc, char *argv[])
 }
 
 
-int socketServer(int port, StreamServer *server){
+void socketServer(int port, StreamServer *server){
     int sockfd, newsockfd, portno;
     socklen_t clilen;
     char buffer[100];
@@ -80,6 +82,6 @@ int socketServer(int port, StreamServer *server){
     printf("Here is the message: %s\n",buffer);
     close(newsockfd);
     close(sockfd);
-    server->parseXML("../coms/coms.xml");
-    return 0;
+    server->parseXML("../coms/coms.xml", doc2);
+    usleep(1000000);
 }

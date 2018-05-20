@@ -33,6 +33,7 @@ add_definitions(${GCC_COVERAGE_LINK_FLAGS})
 add_definitions(${GCC_COVERAGE_COMPILE_FLAGS})
 
 add_executable(live555 main.cpp include/server.h src/server.cpp include/User.h include/S_List.h include/Song.h src/User.cpp include/BsearchTree.h
-        base64/base64.cpp base64/base64.h include/cajun include/AVLTree.h)
+        base64/base64.cpp base64/base64.h include/cajun include/AVLTree.h include/Sorter.h src/Sorter.cpp include/tinyxml2.h
+        src/tinyxml2.cpp)
 target_link_libraries(live555 ${CMAKE_SOURCE_DIR}/bin/liblive.so ${CMAKE_THREAD_LIBS_INIT} ${CMAKE_SOURCE_DIR}/bin/libticpp.a)
 add_definitions(${GCC_COVERAGE_LINK_FLAGS})
