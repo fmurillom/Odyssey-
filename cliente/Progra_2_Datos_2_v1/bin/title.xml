@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Song>
+    <Album>album</Album>
+    <Genre>Black</Genre>
+    <Genre>Rock</Genre>
+    <Genre>Shooter</Genre>
+    <Path>path</Path>
+    <Raiting>raiting</Raiting>
+    <Title>title</Title>
+</Song>
