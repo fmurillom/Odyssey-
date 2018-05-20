@@ -2,6 +2,10 @@ package estructuras;
 
 import auxiliar.Nodo;
 
+/**
+ * Clase utilizada como representacion de una lista simple
+ * @param <T> Parametro generico
+ */
 public class Lista_Simple<T>
 {
     private int cantidad_de_nodos;
@@ -11,24 +15,64 @@ public class Lista_Simple<T>
     public Lista_Simple(){}
 
 
+    /**
+     * Obtiene la cantidad de los nodos de la lista
+     * @return
+     */
     public int getCantidad_de_nodos(){return cantidad_de_nodos;}
+
+    /**
+     * metodo para setiar la cantidad de nodos en la lista
+     * @param cantidad_de_nodos
+     */
     public void setCantidad_de_nodos(int cantidad_de_nodos){this.cantidad_de_nodos = cantidad_de_nodos;}
 
+
+    /**
+     * retorna el primer elemento de la lista
+     * @return
+     */
     public Nodo<T> getPrimero(){return primero;}
+
+    /**
+     * Asigna el primer elemento de la lista
+     * @param primero
+     */
     public void setPrimero(Nodo<T> primero){this.primero = primero;}
 
+    /**
+     * retorna el ultimo elemento de la lista
+     * @return
+     */
     public Nodo<T> getUltimo(){return ultimo;}
+
+    /**
+     * asiggna el ultimo elemento de la lista
+     * @param ultimo
+     */
     public void setUltimo(Nodo<T> ultimo){this.ultimo = ultimo;}
 
 
+    /**
+     * retorna booleano que indica si la lista esta vacia
+     * @return
+     */
     public boolean esta_vacia() {return primero == null;}
 
+    /**
+     * Inserta un elemento en una lista vacia
+     * @param dato
+     */
     private void insertar_en_vacia(T dato)
     {
         primero = ultimo = new Nodo<T>(dato);
         cantidad_de_nodos++;
     }
 
+    /**
+     * inserta un elemento al inicio de la lista
+     * @param dato dato para insertar en la lista
+     */
     public void insertar_al_inicio(T dato)
     {
         if(esta_vacia())
@@ -43,6 +87,10 @@ public class Lista_Simple<T>
             cantidad_de_nodos++;
         }
     }
+    /**
+     * metodo para insertar al final de la lista
+     * @param o elemnto a insertar
+     */
     public void insertar_al_final(T o)
     {
         //System.out.println("insertar_al_final de: " + o);
@@ -61,6 +109,12 @@ public class Lista_Simple<T>
         }
         //System.out.println("Ahora hay: " + cantidad_de_nodos);
     }
+    /**
+     * Metodo utilizado para insertar un elemento en posicion especifica
+     * @param dato dato a insertar
+     * @param posicion posicion en la que se desea insertar
+     * @return
+     */
     public boolean insertar_al_medio(T dato, int posicion)
     {
         if(esta_vacia())
@@ -86,6 +140,12 @@ public class Lista_Simple<T>
         return true;
     }
 
+    /**
+     * metodo para editar un elemento en la lista
+     * @param posicion posicion a editar
+     * @param dato dato nuevo a insertar
+     * @return
+     */
     public boolean sobreescribir(int posicion, T dato)
     {
         if(!esta_vacia())
@@ -104,6 +164,10 @@ public class Lista_Simple<T>
         return false;
     }
 
+    /**
+     * Metodo para coopiar todos los elementos de la lista
+     * @return
+     */
     public Lista_Simple<T> clonar()
     {
         Lista_Simple<T> clon = new Lista_Simple<>();
@@ -115,6 +179,10 @@ public class Lista_Simple<T>
         }
         return clon;
     }
+    /**
+     * elimina el primer elemento de la lista
+     * @return
+     */
     public boolean eliminar_al_inicio()
     {
         if(cantidad_de_nodos > 0)
@@ -133,6 +201,10 @@ public class Lista_Simple<T>
         return false;
     }
 
+    /**
+     * elimina el ultimo elemento de la lista
+     * @return
+     */
     public boolean eliminar_al_final()
     {
         if(cantidad_de_nodos > 0)
@@ -157,6 +229,11 @@ public class Lista_Simple<T>
         return false;
     }
 
+    /**
+     * elimina la posicoin deseada
+     * @param posicion posicion a eliminar
+     * @return
+     */
     public boolean eliminar_al_medio(int posicion)
     {
         if(cantidad_de_nodos > 0)
@@ -184,6 +261,10 @@ public class Lista_Simple<T>
         return false;
     }
 
+    /**
+     * elimina la posicoin deseada
+     * @param posicion posicion a eliminar
+     */
     private void eliminar_al_medio_sin_return(int posicion)
     {
         if(cantidad_de_nodos > 0)
@@ -209,7 +290,10 @@ public class Lista_Simple<T>
         }
     }
 
-
+    /**
+     * Elimina todos los elementos repetidos de la lista
+     * @param dato dato a buscar si se repite
+     */
     public void eliminar_repetidos(T dato)
     {
         if(!esta_vacia())
@@ -227,6 +311,11 @@ public class Lista_Simple<T>
         }
     }
 
+    /**
+     * Metodo que hace el llamado a los metodos auxiliares
+     * @param dato
+     * @return
+     */
     public boolean eliminar(T dato)
     {
         if(!esta_vacia())
@@ -257,13 +346,21 @@ public class Lista_Simple<T>
         return false;
     }
 
-
+    /**
+     * Elimina todos los elementos de la lista
+     */
     public void borrarTodo()
     {
         this.primero = null;
         this.ultimo = null;
         this.cantidad_de_nodos = 0;
     }
+
+    /**
+     * Retorna el elelemento en el indice deseado
+     * @param posicion posicion a retornar
+     * @return
+     */
 
     public T get_dato_por_indice(int posicion)
     {
@@ -313,6 +410,11 @@ public class Lista_Simple<T>
         return null;
     }
 
+    /**
+     * busca un elemento en la lista
+     * @param dato datoo a buscar
+     * @return dato encontrado
+     */
     public T get_dato(T dato)
     {
         if(cantidad_de_nodos != 0)
@@ -334,6 +436,11 @@ public class Lista_Simple<T>
         return null;
     }
 
+    /**
+     * BUsca si un elemento existe en la lista
+     * @param dato
+     * @return
+     */
     public boolean existe(T dato){return get_dato(dato) != null;}
 
     public void mostrar()
@@ -362,6 +469,9 @@ public class Lista_Simple<T>
         }
     }
 
+    /**
+     * muestra toda la lista
+     */
     public void mostrarln()
     {
         if(esta_vacia())
@@ -382,6 +492,10 @@ public class Lista_Simple<T>
     }
 
     @Override
+    /**
+     * Convierte toda la lista en un string
+     * @return
+     */
     public String toString()
     {
         String str = "";

@@ -23,9 +23,15 @@ import admin.Song;
 import admin.User;
 import estructuras.Lista_Simple;
 
-
+/**
+ * Clase utilizada para parsear los datos desde un archivo xml
+ */
 public class XMLizer
 {
+	/**
+	 * Para parsear canciones
+	 * @param song
+	 */
 	public static void marshallSong(Song song)
 	{
 		try
@@ -41,6 +47,10 @@ public class XMLizer
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * Para parsear la libreria musical
+	 * @param library libreria para parsear
+	 */
 	public static void marshallLibrary(Library library)
 	{
 		try
@@ -86,6 +96,10 @@ public class XMLizer
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * Metodo utilizado para parsear los datos de los usuarios
+	 * @param user usuario para guradar los datos.
+	 */
 	public static void marshallUser(User user)
 	{
 		try
@@ -101,6 +115,11 @@ public class XMLizer
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * Metodo utilizado para parsear una sola cancion por nombre
+	 * @param songTitle
+	 * @return
+	 */
 	public static Song unMarshallSong(String songTitle)
 	{
 		try
@@ -117,6 +136,10 @@ public class XMLizer
 			return null;
 		}
 	}
+	/**
+	 * Metodo para parsear los datos de login
+	 * @param log Instanciacion para guardar la informacion del log in
+	 */
 	public static void marshallLogInData(LogInData log)
 	{
 		try
@@ -132,6 +155,10 @@ public class XMLizer
 			e.printStackTrace();
 		}
 	}
+	/**
+	 * Metodo para parsear los datos de login
+	 * @param songTitle Instanciacion para guardar la informacion del log in por nombre de cancion
+	 */
 	public static Song unMarshallLogInData(String songTitle)
 	{
 		try
@@ -147,7 +174,11 @@ public class XMLizer
 			e.printStackTrace();
 			return null;
 		}
-	}	
+	}
+	/**
+	 * Metodo utilizado para parsear los datos de los usuarios
+	 * @param userName usuario para guardar el nombre de usuario
+	 */
 	public static User unMarshallUser(String userName)
 	{
 		try
@@ -232,6 +263,15 @@ public class XMLizer
 		return null;
 	}
 
+	/**
+	 * Parsear los elelmentos del xml en el ccaso de recibir un xml para libreria
+	 * @param name nombre del dato
+	 * @param tag identificador del elemento
+	 * @return
+	 * @throws SAXException
+	 * @throws IOException
+	 * @throws ParserConfigurationException
+	 */
 	public static Lista_Simple<Song> getXML_lib(String name, String tag) throws SAXException, IOException, ParserConfigurationException
 	{
 		Lista_Simple<Song> songs = new Lista_Simple<>();

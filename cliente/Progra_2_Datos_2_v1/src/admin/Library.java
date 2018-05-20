@@ -4,6 +4,9 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name = "Library")
+/**
+ * Clase utilizada para almacenar los elementos de la libreria musical
+ */
 public class Library
 {
 	private String something;

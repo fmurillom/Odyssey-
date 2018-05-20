@@ -7,6 +7,9 @@ import javax.xml.bind.annotation.*;
 @XmlRootElement(name = "Song")
 //@XmlRootElement
 //@XmlType(name = "Song")
+/**
+ * Clase utilizada para almacenar los datos de las canciones.
+ */
 public class Song
 {
 	//@XmlAttribute(name = "Data Title")

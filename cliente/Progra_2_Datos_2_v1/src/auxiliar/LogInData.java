@@ -5,6 +5,9 @@ import javax.xml.bind.annotation.XmlRootElement;
 
 
 @XmlRootElement(name = "LogIn")
+/**
+ * Clase utilizada para guardar los datos del inicio de sesion del cliente hasta el servidor
+ */
 public class LogInData
 {
 	private String nick;

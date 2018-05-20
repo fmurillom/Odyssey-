@@ -20,7 +20,9 @@ import javax.swing.SwingUtilities;
 
 import uk.co.caprica.vlcj.component.EmbeddedMediaPlayerComponent;
 import uk.co.caprica.vlcj.discovery.NativeDiscovery;
-
+/**
+ * CLase utilizada para almacenar metodos de envio  y recepcion de datos, asi como guardar la instancia del reproductor de musica
+ */
 public class Sender
 {
     private final JFrame frame;
@@ -102,7 +104,14 @@ public class Sender
 
         mediaPlayerComponent.getMediaPlayer().playMedia("rtsp://192.168.1.11:8544/DragonBall3");
     }
-    
+
+    /**
+     * Metodo utilizado para montar un socket para recibir archivos desde c++.
+     * @param port puerto donde recibir los datos
+     * @param filePath ruta de donde se desea guardar los datos.
+     * @param ip direccion ip a donde conextar
+     * @throws IOException ecepcion de socket
+     */
     public void sendFile(int port, String filePath, String ip) throws IOException
     {
         FileInputStream fis = null;

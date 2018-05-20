@@ -1,5 +1,8 @@
 package auxiliar;
 
+/**
+ * Clase auxiliar utilizada para alamcenar los datos en una lista enlazada.
+ */
 public class Nodo<T>
 {
     private T dato;

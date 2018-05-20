@@ -18,6 +18,9 @@ import estructuras.Lista_Simple;
 //</Register>
 
 @XmlRootElement(name = "Register")
+/**
+ * CLase utilizada para almacenar los datos de los usuarios
+ */
 public class User
 {	
 	private String usrName;

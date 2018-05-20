@@ -10,6 +10,10 @@ import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+
+/**
+ * Clase utilizada como auxiliar para cominicacion.
+ */
 public class VG
 {
 	public static String USER = "";	
@@ -17,7 +21,14 @@ public class VG
 	public static int PORT_to_send = 8081;
 	public static String HOST = "192.168.1.11";
 	public static String filePath = "";
-	
+
+    /**
+     * Metodo utilizado para montar un socket para recibir archivos desde c++.
+     * @param port puerto donde recibir los datos
+     * @param filePath ruta de donde se desea guardar los datos.
+     * @param ip direccion ip a donde conextar
+     * @throws IOException ecepcion de socket
+     */
 	public static void sendFile(int port, String filePath, String ip) throws IOException
     {
         FileInputStream fis = null;
@@ -56,9 +67,12 @@ public class VG
             if (servsock != null) servsock.close();
         }
     }
-	
-	
-	
+
+
+    /**
+     * Metodo utilizado para recibir datos desde un socket de c++
+     * @throws IOException
+     */
 	public static void recieveFile()throws IOException
 	{
         InputStream os = null;
