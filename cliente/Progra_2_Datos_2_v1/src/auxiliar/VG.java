@@ -19,7 +19,7 @@ public class VG
 	public static String USER = "";	
 	public static int PORT = 8080;
 	public static int PORT_to_send = 8081;
-	public static String HOST = "192.168.1.11";
+	public static String HOST = "192.168.100.11";
 	public static String filePath = "";
 
     /**

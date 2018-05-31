@@ -101,7 +101,7 @@ public class Player extends JFrame {
 	public static void main(String[] args)
 	{
 		//new NativeDiscovery().discover();
-		//NativeLibrary.addSearchPath(RuntimeUtil.getLibVlcLibraryName(), "D:\\Program Files\\VideoLAN\\VLC");
+		NativeLibrary.addSearchPath(RuntimeUtil.getLibVlcLibraryName(), "/usr/lib/x86_64-linux-gnu/");
 		EventQueue.invokeLater(new Runnable()
 		{
 			public void run()
@@ -130,7 +130,7 @@ public class Player extends JFrame {
 	public Player() throws IOException, InterruptedException, SAXException, ParserConfigurationException
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 507, 495);
+		setBounds(100, 100, 1000, 500);
 		contentPane = new JPanel();
 		contentPane.addKeyListener(new KeyAdapter()
 		{
