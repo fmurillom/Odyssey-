@@ -6,16 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/fmurillom/Documents/Tec/DatosII/Prueba/base64/base64.cpp
-base64.h
-/home/fmurillom/Documents/Tec/DatosII/Prueba/base64/base64.h
-iostream
--
-
-/home/fmurillom/Documents/Tec/DatosII/Prueba/base64/base64.h
-string
--
-
 /home/fmurillom/Documents/Tec/DatosII/Prueba/include/AVLTree.h
 iostream
 -

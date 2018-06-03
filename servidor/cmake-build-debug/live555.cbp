@@ -182,12 +182,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/base64/base64.cpp">
-			<Option target="live555"/>
-		</Unit>
-		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/base64/base64.h">
-			<Option target="live555"/>
-		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/AVLTree.h">
 			<Option target="live555"/>
 		</Unit>

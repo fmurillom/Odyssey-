@@ -261,7 +261,7 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
         }
     }
     pRoot = doc2->FirstChildElement("Register");
-    if (this->login || pRoot) {
+    if (true || pRoot) {
         pRoot = doc2->FirstChildElement("Song");
         Song add;
         if (pRoot) {
@@ -331,6 +331,10 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
             path.append(".mp3");
             unlink(path.c_str());
             this->run();
+            this->pageCount = 0;
+            sendLibrary("../coms/coms.xml", songList);
+            this->sendFileJava(8081, "../coms/coms.xml");
+
         }
         pRoot = doc2->FirstChildElement("Friend");
         if(pRoot){
@@ -345,6 +349,9 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                         aux3->add(pParm->GetText());
                     }
                     pParm = pParm->NextSiblingElement("Friend");
+                }
+                for(int i = 0; i < aux3->getSize(); i++){
+                    cout << "User: " << aux->getName() << "Friends: " << aux3->get(i);
                 }
             }
             saveUserDB();
@@ -363,7 +370,7 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                     if (search != 0) {
                         aux->add(pParm->GetText());
                     }
-                    pParm = pParm->NextSiblingElement("Recommend");
+                    pParm = pParm->NextSiblingElement("Recomend");
                 }
             }
             saveUserDB();
@@ -390,13 +397,37 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 this->artistTree->insert(edit.getArtist());
                 this->treeName->deleteValue(edit.getName());
                 this->treeName->add(edit.getName(), edit);
+                saveSongInfo();
             }
         }
         pRoot = doc2->FirstChildElement("Library");
         if(pRoot){
-            sendLibrary("../coms/coms.xml", this->sortByTitle());
-            this->sendFileJava(8081, "../coms/coms.xml");
-            this->pageCount++;
+            pParm = pRoot->FirstChildElement("Sort");
+            string ident = pParm->GetText();
+            if(ident == "Title"){
+                pParm = pRoot->FirstChildElement("Index");
+                this->pageCount = stoi(pParm->GetText());
+                sendLibrary("../coms/coms.xml", this->sortByTitle());
+                this->sendFileJava(8081, "../coms/coms.xml");
+            }
+            if(ident == "Album"){
+                pParm = pRoot->FirstChildElement("Index");
+                this->pageCount = stoi(pParm->GetText());
+                pParm = pRoot->FirstChildElement("Index");
+                sendLibrary("../coms/coms.xml", this->sortByAlbum());
+                this->sendFileJava(8081, "../coms/coms.xml");
+            }
+            if(ident == "Artist"){
+                pParm = pRoot->FirstChildElement("Index");
+                this->pageCount = stoi(pParm->GetText());
+                pParm = pRoot->FirstChildElement("Index");
+                sendLibrary("../coms/coms.xml", this->sortByArtist());
+                this->sendFileJava(8081, "../coms/coms.xml");
+            }else{
+                pParm = pRoot->FirstChildElement("Index");
+                this->sendRecomend(ident);
+                this->sendFileJava(8081, "../coms/coms.xml");
+            }
 
         }
         cout << this->songList->getSize() << endl;
@@ -808,6 +839,8 @@ string StreamServer::generateHash(std::string pass) {
  * @param songList lista ordenada a enviar
  */
 void StreamServer::sendLibrary(std::string file, S_List<Song> *songList) {
+    cout << "Start: " << this->pageCount << endl;
+    bool reset = false;
     string xml = "<?xml version=\"1.0\" ?>\n";
     string libraryStart = "<Library>\n";
     string libraryEnd = "</Library>\n";
@@ -826,15 +859,12 @@ void StreamServer::sendLibrary(std::string file, S_List<Song> *songList) {
     string urlStart = "   <Path>";
     string urlEnd = "</Path>\n";
     xml.append(libraryStart);
-    int start = this->pageCount * 10;
-    int end = start + 10;
+    int start = this->pageCount * 5;
+    int end = start + 5;
     if(end >= songList->getSize()){
         end = songList->getSize();
-        if(songList->getSize() < 10){
-            start = 0;
-        }
-        this->pageCount = 0;
     }
+    cout << start << endl;
     for(int i = start; i < end; i++){
         xml.append(songStart);
         string topen = titleStart;
@@ -886,7 +916,7 @@ int StreamServer::sendFileJava(int port, char *lfile ){
     int count1=1,count2=1, percent;
 
 
-    hostINFO = gethostbyname("192.168.1.7");
+    hostINFO = gethostbyname("localhost");
     if (hostINFO == NULL) {
         printf("Problem interpreting host\n");
         return 1;
@@ -920,12 +950,6 @@ int StreamServer::sendFileJava(int port, char *lfile ){
         while((ch=getc(file_to_send))!=EOF){
             toSEND[0] = ch;
             send(socketDESC, toSEND, 1, 0);
-            if( count1 == count2 ) {
-                printf("33[0;0H");
-                printf( "\33[2J");
-                printf("Filename: %s\n", lfile);
-                printf("Filesize: %d Kb\n", fileSIZE / 1024);
-            }
         }
     }
     fclose(file_to_send);
@@ -973,7 +997,7 @@ S_List<Song>* StreamServer::sortByAlbum() {
 /*!
  * Metodo encargado de crear un archivo xml donde las canciones estaran ordenadas por el artista
  */
-void StreamServer::sortByArtist() {
+S_List<Song>* StreamServer::sortByArtist() {
             Sorter sorter;
             S_List<Song> *artist = new S_List<Song>;
             string artistArray[songList->getSize()];
@@ -987,4 +1011,5 @@ void StreamServer::sortByArtist() {
                 artist->add(songList->get(songList->search(songAux)));
             }
             sendLibrary("../coms/coms.xml", artist);
+            return artist;
         }

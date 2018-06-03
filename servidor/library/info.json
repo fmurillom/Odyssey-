@@ -1,5 +1,5 @@
 {
-	"size" : 2,
+	"size" : 9,
 	"library" : [
 		{
 			"Title" : "Make_a_Move",
@@ -8,7 +8,7 @@
 			"Artist" : "Icon for Hire",
 			"Rating" : "*****",
 			"FileName" : "../library/Make_a_Move.mp3",
-			"StreamAdress" : "rtsp://192.168.1.11:8544/Make_a_Move"
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Make_a_Move"
 		},
 		{
 			"Title" : "Overklok",
@@ -17,7 +17,70 @@
 			"Artist" : "Blue Stahli",
 			"Rating" : "****",
 			"FileName" : "../library/Overklok.mp3",
-			"StreamAdress" : "rtsp://192.168.1.11:8544/Overklok"
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Overklok"
+		},
+		{
+			"Title" : "The_Time_is_Now",
+			"Album" : "K",
+			"Genre" : "Meme",
+			"Artist" : "John Cena",
+			"Rating" : "*",
+			"FileName" : "../library/The_Time_is_Now.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/The_Time_is_Now"
+		},
+		{
+			"Title" : "Implosionatic",
+			"Album" : "G",
+			"Genre" : "GranTurismo",
+			"Artist" : "Michael Jakson",
+			"Rating" : "*****",
+			"FileName" : "../library/Implosionatic.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Implosionatic"
+		},
+		{
+			"Title" : "Nada",
+			"Album" : "Ninguno",
+			"Genre" : "No tiene",
+			"Artist" : "Nadie",
+			"Rating" : "****",
+			"FileName" : "../library/Nada.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Nada"
+		},
+		{
+			"Title" : "Space_Jam",
+			"Album" : "L",
+			"Genre" : "Espacial",
+			"Artist" : "Glados",
+			"Rating" : "*",
+			"FileName" : "../library/Space_Jam.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Space_Jam"
+		},
+		{
+			"Title" : "Chala",
+			"Album" : "DBZ",
+			"Genre" : "Animu",
+			"Artist" : "DGZ",
+			"Rating" : "***",
+			"FileName" : "../library/Chala.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Chala"
+		},
+		{
+			"Title" : "Cacahuate",
+			"Album" : "ASDFG",
+			"Genre" : "Meme",
+			"Artist" : "Bob Toronja",
+			"Rating" : "***",
+			"FileName" : "../library/Cacahuate.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/Cacahuate"
+		},
+		{
+			"Title" : "bla",
+			"Album" : "bla",
+			"Genre" : "rock",
+			"Artist" : "bl",
+			"Rating" : "****",
+			"FileName" : "../library/bla.mp3",
+			"StreamAdress" : "rtsp://172.18.182.189:8544/bla"
 		}
 	]
 }

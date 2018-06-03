@@ -73,7 +73,7 @@ public:
 
     S_List<Song>* sortByAlbum();
 
-    void sortByArtist();
+    S_List<Song>* sortByArtist();
 
     S_List<Song>* sortByTitle();
 

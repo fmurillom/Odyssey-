@@ -1,19 +1,4 @@
 <?xml version="1.0" ?>
-<Library>
-    <Song>
-       <Title>Make_a_Move</Title>
-       <Album>Nose</Album>
-      <Artist>Icon for Hire</Artist>
-       <Genre>Rock</Genre>
-      <Rating>*****</Rating>
-   <Path>rtsp://192.168.1.11:8544/Make_a_Move</Path>
-    </Song>
-    <Song>
-       <Title>Overklok</Title>
-       <Album>No se 2</Album>
-      <Artist>Blue Stahli</Artist>
-       <Genre>Metalstep</Genre>
-      <Rating>****</Rating>
-   <Path>rtsp://192.168.1.11:8544/Overklok</Path>
-    </Song>
-</Library>
+<LogIn>
+  <Status>success</Status>
+</LogIn>
