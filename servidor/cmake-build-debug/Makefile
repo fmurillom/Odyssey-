@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/22/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/25/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/22/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/25/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /home/fmurillom/Documents/Tec/DatosII/Prueba/cmake-build-debu
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/snap/clion/22/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/snap/clion/22/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/snap/clion/22/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/snap/clion/22/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/22/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/25/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -94,7 +94,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/22/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/25/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -105,13 +105,13 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/22/bin/cmake/bin/cmake -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/snap/clion/22/bin/cmake/bin/cmake -P cmake_install.cmake
+	/snap/clion/25/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -208,6 +208,33 @@ main.s: main.cpp.s
 main.cpp.s:
 	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/main.cpp.s
 .PHONY : main.cpp.s
+
+src/Connector.o: src/Connector.cpp.o
+
+.PHONY : src/Connector.o
+
+# target to build an object file
+src/Connector.cpp.o:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Connector.cpp.o
+.PHONY : src/Connector.cpp.o
+
+src/Connector.i: src/Connector.cpp.i
+
+.PHONY : src/Connector.i
+
+# target to preprocess a source file
+src/Connector.cpp.i:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Connector.cpp.i
+.PHONY : src/Connector.cpp.i
+
+src/Connector.s: src/Connector.cpp.s
+
+.PHONY : src/Connector.s
+
+# target to generate assembly for a file
+src/Connector.cpp.s:
+	$(MAKE) -f CMakeFiles/live555.dir/build.make CMakeFiles/live555.dir/src/Connector.cpp.s
+.PHONY : src/Connector.cpp.s
 
 src/Sorter.o: src/Sorter.cpp.o
 
@@ -334,6 +361,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Connector.o"
+	@echo "... src/Connector.i"
+	@echo "... src/Connector.s"
 	@echo "... src/Sorter.o"
 	@echo "... src/Sorter.i"
 	@echo "... src/Sorter.s"

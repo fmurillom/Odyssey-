@@ -12,25 +12,42 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
+import java.util.List;
 
+import javax.swing.Box;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
+import GUI.Slider;
 import uk.co.caprica.vlcj.component.EmbeddedMediaPlayerComponent;
 import uk.co.caprica.vlcj.discovery.NativeDiscovery;
+import uk.co.caprica.vlcj.player.TrackDescription;
+
+import javax.swing.JLabel;
+import javax.swing.JSlider;
+import javax.swing.SwingConstants;
 /**
  * CLase utilizada para almacenar metodos de envio  y recepcion de datos, asi como guardar la instancia del reproductor de musica
  */
-public class Sender
+public class Sender extends JFrame
 {
     private final JFrame frame;
     private final EmbeddedMediaPlayerComponent mediaPlayerComponent;
     private final JButton pauseButton;
     private final JButton rewindButton;
     private final JButton skipButton;
-    
+    private String path;
+    private JButton btnClose;
+    private JButton btnPlay;
+    private JLabel lblCurrent;
+    private JLabel lblEnd;
+    private Thread t;
+    private Slider slider;
+    private JSlider slider_1;
     
     public static void main(final String[] args)
     {
@@ -39,41 +56,89 @@ public class Sender
         {
             public void run()
             {
-                new Sender();
+                new Sender("rtsp://192.168.1.6:8544/test");
             }
         });
     }
 
     
-    public Sender()
+    public Sender(String path)
     {
-        frame = new JFrame("My First Media Player");
-        frame.setBounds(100, 100, 600, 400);
-        frame.setDefaultCloseOperation(JFrame.DO_NOTHING_ON_CLOSE);
+        frame = new JFrame("Odyssey");
+        frame.setBounds(100, 100, 906, 619);
+        frame.setDefaultCloseOperation(DISPOSE_ON_CLOSE);
         frame.addWindowListener(new WindowAdapter()
         {
-            @Override
+            @SuppressWarnings("deprecation")
+			@Override
             public void windowClosing(WindowEvent e)
             {
+            	t.stop();
                 mediaPlayerComponent.release();//mediaPlayerComponent close
-                System.exit(0);
             }
         });
 
         JPanel contentPane = new JPanel();
-        contentPane.setLayout(new BorderLayout());
+        BorderLayout bl_contentPane = new BorderLayout();
+        bl_contentPane.setVgap(50);
+        contentPane.setLayout(bl_contentPane);
 
         mediaPlayerComponent = new EmbeddedMediaPlayerComponent();//Intancia mediaPlayerComponent
         contentPane.add(mediaPlayerComponent, BorderLayout.CENTER);
 
         JPanel controlsPane = new JPanel();
+        
+        btnPlay = new JButton("Play");
+        btnPlay.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		mediaPlayerComponent.getMediaPlayer().play();
+        	}
+        });
+        
+        slider_1 = new JSlider();
+        /*
+        slider_1.addChangeListener(new ChangeListener() {
+
+			@Override
+			public void stateChanged(ChangeEvent e) {
+				// TODO Auto-generated method stub
+				mediaPlayerComponent.getMediaPlayer().setTime(slider_1.getValue());;
+			}
+
+        }); */
+        
+       
+        controlsPane.add(slider_1);
+        controlsPane.add(Box.createHorizontalStrut(25));
+        
+        lblCurrent = new JLabel("current");
+        controlsPane.add(lblCurrent);
+        controlsPane.add(Box.createHorizontalStrut(25));
+        controlsPane.add(btnPlay);
+        controlsPane.add(Box.createHorizontalStrut(25));
         pauseButton = new JButton("Pause");
         controlsPane.add(pauseButton);
+        controlsPane.add(Box.createHorizontalStrut(25));
         rewindButton = new JButton("Rewind");
         controlsPane.add(rewindButton);
+        controlsPane.add(Box.createHorizontalStrut(25));
         skipButton = new JButton("Skip");
         controlsPane.add(skipButton);
+        controlsPane.add(Box.createHorizontalStrut(25));
         contentPane.add(controlsPane, BorderLayout.SOUTH);
+        
+        btnClose = new JButton("Stop");
+        btnClose.addActionListener(new ActionListener() {
+        	public void actionPerformed(ActionEvent e) {
+        		mediaPlayerComponent.getMediaPlayer().stop();
+        	}
+        });
+        controlsPane.add(btnClose);
+        controlsPane.add(Box.createHorizontalStrut(25));
+        
+        lblEnd = new JLabel("end");
+        controlsPane.add(lblEnd);
+        controlsPane.add(Box.createHorizontalStrut(25));
 
         pauseButton.addActionListener(new ActionListener()
         {
@@ -102,57 +167,25 @@ public class Sender
         frame.setContentPane(contentPane);
         frame.setVisible(true);
 
-        mediaPlayerComponent.getMediaPlayer().playMedia("rtsp://192.168.1.11:8544/DragonBall3");
+        //mediaPlayerComponent.getMediaPlayer().playMedia(path);
+        
+        mediaPlayerComponent.getMediaPlayer().prepareMedia(path);
+        
+        mediaPlayerComponent.getMediaPlayer().requestParseMedia();
+        
+        System.out.println(mediaPlayerComponent.getMediaPlayer().isMediaParsed());
+        
+        
+        mediaPlayerComponent.getMediaPlayer().play();
+        
+       
+        slider = new Slider(mediaPlayerComponent, lblCurrent, lblEnd, this.slider_1);
+        
+        t = new Thread(slider);
+        
+        t.start();
+        
     }
 
-    /**
-     * Metodo utilizado para montar un socket para recibir archivos desde c++.
-     * @param port puerto donde recibir los datos
-     * @param filePath ruta de donde se desea guardar los datos.
-     * @param ip direccion ip a donde conextar
-     * @throws IOException ecepcion de socket
-     */
-    public void sendFile(int port, String filePath, String ip) throws IOException
-    {
-        FileInputStream fis = null;
-        BufferedInputStream bis = null;
-        OutputStream os = null;
-        ServerSocket servsock = null;
-        Socket sock = null;
-        try {
-            //servsock = new ServerSocket(SOCKET_PORT);
-            while (true)
-            {
-                System.out.println("Waiting...");
-                try {
-                    sock = new Socket(ip, port);
-                    System.out.println("Accepted connection : " + sock);
-                    // send file
-                    File myFile = new File (filePath);
-                    byte [] mybytearray  = new byte [(int)myFile.length()];
-                    fis = new FileInputStream(myFile);
-                    bis = new BufferedInputStream(fis);
-                    bis.read(mybytearray,0,mybytearray.length);
-                    os = sock.getOutputStream();
-                    System.out.println("Sending " + filePath + "(" + mybytearray.length + " bytes)");
-                    os.write(mybytearray,0,mybytearray.length);
-                    os.flush();
-                    System.out.println("Done.");
-                    break;
-                }
-                finally
-                {
-                    if(bis != null)		bis.close();
-                    if(os != null)		os.close();
-                    if(sock!=null)		sock.close();
-                }
-            }
-        }
-        finally
-        {
-            if(servsock != null)		servsock.close();
-        }
-    }
-    
-    
+     
 }

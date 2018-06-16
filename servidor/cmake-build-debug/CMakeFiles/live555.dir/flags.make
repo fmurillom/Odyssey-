@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -ltinyxml2 -fpermissive -ltinyxml2
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/fmurillom/Documents/Tec/DatosII/Prueba/. -I/usr/include/cppconn 
 

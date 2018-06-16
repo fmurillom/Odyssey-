@@ -1,4 +1,43 @@
 <?xml version="1.0" ?>
-<LogIn>
-  <Status>success</Status>
-</LogIn>
+<Library>
+    <Song>
+       <Title>Aldnoah</Title>
+       <Album>Inaho</Album>
+      <Artist>Olympus Knights</Artist>
+       <Genre>Blues</Genre>
+      <Rating>****</Rating>
+   <Path>rtsp://192.168.100.21:8544/Aldnoah</Path>
+    </Song>
+    <Song>
+       <Title>Bla</Title>
+       <Album>Yo</Album>
+      <Artist>No se</Artist>
+       <Genre>Blues</Genre>
+      <Rating>***</Rating>
+   <Path></Path>
+    </Song>
+    <Song>
+       <Title>Chala</Title>
+       <Album>DBGZ</Album>
+      <Artist>Mario Castaneda</Artist>
+       <Genre>Clasica</Genre>
+      <Rating>*</Rating>
+   <Path>rtsp://192.168.100.21:8544/Chala</Path>
+    </Song>
+    <Song>
+       <Title>Flamingo</Title>
+       <Album>Memes</Album>
+      <Artist>Berd</Artist>
+       <Genre>Pop</Genre>
+      <Rating>*****</Rating>
+   <Path>rtsp://192.168.100.21:8544/Flamingo</Path>
+    </Song>
+    <Song>
+       <Title>HeMan</Title>
+       <Album>Memes</Album>
+      <Artist>HeMan</Artist>
+       <Genre>Cumbia</Genre>
+      <Rating>****</Rating>
+   <Path>rtsp://192.168.100.21:8544/HeMan</Path>
+    </Song>
+</Library>

@@ -1,86 +1,95 @@
 {
-	"size" : 9,
+	"size" : 10,
 	"library" : [
 		{
-			"Title" : "Make_a_Move",
-			"Album" : "Nose",
-			"Genre" : "Rock",
-			"Artist" : "Icon for Hire",
-			"Rating" : "*****",
-			"FileName" : "../library/Make_a_Move.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Make_a_Move"
-		},
-		{
-			"Title" : "Overklok",
-			"Album" : "No se 2",
-			"Genre" : "Metalstep",
-			"Artist" : "Blue Stahli",
+			"Title" : "Aldnoah",
+			"Album" : "Inaho",
+			"Genre" : "Blues",
+			"Artist" : "Olympus Knights",
 			"Rating" : "****",
-			"FileName" : "../library/Overklok.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Overklok"
+			"FileName" : "../library/Aldnoah.mkv",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Aldnoah"
 		},
 		{
-			"Title" : "The_Time_is_Now",
-			"Album" : "K",
-			"Genre" : "Meme",
-			"Artist" : "John Cena",
+			"Title" : "Chala",
+			"Album" : "DBGZ",
+			"Genre" : "Clasica",
+			"Artist" : "Mario Castaneda",
 			"Rating" : "*",
-			"FileName" : "../library/The_Time_is_Now.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/The_Time_is_Now"
+			"FileName" : "../library/Chala.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Chala"
 		},
 		{
-			"Title" : "Implosionatic",
-			"Album" : "G",
-			"Genre" : "GranTurismo",
-			"Artist" : "Michael Jakson",
+			"Title" : "Flamingo",
+			"Album" : "Memes",
+			"Genre" : "Pop",
+			"Artist" : "Berd",
 			"Rating" : "*****",
-			"FileName" : "../library/Implosionatic.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Implosionatic"
+			"FileName" : "../library/Flamingo.mkv",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Flamingo"
+		},
+		{
+			"Title" : "HeMan",
+			"Album" : "Memes",
+			"Genre" : "Cumbia",
+			"Artist" : "HeMan",
+			"Rating" : "****",
+			"FileName" : "../library/HeMan.mkv",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/HeMan"
+		},
+		{
+			"Title" : "Impliosionastic",
+			"Album" : "Gran Turismo",
+			"Genre" : "Rock",
+			"Artist" : "Daiki Kasho",
+			"Rating" : "*",
+			"FileName" : "../library/Impliosionastic.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Impliosionastic"
+		},
+		{
+			"Title" : "Make_a_Move",
+			"Album" : "Why",
+			"Genre" : "Blues",
+			"Artist" : "Icon for Hire",
+			"Rating" : "*",
+			"FileName" : "../library/Make_a_Move.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Make_a_Move"
 		},
 		{
 			"Title" : "Nada",
 			"Album" : "Ninguno",
-			"Genre" : "No tiene",
+			"Genre" : "Country",
 			"Artist" : "Nadie",
-			"Rating" : "****",
+			"Rating" : "*",
 			"FileName" : "../library/Nada.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Nada"
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Nada"
+		},
+		{
+			"Title" : "OverClock",
+			"Album" : "No se",
+			"Genre" : "Rock",
+			"Artist" : "Blue Stahlil",
+			"Rating" : "*",
+			"FileName" : "../library/OverClock.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/OverClock"
 		},
 		{
 			"Title" : "Space_Jam",
-			"Album" : "L",
-			"Genre" : "Espacial",
-			"Artist" : "Glados",
-			"Rating" : "*",
-			"FileName" : "../library/Space_Jam.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Space_Jam"
-		},
-		{
-			"Title" : "Chala",
-			"Album" : "DBZ",
-			"Genre" : "Animu",
-			"Artist" : "DGZ",
-			"Rating" : "***",
-			"FileName" : "../library/Chala.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Chala"
-		},
-		{
-			"Title" : "Cacahuate",
-			"Album" : "ASDFG",
-			"Genre" : "Meme",
-			"Artist" : "Bob Toronja",
-			"Rating" : "***",
-			"FileName" : "../library/Cacahuate.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/Cacahuate"
-		},
-		{
-			"Title" : "bla",
-			"Album" : "bla",
-			"Genre" : "rock",
-			"Artist" : "bl",
+			"Album" : "Space Movie",
+			"Genre" : "Electronica",
+			"Artist" : "Michael Jackson",
 			"Rating" : "****",
-			"FileName" : "../library/bla.mp3",
-			"StreamAdress" : "rtsp://172.18.182.189:8544/bla"
+			"FileName" : "../library/Space_Jam.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Space_Jam"
+		},
+		{
+			"Title" : "Bla",
+			"Album" : "Yo",
+			"Genre" : "Blues",
+			"Artist" : "No se",
+			"Rating" : "***",
+			"FileName" : "../library/Bla.mp3",
+			"StreamAdress" : ""
 		}
 	]
 }

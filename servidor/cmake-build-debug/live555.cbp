@@ -44,6 +44,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/fmurillom/Documents/Tec/DatosII/Prueba/."/>
+					<Add directory="/usr/include/cppconn"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -67,6 +69,8 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
+					<Add directory="/home/fmurillom/Documents/Tec/DatosII/Prueba/."/>
+					<Add directory="/usr/include/cppconn"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -186,6 +190,9 @@
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/BsearchTree.h">
+			<Option target="live555"/>
+		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/Connector.h">
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/include/S_List.h">
@@ -1326,6 +1333,9 @@
 			<Option target="live666"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/main.cpp">
+			<Option target="live555"/>
+		</Unit>
+		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/Connector.cpp">
 			<Option target="live555"/>
 		</Unit>
 		<Unit filename="/home/fmurillom/Documents/Tec/DatosII/Prueba/src/Sorter.cpp">

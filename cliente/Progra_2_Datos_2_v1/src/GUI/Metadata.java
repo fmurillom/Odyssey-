@@ -12,6 +12,7 @@ import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
 import admin.Song;
+import admin.Video;
 import auxiliar.VG;
 import auxiliar.XMLizer;
 
@@ -25,21 +26,25 @@ import java.awt.Color;
 import javax.swing.JRadioButton;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class Metadata extends JDialog {
 	private JTextField textFieldTitle;
 	private JTextField textFieldArtist;
 	private JTextField textFieldAlbum;
-	private JTextField textFieldGenre;
 	private JRadioButton radioButtonStar1;
 	private JRadioButton radioButtonStar2;
 	private JRadioButton radioButtonStar3;
 	private JRadioButton radioButtonStar4;
 	private JRadioButton radioButtonStar5;
+	private JRadioButton rdbtnVideo;
+	private JRadioButton rdbtnMusic;
+	private JComboBox comboBox;
 	
-	String estrella_negra		= "resources/20-20-30c0b39ab90fe047c67adaef12538b6c-star.png";
-	String estrella_blanca		= "resources/20-20-262b0c87b6266d7ecc05b679585e7b16.png";
-	String estrella_amarilla	= "resources/20-20-12fd97039b0b75db54aa7f64e84251d4.png";
+	String estrella_negra		= "../Progra_2_Datos_2_v1/resources/20-20-30c0b39ab90fe047c67adaef12538b6c-star.png";
+	String estrella_blanca		= "../Progra_2_Datos_2_v1/resources/20-20-262b0c87b6266d7ecc05b679585e7b16.png";
+	String estrella_amarilla	= "../Progra_2_Datos_2_v1/resources/20-20-12fd97039b0b75db54aa7f64e84251d4.png";
 	private JLabel lblTitle;
 	private JLabel lblAlbum;
 	private JLabel lblArtist;
@@ -71,15 +76,13 @@ public class Metadata extends JDialog {
 	public Metadata()
 	{
 		getContentPane().setBackground(Color.DARK_GRAY);
-		setBounds(100, 100, 281, 248);
+		setBounds(100, 100, 281, 407);
 		textFieldTitle = new JTextField();
 		textFieldTitle.setColumns(10);
 		textFieldArtist = new JTextField();
 		textFieldArtist.setColumns(10);
 		textFieldAlbum = new JTextField();
 		textFieldAlbum.setColumns(10);
-		textFieldGenre = new JTextField();
-		textFieldGenre.setColumns(10);
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.DARK_GRAY);
@@ -188,11 +191,13 @@ public class Metadata extends JDialog {
 			}
 		});
 		radioButtonStar5.setIcon(new ImageIcon(estrella_blanca));
-		radioButtonStar5.setBorder(null);
+		radioButtonStar5.setBorder(null);	
 		
+		JRadioButton rdbtnMusic = new JRadioButton("Music");
+		rdbtnMusic.setForeground(Color.WHITE);
 		
-		
-		
+		JRadioButton rdbtnVideo = new JRadioButton("Video");
+		rdbtnVideo.setForeground(Color.WHITE);
 		
 		
 		
@@ -267,7 +272,7 @@ public class Metadata extends JDialog {
 				Title = textFieldTitle.getText();
 				Album = textFieldAlbum.getText();
 				Artist = textFieldArtist.getText();
-				Genre = textFieldGenre.getText();
+				Genre = comboBox.getSelectedItem().toString();
 				
 				if(radioButtonStar5.isSelected())
 				{
@@ -296,64 +301,99 @@ public class Metadata extends JDialog {
 					Raiting = "0";
 				}
 				String[] genres = {Genre};
-				Song s = new Song(Title, Album, Artist, genres, Raiting, "");
-				
-				
-				XMLizer.marshallSong(s);
-				try
-				{
-					VG.sendFile(VG.PORT, "src/Song.xml", VG.HOST);
-					Thread.sleep(500);
-					VG.sendFile(VG.PORT_to_send, VG.filePath, VG.HOST);
-					JOptionPane.showMessageDialog(null, "Se envio el archivo");
-					dispose();
-				}
-				catch (IOException e1)
-				{
+				System.out.println(rdbtnVideo.isSelected());
+				if(rdbtnVideo.isSelected()) {
+					Video v = new Video(Title, Album, Artist, genres, Raiting, "");
 					
-					JOptionPane.showMessageDialog(null, "No se envio el archivo");
-					e1.printStackTrace();
+					
+					XMLizer.marshallVideo(v);
+					try
+					{
+						VG.sendFile(VG.PORT, "../Video.xml", VG.HOST);
+						Thread.sleep(500);
+						VG.sendFile(VG.PORT_to_send, VG.filePath, VG.HOST);
+						JOptionPane.showMessageDialog(null, "Se envio el archivo");
+						dispose();
+					}
+					catch (IOException e1)
+					{
+						
+						JOptionPane.showMessageDialog(null, "No se envio el archivo");
+						e1.printStackTrace();
+					}
+					catch (InterruptedException e1)
+					{
+						JOptionPane.showMessageDialog(null, "No se envio el archivo");
+						e1.printStackTrace();
+					}
 				}
-				catch (InterruptedException e1)
-				{
-					JOptionPane.showMessageDialog(null, "No se envio el archivo");
-					e1.printStackTrace();
+				if(rdbtnMusic.isSelected()) {
+					Song s = new Song(Title, Album, Artist, genres, Raiting, "");
+					
+					
+					XMLizer.marshallSong(s);
+					try
+					{
+						VG.sendFile(VG.PORT, "../Song.xml", VG.HOST);
+						Thread.sleep(500);
+						VG.sendFile(VG.PORT_to_send, VG.filePath, VG.HOST);
+						JOptionPane.showMessageDialog(null, "Se envio el archivo");
+						dispose();
+					}
+					catch (IOException e1)
+					{
+						
+						JOptionPane.showMessageDialog(null, "No se envio el archivo");
+						e1.printStackTrace();
+					}
+					catch (InterruptedException e1)
+					{
+						JOptionPane.showMessageDialog(null, "No se envio el archivo");
+						e1.printStackTrace();
+					}
 				}
-
+				
 			}
 		});
+		
+		comboBox = new JComboBox();
+		comboBox.setModel(new DefaultComboBoxModel(new String[] {"Blues", "Clasica", "Country", "Cumbia", "Disco", "Electronica", "Folk", "Funk", "Heavy Metal", "Hip Hop", "Indie", "Jazz", "Pop", "Punk", "Rap", "Rock"}));
+		
+
 		
 		
 		GroupLayout groupLayout = new GroupLayout(getContentPane());
 		groupLayout.setHorizontalGroup(
-			groupLayout.createParallelGroup(Alignment.TRAILING)
+			groupLayout.createParallelGroup(Alignment.LEADING)
 				.addGroup(groupLayout.createSequentialGroup()
-					.addGroup(groupLayout.createParallelGroup(Alignment.TRAILING)
-						.addGroup(Alignment.LEADING, groupLayout.createSequentialGroup()
-							.addGap(31)
+					.addContainerGap(45, Short.MAX_VALUE)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblArtist)
+						.addComponent(lblAlbum)
+						.addComponent(lblTitle))
+					.addPreferredGap(ComponentPlacement.UNRELATED)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
+						.addComponent(textFieldTitle)
+						.addComponent(textFieldArtist)
+						.addComponent(textFieldAlbum, GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE))
+					.addGap(29))
+				.addGroup(groupLayout.createSequentialGroup()
+					.addGap(93)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(rdbtnVideo)
+						.addComponent(rdbtnMusic))
+					.addContainerGap(119, Short.MAX_VALUE))
+				.addGroup(Alignment.TRAILING, groupLayout.createSequentialGroup()
+					.addContainerGap(45, Short.MAX_VALUE)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(panel, GroupLayout.PREFERRED_SIZE, 224, GroupLayout.PREFERRED_SIZE)
+						.addGroup(groupLayout.createSequentialGroup()
 							.addComponent(lblGenre)
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addComponent(textFieldGenre, GroupLayout.PREFERRED_SIZE, 143, GroupLayout.PREFERRED_SIZE))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addGap(35)
+							.addPreferredGap(ComponentPlacement.RELATED)
 							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
-								.addComponent(lblArtist)
-								.addComponent(lblAlbum)
-								.addComponent(lblTitle))
-							.addPreferredGap(ComponentPlacement.UNRELATED)
-							.addGroup(groupLayout.createParallelGroup(Alignment.LEADING, false)
-								.addComponent(textFieldTitle)
-								.addComponent(textFieldArtist)
-								.addComponent(textFieldAlbum, GroupLayout.DEFAULT_SIZE, 141, Short.MAX_VALUE))
-							.addPreferredGap(ComponentPlacement.RELATED, 36, Short.MAX_VALUE))
-						.addGroup(groupLayout.createSequentialGroup()
-							.addContainerGap()
-							.addComponent(panel, GroupLayout.PREFERRED_SIZE, 224, GroupLayout.PREFERRED_SIZE)))
+								.addComponent(btnOk)
+								.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, 102, GroupLayout.PREFERRED_SIZE))))
 					.addContainerGap())
-				.addGroup(groupLayout.createSequentialGroup()
-					.addContainerGap(118, Short.MAX_VALUE)
-					.addComponent(btnOk)
-					.addGap(102))
 		);
 		groupLayout.setVerticalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)
@@ -370,15 +410,19 @@ public class Metadata extends JDialog {
 					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
 						.addComponent(textFieldAlbum, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
 						.addComponent(lblArtist))
-					.addPreferredGap(ComponentPlacement.RELATED)
+					.addGap(36)
 					.addComponent(panel, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
-					.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-					.addGroup(groupLayout.createParallelGroup(Alignment.BASELINE)
-						.addComponent(textFieldGenre, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE)
-						.addComponent(lblGenre))
+					.addGap(26)
+					.addComponent(rdbtnMusic)
 					.addPreferredGap(ComponentPlacement.RELATED)
+					.addComponent(rdbtnVideo)
+					.addGap(22)
+					.addGroup(groupLayout.createParallelGroup(Alignment.LEADING)
+						.addComponent(lblGenre)
+						.addComponent(comboBox, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+					.addGap(43)
 					.addComponent(btnOk)
-					.addGap(58))
+					.addContainerGap(129, Short.MAX_VALUE))
 		);
 		getContentPane().setLayout(groupLayout);
 	}
@@ -396,6 +440,12 @@ public class Metadata extends JDialog {
 	}
 	public JRadioButton getRadioButtonStar5() {
 		return radioButtonStar5;
+	}
+	public JRadioButton getRbtnVideo() {
+		return this.rdbtnVideo;
+	}
+	public JRadioButton getRbtnMusic() {
+		return this.rdbtnMusic;
 	}
 	public JLabel getLblTitle() {
 		return lblTitle;

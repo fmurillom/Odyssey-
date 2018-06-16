@@ -21,6 +21,8 @@ import org.xml.sax.SAXException;
 import admin.Library;
 import admin.Song;
 import admin.User;
+import admin.UsrRqst;
+import admin.Video;
 import estructuras.Lista_Simple;
 
 /**
@@ -40,10 +42,23 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(song, System.out);
-			ms.marshal(song,  new File("src\\"+"Song"+".xml"));
+			ms.marshal(song,  new File("../"+"Song"+".xml"));
 		}
 		catch(Exception e)
 		{
+			e.printStackTrace();
+		}
+	}
+	
+	public static void marshallVideo(Video video) {
+		try {
+			JAXBContext jc = JAXBContext.newInstance(Video.class);
+			Marshaller ms = jc.createMarshaller();
+			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			ms.marshal(video, System.out);
+			ms.marshal(video,  new File("../"+"Video"+".xml"));
+		}
+		catch(Exception e) {
 			e.printStackTrace();
 		}
 	}
@@ -59,7 +74,7 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(library, System.out);
-			ms.marshal(library,  new File("src\\"+"Library"+".xml"));
+			ms.marshal(library,  new File("../"+"Library"+".xml"));
 		}
 		catch(Exception e)
 		{
@@ -74,7 +89,7 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(r, System.out);
-			ms.marshal(r,  new File("src\\"+"Rec"+".xml"));
+			ms.marshal(r,  new File("../"+"Rec"+".xml"));
 		}
 		catch(Exception e)
 		{
@@ -89,7 +104,7 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(d, System.out);
-			ms.marshal(d,  new File("src\\"+"Del"+".xml"));
+			ms.marshal(d,  new File("../"+"Del"+".xml"));
 		}
 		catch(Exception e)
 		{
@@ -108,13 +123,30 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(user, System.out);
-			ms.marshal(user,  new File("src\\"+"coms"+".xml"));
+			ms.marshal(user,  new File("../"+"coms"+".xml"));
 		}
 		catch(Exception e)
 		{
 			e.printStackTrace();
 		}
 	}
+	
+	public static void marshallUsrRqst(UsrRqst user)
+	{
+		try
+		{
+			JAXBContext jc = JAXBContext.newInstance(UsrRqst.class);
+			Marshaller ms = jc.createMarshaller();
+			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			ms.marshal(user, System.out);
+			ms.marshal(user,  new File("../"+"coms"+".xml"));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
 	/**
 	 * Metodo utilizado para parsear una sola cancion por nombre
 	 * @param songTitle
@@ -126,7 +158,7 @@ public class XMLizer
 		{
 			JAXBContext jc = JAXBContext.newInstance(Song.class);
 			Unmarshaller unm = jc.createUnmarshaller();
-			Song song = (Song)unm.unmarshal(new File("src\\"+songTitle+".xml"));
+			Song song = (Song)unm.unmarshal(new File("../"+songTitle+".xml"));
 			//System.out.println(song.toString());
 			return song;
 		}
@@ -148,7 +180,7 @@ public class XMLizer
 			Marshaller ms = jc.createMarshaller();
 			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
 			ms.marshal(log, System.out);
-			ms.marshal(log,  new File("src\\"+"LogInData"+".xml"));
+			ms.marshal(log,  new File("../"+"LogInData"+".xml"));
 		}
 		catch(Exception e)
 		{
@@ -165,7 +197,7 @@ public class XMLizer
 		{
 			JAXBContext jc = JAXBContext.newInstance(Song.class);
 			Unmarshaller unm = jc.createUnmarshaller();
-			Song song = (Song)unm.unmarshal(new File("src\\"+songTitle+".xml"));
+			Song song = (Song)unm.unmarshal(new File("../"+songTitle+".xml"));
 			//System.out.println(song.toString());
 			return song;
 		}
@@ -179,13 +211,45 @@ public class XMLizer
 	 * Metodo utilizado para parsear los datos de los usuarios
 	 * @param userName usuario para guardar el nombre de usuario
 	 */
+	
+	
+	public static void marshallRecomReq(RecomReq req) {
+		try
+		{
+			JAXBContext jc = JAXBContext.newInstance(RecomReq.class);
+			Marshaller ms = jc.createMarshaller();
+			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			ms.marshal(req, System.out);
+			ms.marshal(req,  new File("../"+"RecomReq"+".xml"));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
+	public static void marshallEdit(Edit req) {
+		try
+		{
+			JAXBContext jc = JAXBContext.newInstance(Edit.class);
+			Marshaller ms = jc.createMarshaller();
+			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			ms.marshal(req, System.out);
+			ms.marshal(req,  new File("../"+"Edit"+".xml"));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
 	public static User unMarshallUser(String userName)
 	{
 		try
 		{
 			JAXBContext jc = JAXBContext.newInstance(User.class);
 			Unmarshaller unm = jc.createUnmarshaller();
-			User user = (User)unm.unmarshal(new File("src\\"+userName+".xml"));
+			User user = (User)unm.unmarshal(new File("../"+userName+".xml"));
 			//System.out.println(user.toString());
 			return user;
 		}
@@ -196,11 +260,12 @@ public class XMLizer
 		}
 	}
 	
+	
 	public void nya() throws SAXException, IOException, ParserConfigurationException
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		DocumentBuilder db = dbf.newDocumentBuilder();
-	    Document doc = db.parse(new File("src\\" + "title" + ".xml"));
+	    Document doc = db.parse(new File("../" + "title" + ".xml"));
 	    
 	    doc.getDocumentElement().normalize();
 	    //System.out.println("Root Element: " + doc.getDocumentElement().getNodeName());
@@ -246,7 +311,7 @@ public class XMLizer
 	{
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		DocumentBuilder db = dbf.newDocumentBuilder();
-	    Document doc = db.parse(new File("src\\" + name + ".xml"));
+	    Document doc = db.parse(new File("../" + name + ".xml"));
 	    doc.getDocumentElement().normalize();
 	    NodeList nList = doc.getChildNodes();
 	    System.out.println("AAA");
@@ -278,7 +343,7 @@ public class XMLizer
 		
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		DocumentBuilder db = dbf.newDocumentBuilder();
-	    Document doc = db.parse(new File("src\\" + name + ".xml"));
+	    Document doc = db.parse(new File("../" + name + ".xml"));
 	    doc.getDocumentElement().normalize();
 	    
 	    
@@ -308,6 +373,55 @@ public class XMLizer
 	    return songs;
 	}
 	
+	public static Lista_Simple<String> getXML_usr(String name, String tag) throws SAXException, IOException, ParserConfigurationException
+	{
+		Lista_Simple<String> users = new Lista_Simple<>();
+		
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder();
+	    Document doc = db.parse(new File("../" + name + ".xml"));
+	    doc.getDocumentElement().normalize();
+	    
+	    
+	    NodeList nList = doc.getChildNodes().item(0).getChildNodes();
+	    for(int i=0; i < nList.getLength(); i++)
+	    {
+			Node nNode = nList.item(i);
+			if(nNode.getNodeName().equals(tag))
+			{
+				UsrRqst request = new UsrRqst("Dummy");
+				Element eElement = (Element)nNode;
+				String Title = eElement.getElementsByTagName("UsrName").item(0).getTextContent();//System.out.println(Title);
+				request.setUsrName(Title);
+				users.insertar_al_final(Title);
+			}
+		}
+	    return users;
+	}
+	
+	public static Lista_Simple<String> getXML_recomRec(String name, String tag) throws SAXException, IOException, ParserConfigurationException
+	{
+		Lista_Simple<String> recom = new Lista_Simple<>();
+		
+		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
+		DocumentBuilder db = dbf.newDocumentBuilder();
+	    Document doc = db.parse(new File("../" + name + ".xml"));
+	    doc.getDocumentElement().normalize();
+	    
+	    
+	    NodeList nList = doc.getChildNodes().item(0).getChildNodes();
+	    for(int i=0; i < nList.getLength(); i++)
+	    {
+			Node nNode = nList.item(i);
+			if(nNode.getNodeName().equals(tag))
+			{
+				Element eElement = (Element)nNode;
+				String recomR = eElement.getElementsByTagName("Info").item(0).getTextContent();//System.out.println(Title);
+				recom.insertar_al_final(recomR);
+			}
+		}
+	    return recom;
+	}
 	
 }
 

@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/javax.xml-1.3.4.jar"/>
-	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/logback.jar"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/vlcj-3.7.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/slf4j.jar"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/jna-3.3.0-platform.jar"/>
-	<classpathentry kind="lib" path="C:/Users/aleja/Documents/Code/Eclipse Oxygen/Eclipse Oxygen Workspace/Progra_2_Datos_2_v1/lib/jna-3.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/javax.xml-1.3.4.jar"/>
+	<classpathentry kind="lib" path="lib/jna-3.2.5.jar"/>
+	<classpathentry kind="lib" path="lib/jna-3.3.0-platform.jar"/>
+	<classpathentry kind="lib" path="lib/logback.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j.jar"/>
+	<classpathentry kind="lib" path="lib/vlcj-3.7.0.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

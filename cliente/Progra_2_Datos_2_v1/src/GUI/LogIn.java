@@ -94,8 +94,8 @@ public class LogIn extends JFrame
 					XMLizer.marshallLogInData(log);
 					try
 					{
-						VG.sendFile(VG.PORT, "src//LogInData.xml", VG.HOST);
-						Thread.sleep(500);
+						VG.sendFile(VG.PORT, "../LogInData.xml", VG.HOST);
+						//Thread.sleep(500);
 						VG.recieveFile();						
 						
 						
@@ -103,16 +103,19 @@ public class LogIn extends JFrame
 						String success = n.item(0).getTextContent();						
 						if(success.equals("success"))
 						{
+							VG.USER = nick;
+							
 							Player p = new Player();
 							
 							
 							Library l = new Library();
 							l.setSomething(nick);
 							XMLizer.marshallLibrary(l);
-							VG.sendFile(VG.PORT, "src/Library.xml", VG.HOST);
-							Thread.sleep(500);
+							/*
+							VG.sendFile(VG.PORT, "../Library.xml", VG.HOST);
+							//Thread.sleep(500);
 							VG.recieveFile();
-							
+							*/
 							
 							p.setVisible(true);
 							dispose();							

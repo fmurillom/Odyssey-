@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/live555.dir/src/User.cpp.o"
   "CMakeFiles/live555.dir/src/Sorter.cpp.o"
   "CMakeFiles/live555.dir/src/tinyxml2.cpp.o"
+  "CMakeFiles/live555.dir/src/Connector.cpp.o"
   "../bin/live555.pdb"
   "../bin/live555"
 )

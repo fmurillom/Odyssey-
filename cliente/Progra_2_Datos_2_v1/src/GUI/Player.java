@@ -1,6 +1,7 @@
 package GUI;
 
 import java.awt.BorderLayout;
+import java.awt.Button;
 import java.awt.EventQueue;
 import java.awt.Image;
 import java.awt.Insets;
@@ -19,6 +20,8 @@ import com.sun.jna.NativeLibrary;
 import admin.Library;
 import admin.Song;
 import auxiliar.Delete;
+import auxiliar.Edit;
+import auxiliar.Sender;
 import auxiliar.VG;
 import auxiliar.XMLizer;
 import estructuras.Lista_Simple;
@@ -64,37 +67,38 @@ import java.awt.event.KeyEvent;
 public class Player extends JFrame {
 
 	private JPanel contentPane;
-	private JLabel lblCurrentTime;
-	private JLabel lblTotalTime;
-	private JButton btnAtras;
-	private JButton btnPausar;
+	
+	Song delSong;
 
-	String estrella_negra		= "resources/20-20-30c0b39ab90fe047c67adaef12538b6c-star.png";
-	String estrella_blanca		= "resources/20-20-262b0c87b6266d7ecc05b679585e7b16.png";
-	String estrella_amarilla	= "resources/20-20-12fd97039b0b75db54aa7f64e84251d4.png";
-	String pausa 				= "resources/24-24-7f94cbb88c4da5c5d4660a475d0d33b6.png";
-	String atras 				= "resources/24-24-f9bfcd176faf105f9604ef3f7c99e557-back.png";
-	String pausa_pq 			= "resources/20-20-7f94cbb88c4da5c5d4660a475d0d33b6.png";
-	String share 				= "resources/share.png";
-	String share_pq 			= "resources/share_pq.png";
-	String load 				= "resources/load.png";
-	String load_pq 				= "resources/load_pq.png";
-	String upload 				= "resources/upload.png";
-	String upload_pq 			= "resources/upload_pq.png";
+	String estrella_negra		= "../Progra_2_Datos_2_v1/resources/20-20-30c0b39ab90fe047c67adaef12538b6c-star.png";
+	String estrella_blanca		= "../Progra_2_Datos_2_v1/resources/20-20-262b0c87b6266d7ecc05b679585e7b16.png";
+	String estrella_amarilla	= "../Progra_2_Datos_2_v1/resources/20-20-12fd97039b0b75db54aa7f64e84251d4.png";
+	String pausa 				= "../Progra_2_Datos_2_v1/resources/24-24-7f94cbb88c4da5c5d4660a475d0d33b6.png";
+	String atras 				= "../Progra_2_Datos_2_v1/resources/24-24-f9bfcd176faf105f9604ef3f7c99e557-back.png";
+	String pausa_pq 			= "../Progra_2_Datos_2_v1/resources/20-20-7f94cbb88c4da5c5d4660a475d0d33b6.png";
+	String share 				= "../Progra_2_Datos_2_v1/resources/share.png";
+	String share_pq 			= "../Progra_2_Datos_2_v1/resources/share_pq.png";
+	String load 				= "../Progra_2_Datos_2_v1/resources/load.png";
+	String load_pq 				= "../Progra_2_Datos_2_v1/resources/load_pq.png";
+	String upload 				= "../Progra_2_Datos_2_v1/resources/upload.png";
+	String upload_pq 			= "../Progra_2_Datos_2_v1/resources/upload_pq.png";
+	String trash_can			= "../Progra_2_Datos_2_v1/resources/trashcan-512.png";
 	
 	Lista_Simple<Song> songs = new Lista_Simple<>();
 	DefaultTableModel model = new DefaultTableModel();
 	
-	int INDEX = 0;
-	
-	private final EmbeddedMediaPlayerComponent EMPC = new EmbeddedMediaPlayerComponent();
-	
-	private JButton buttonShare;
+	int INDEX = 1;
 	private JTable table;
 	private JButton buttonRecharge;
 	private JButton buttonSend;
-	private JButton buttonBorrar;
+	private JButton buttonDelete;
+	private JButton buttonRecomend;
+	private JButton buttonSeeRec;
+	private JButton buttonEdit;
 
+	
+	
+	
 	/**
 	 * Launch the application.
 	 */
@@ -130,7 +134,7 @@ public class Player extends JFrame {
 	public Player() throws IOException, InterruptedException, SAXException, ParserConfigurationException
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1000, 500);
+		setBounds(100, 100, 1000, 337);
 		contentPane = new JPanel();
 		contentPane.addKeyListener(new KeyAdapter()
 		{
@@ -178,196 +182,11 @@ public class Player extends JFrame {
 		}
 		catch(Exception ex){System.out.println(ex);}
 		
-		
-		JPanel panel = new JPanel();
-		panel.setBackground(Color.GRAY);
-		
-		
-		JSlider slider = new JSlider();
-		slider.setBackground(Color.DARK_GRAY);
-		
-		
-		lblCurrentTime = new JLabel("0.00");
-		lblCurrentTime.setForeground(Color.white);
-		
-		
-		lblTotalTime = new JLabel("0.00");
-		lblTotalTime.setForeground(Color.white);
-		
-		
-		JButton btnPlay = new JButton("");
-		btnPlay.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				EMPC.getMediaPlayer().play();
-				System.out.println(EMPC.getMediaPlayer().getPosition());
-			}
-		});
-		btnPlay.setBackground(Color.DARK_GRAY);
-		btnPlay.setIcon(new ImageIcon("resources/24-24-9c7a40b082dc2533216bc547c9315bf3.png"));
-		btnPlay.setPressedIcon(new ImageIcon("resources/20-20-9c7a40b082dc2533216bc547c9315bf3.png"));
-		btnPlay.setBorder(null);
-		
-		
-		
-		btnPausar = new JButton("");
-		btnPausar.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				EMPC.getMediaPlayer().pause();
-			}
-		});
-		btnPausar.setBackground(Color.DARK_GRAY);
-		btnPausar.setIcon(new ImageIcon(pausa));
-		btnPausar.setPressedIcon(new ImageIcon(pausa_pq));
-		
-		btnAtras = new JButton("");
-		btnAtras.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				LogIn l = new LogIn();
-				l.setVisible(true);
-				dispose();
-			}
-		});		
-		btnAtras.setBackground(Color.DARK_GRAY);
-		btnAtras.setIcon(new ImageIcon(atras));
-		
-								
-		buttonShare = new JButton("");
-		buttonShare.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				Share s = new Share();
-				s.show();
-			}
-		});
-		
-		
-		buttonShare.setIcon(new ImageIcon(share));
-		buttonShare.setPressedIcon(new ImageIcon(share_pq));
-		buttonShare.setBorder(null);
-		buttonShare.setBackground(Color.DARK_GRAY);
-		
-		buttonBorrar = new JButton("");
-		buttonBorrar.addActionListener(new ActionListener()
-		{
-			public void actionPerformed(ActionEvent e)
-			{
-				String title = table.getModel().getValueAt(table.getSelectedRow(), 0).toString();
-				String album = table.getModel().getValueAt(table.getSelectedRow(), 2).toString();
-				String artist = table.getModel().getValueAt(table.getSelectedRow(), 1).toString();
-				
-				Delete l = new Delete(title, album, artist);
-				
-				
-
-				XMLizer.marshallDelete(l);
-				try
-				{
-					EMPC.getMediaPlayer().stop();
-					VG.sendFile(VG.PORT, "src/Del.xml", VG.HOST);
-					System.out.println("Solicitud de borrar: " + title);
-					Thread.sleep(500);
-					VG.recieveFile();
-					songs = XMLizer.getXML_lib("recieved", "Song");
-					setRows();
-				}
-				catch (IOException e2)
-				{
-					e2.printStackTrace();
-				} catch (InterruptedException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (SAXException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				} catch (ParserConfigurationException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
-				try
-				{
-					Thread.sleep(500);
-				}
-				catch (InterruptedException e1)
-				{
-					e1.printStackTrace();
-				}
-
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			}
-		});
-		buttonBorrar.setBackground(Color.DARK_GRAY);
-		
 		//btnAtras.setBorder(null);
 		
 		
 		
-		
-		GroupLayout gl_panel = new GroupLayout(panel);
-		gl_panel.setHorizontalGroup(
-			gl_panel.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_panel.createSequentialGroup()
-					.addContainerGap()
-					.addGroup(gl_panel.createParallelGroup(Alignment.LEADING)
-						.addGroup(gl_panel.createSequentialGroup()
-							.addComponent(lblCurrentTime)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(slider, GroupLayout.PREFERRED_SIZE, 338, GroupLayout.PREFERRED_SIZE)
-							.addGap(4)
-							.addComponent(lblTotalTime))
-						.addGroup(gl_panel.createSequentialGroup()
-							.addComponent(btnAtras, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(btnPlay, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(btnPausar, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(buttonShare, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
-							.addPreferredGap(ComponentPlacement.RELATED)
-							.addComponent(buttonBorrar, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)))
-					.addContainerGap(29, Short.MAX_VALUE))
-		);
-		gl_panel.setVerticalGroup(
-			gl_panel.createParallelGroup(Alignment.LEADING)
-				.addGroup(gl_panel.createSequentialGroup()
-					.addContainerGap()
-					.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING)
-						.addGroup(gl_panel.createSequentialGroup()
-							.addPreferredGap(ComponentPlacement.RELATED, 12, GroupLayout.PREFERRED_SIZE)
-							.addComponent(lblTotalTime))
-						.addComponent(lblCurrentTime)
-						.addComponent(slider, GroupLayout.DEFAULT_SIZE, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-					.addPreferredGap(ComponentPlacement.RELATED)
-					.addGroup(gl_panel.createParallelGroup(Alignment.TRAILING)
-						.addComponent(btnAtras, GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
-						.addComponent(btnPausar, Alignment.LEADING, GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
-						.addComponent(btnPlay, GroupLayout.DEFAULT_SIZE, 47, Short.MAX_VALUE)
-						.addComponent(buttonShare, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
-						.addComponent(buttonBorrar, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE))
-					.addContainerGap())
-		);
-		panel.setLayout(gl_panel);
+	
 
 
 
@@ -421,11 +240,14 @@ public class Player extends JFrame {
 					if(song.getTitle().equals(s))
 					{
 						path = song.getPath();
+						delSong = song;
 					}
 				}
 								
 				System.out.println("Path: " + path);
-				EMPC.getMediaPlayer().playMedia(path);
+				Sender send = new Sender(path);
+				send.setVisible(true);
+				//EMPC.getMediaPlayer().playMedia(path);
 				
 				
 			}
@@ -458,17 +280,21 @@ public class Player extends JFrame {
 			{
 				System.out.println(comboBox.getSelectedItem().toString());//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
 				Library l = new Library();
+				INDEX = 1;
 				l.setSomething(comboBox.getSelectedItem().toString());
 				l.setIndice(INDEX+"");
 				INDEX++;
 				XMLizer.marshallLibrary(l);
 				try
 				{
-					VG.sendFile(VG.PORT, "src/Library.xml", VG.HOST);
+					Thread.sleep(1000);
+					VG.sendFile(VG.PORT, "../Library.xml", VG.HOST);
 				}
 				catch (IOException e2)
 				{
 					e2.printStackTrace();
+				} catch (InterruptedException e1) {
+					e1.printStackTrace();
 				}
 				try
 				{
@@ -523,7 +349,7 @@ public class Player extends JFrame {
 				XMLizer.marshallLibrary(l);
 				try
 				{
-					VG.sendFile(VG.PORT, "src/Library.xml", VG.HOST);
+					VG.sendFile(VG.PORT, "../Library.xml", VG.HOST);
 				}
 				catch (IOException e2)
 				{
@@ -591,6 +417,100 @@ public class Player extends JFrame {
 		buttonSend.setBackground(Color.DARK_GRAY);
 		buttonSend.setIcon(new ImageIcon(upload));
 		buttonSend.setPressedIcon(new ImageIcon(upload_pq));
+		
+		this.buttonDelete = new JButton("");
+		buttonDelete.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Delete del = new Delete(delSong.getTitle(), delSong.getAlbum(), delSong.getArtist());
+				XMLizer.marshallDelete(del);
+				try {
+					Thread.sleep(1000);
+					VG.sendFile(VG.PORT, "../Del.xml", VG.HOST);
+					VG.recieveFile();
+				} catch (InterruptedException | IOException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+			}
+		});
+		buttonDelete.setBackground(Color.DARK_GRAY);
+		buttonDelete.setIcon(new ImageIcon(trash_can));
+		
+		buttonRecomend = new JButton("");
+		buttonRecomend.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Song selected;
+				
+				Object o = table.getModel().getValueAt(table.getSelectedRow(), 0);
+				String s = o.toString();
+				System.out.println(s);
+				
+				String path = "";
+				for(int i=0; i < songs.getCantidad_de_nodos(); i++)
+				{
+					Song song = songs.get_dato_por_indice(i);
+					if(song.getTitle().equals(s))
+					{
+						path = song.getPath();
+						delSong = song;
+					}
+				}
+				
+				RecommendWindow rec = new RecommendWindow(delSong);
+				
+				rec.show();
+				
+				
+			}
+		});
+		buttonRecomend.setBackground(Color.DARK_GRAY);
+		buttonRecomend.setIcon(new ImageIcon(share));
+		buttonRecomend.setPressedIcon(new ImageIcon(share_pq));
+		
+		buttonSeeRec = new JButton("");
+		buttonSeeRec.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				SeeRecomend rec = new SeeRecomend();
+				
+				rec.show();
+			}
+		});
+		buttonSeeRec.setBackground(Color.DARK_GRAY);
+		buttonSeeRec.setIcon(new ImageIcon(share));
+		buttonSeeRec.setPressedIcon(new ImageIcon(share_pq));
+		
+		buttonEdit = new JButton("");
+		buttonEdit.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Object o = table.getModel().getValueAt(table.getSelectedRow(), 0);
+				String s = o.toString();
+				System.out.println(s);
+				
+				String path = "";
+				for(int i=0; i < songs.getCantidad_de_nodos(); i++)
+				{
+					Song song = songs.get_dato_por_indice(i);
+					if(song.getTitle().equals(s))
+					{
+						path = song.getPath();
+						delSong = song;
+					}
+				}
+				
+				Edit edit = new Edit();
+				edit.setArtist(delSong.getArtist());
+				edit.setTitle(delSong.getTitle());
+				
+				EditaData editW = new EditaData(edit);
+				
+				editW.show();
+			}
+		});
+		buttonEdit.setBackground(Color.DARK_GRAY);
+		buttonEdit.setIcon(new ImageIcon(share));
+		buttonEdit.setPressedIcon(new ImageIcon(share_pq));
+		
+		
 
 		
 		
@@ -613,8 +533,16 @@ public class Player extends JFrame {
 							.addGroup(gl_contentPane.createSequentialGroup()
 								.addComponent(buttonSend, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
 								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-								.addComponent(buttonRecharge, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))
-							.addComponent(panel, GroupLayout.PREFERRED_SIZE, 429, GroupLayout.PREFERRED_SIZE)))
+								.addComponent(buttonRecharge, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(buttonDelete, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(buttonRecomend, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(buttonSeeRec, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))							
+						))
 					.addContainerGap())
 		);
 		gl_contentPane.setVerticalGroup(
@@ -626,9 +554,13 @@ public class Player extends JFrame {
 					.addPreferredGap(ComponentPlacement.RELATED)
 					.addGroup(gl_contentPane.createParallelGroup(Alignment.LEADING)
 						.addComponent(buttonRecharge, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
-						.addComponent(buttonSend, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE))
+						.addComponent(buttonSend, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
+						.addComponent(buttonDelete, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
+						.addComponent(buttonRecomend, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+						.addComponent(buttonSeeRec, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+						.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))
 					.addGap(22)
-					.addComponent(panel, GroupLayout.PREFERRED_SIZE, 93, GroupLayout.PREFERRED_SIZE))
+			)
 		);
 		contentPane.setLayout(gl_contentPane);
 		
@@ -644,7 +576,6 @@ public class Player extends JFrame {
 		
 		
 		
-		contentPane.add(EMPC, BorderLayout.PAGE_END);
 
 		
 
@@ -667,21 +598,7 @@ public class Player extends JFrame {
 	
 	
 	
-	public JLabel getLblCurrentTime() {
-		return lblCurrentTime;
-	}
-	public JLabel getLblTotalTime() {
-		return lblTotalTime;
-	}
-	public JButton getBtnAtras() {
-		return btnAtras;
-	}
-	public JButton getBtnPausar() {
-		return btnPausar;
-	}
-	public JButton getButtonShare() {
-		return buttonShare;
-	}
+
 	public JButton getButtonRecharge() {
 		return buttonRecharge;
 	}
@@ -715,8 +632,5 @@ public class Player extends JFrame {
 			model.addRow(new Object[]{s.getTitle(), s.getArtist(), s.getAlbum(), s.getGenre()[0], s.getRaiting()});
 		}
 		table.updateUI();
-	}
-	public JButton getButtonBorrar() {
-		return buttonBorrar;
 	}
 }

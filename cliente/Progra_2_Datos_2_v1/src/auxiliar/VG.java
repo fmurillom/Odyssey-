@@ -16,10 +16,10 @@ import java.net.Socket;
  */
 public class VG
 {
-	public static String USER = "";	
+	public static String USER = "chizco06";	
 	public static int PORT = 8080;
 	public static int PORT_to_send = 8081;
-	public static String HOST = "192.168.100.11";
+	public static String HOST = "192.168.100.21";
 	public static String filePath = "";
 
     /**
@@ -92,7 +92,7 @@ public class VG
                     InputStream stream = sock.getInputStream();
                     byte[] data = new byte[1];
                     int count = 0;
-                    FileOutputStream file = new FileOutputStream("src/recieved.xml");
+                    FileOutputStream file = new FileOutputStream("../recieved.xml");
                     
                     while(true)
                     {

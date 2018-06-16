@@ -10,11 +10,14 @@
 #include "../live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh"
 #include "BsearchTree.h"
 #include "AVLTree.h"
+#include "Connector.h"
 
 
 class StreamServerError {};
 class StreamServerRunError {};
 class StreamServerNameError {};
+
+
 
 class StreamServer
 {
@@ -35,6 +38,8 @@ public:
 
     void addMPEGVideo(char const* file, char const* name)
     throw(StreamServerRunError);
+
+    void addMKV(char const* file, char const* name)throw(StreamServerRunError);
 
     void addMPEG(char const* file, char const* name)
     throw(StreamServerRunError);
@@ -81,6 +86,8 @@ public:
 
     void sendRecomend(string usrName);
 
+    UsageEnvironment* getEnv();
+
 private:
     const int port;
 
@@ -96,6 +103,8 @@ private:
 
     AVLTree *artistTree;
 
+    Connector *c;
+
     bool login;
 
     static void* listenClose(void* inst);
@@ -104,11 +113,21 @@ private:
 
     void saveSongInfo();
 
-    void StreamServer::sendLoginInfo(string status);
+    void sendLoginInfo(string status);
 
-    int StreamServer::sendFileJava(int port, char *lfile);
+    int sendFileJava(int port, char *lfile);
 
     int pageCount;
+
+
+    void query(std::string query);
+
+    void sendUsrs();
+
+    void usrXML(S_List<string> *usrs);
+
+    void recXML(S_List<string> *recList);
+
 
 
 
