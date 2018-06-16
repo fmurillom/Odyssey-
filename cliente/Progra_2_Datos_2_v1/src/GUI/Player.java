@@ -83,6 +83,7 @@ public class Player extends JFrame {
 	String upload 				= "../Progra_2_Datos_2_v1/resources/upload.png";
 	String upload_pq 			= "../Progra_2_Datos_2_v1/resources/upload_pq.png";
 	String trash_can			= "../Progra_2_Datos_2_v1/resources/trashcan-512.png";
+	String searchM				= "../Progra_2_Datos_2_v1/resources/searchM.png";
 	
 	Lista_Simple<Song> songs = new Lista_Simple<>();
 	DefaultTableModel model = new DefaultTableModel();
@@ -95,6 +96,7 @@ public class Player extends JFrame {
 	private JButton buttonRecomend;
 	private JButton buttonSeeRec;
 	private JButton buttonEdit;
+	private JButton buttonSearch;
 
 	
 	
@@ -370,6 +372,11 @@ public class Player extends JFrame {
 					Lista_Simple<Song> more = XMLizer.getXML_lib("recieved", "Song");
 					more.mostrarln();
 					addRows(more);
+					
+					for(int i = 0; i < more.getCantidad_de_nodos(); i++) {
+						songs.insertar_al_final(more.get_dato_por_indice(i));
+					}
+					
 
 					
 					
@@ -510,6 +517,18 @@ public class Player extends JFrame {
 		buttonEdit.setIcon(new ImageIcon(share));
 		buttonEdit.setPressedIcon(new ImageIcon(share_pq));
 		
+		buttonSearch = new JButton("");
+		buttonSearch.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				SearchWindow search = new SearchWindow();
+				search.show();
+			}
+		});
+		buttonSearch.setBackground(Color.DARK_GRAY);
+		buttonSearch.setIcon(new ImageIcon(searchM));
+		
+		
+		
 		
 
 		
@@ -541,7 +560,9 @@ public class Player extends JFrame {
 								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
 								.addComponent(buttonSeeRec, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
 								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-								.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))							
+								.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+								.addPreferredGap(ComponentPlacement.RELATED, GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+								.addComponent(buttonSearch, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))							
 						))
 					.addContainerGap())
 		);
@@ -558,11 +579,13 @@ public class Player extends JFrame {
 						.addComponent(buttonDelete, GroupLayout.PREFERRED_SIZE, 47, GroupLayout.PREFERRED_SIZE)
 						.addComponent(buttonRecomend, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
 						.addComponent(buttonSeeRec, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
-						.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))
+						.addComponent(buttonEdit, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE)
+						.addComponent(buttonSearch, GroupLayout.PREFERRED_SIZE, 38, GroupLayout.PREFERRED_SIZE))
 					.addGap(22)
 			)
 		);
 		contentPane.setLayout(gl_contentPane);
+		
 		
 		
 		

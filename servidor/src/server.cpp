@@ -5,6 +5,7 @@
 #include "../include/server.h"
 #include "../live/liveMedia/include/liveMedia.hh"
 #include "../live/BasicUsageEnvironment/include/BasicUsageEnvironment.hh"
+#include "../live/groupsock/include/GroupsockHelper.hh"
 #include <pthread.h>
 #include "../include/tinyxml2.h"
 #include <fstream>
@@ -12,6 +13,23 @@
 #include "../include/cajun/json/writer.h"
 #include "../include/Sorter.h"
 #include <algorithm>
+
+RTSPServer* rtspM;
+
+UsageEnvironment* envM;
+
+static char newDemuxWatchVariable;
+static MatroskaFileServerDemux* matroskaDemux;
+
+Boolean reuseFirstSource = False;
+Boolean iFramesOnly = False;
+
+string ratingToStars(string rating);
+
+static void onMatroskaDemuxCreation(MatroskaFileServerDemux* newDemux, void* /*clientData*/) {
+    matroskaDemux = newDemux;
+    newDemuxWatchVariable = 1;
+}
 
 void error(const char *msg);
 
@@ -26,6 +44,8 @@ StreamServer::StreamServer(int port) throw(StreamServerError)
     TaskScheduler* scheduler = BasicTaskScheduler::createNew();
     env = BasicUsageEnvironment::createNew(*scheduler);
     rtsp = RTSPServer::createNew(*env, port, NULL, 45);
+    envM = this->env;
+    rtspM = this->rtsp;
     if (rtsp == NULL)
     {
         throw StreamServerError();
@@ -44,6 +64,8 @@ StreamServer::StreamServer(int port) throw(StreamServerError)
     albumList = new S_List<Song>;
     this->pageCount = 0;
     this->login = false;
+
+    this->c = new Connector();
 }
 
 
@@ -119,6 +141,32 @@ throw(StreamServerRunError)
     sms->addSubsession(demux->newVideoServerMediaSubsession());
     sms->addSubsession(demux->newAudioServerMediaSubsession());
     rtsp->addServerMediaSession(sms);
+}
+
+
+void StreamServer::addMKV(char const *file, char const *name)throw(StreamServerRunError) {
+            DO_ADD_CHECKS();
+
+
+    ServerMediaSession *sms = ServerMediaSession::createNew(*env, name, name);
+
+    newDemuxWatchVariable = 0;
+    MatroskaFileServerDemux::createNew(*env, file, onMatroskaDemuxCreation, NULL);
+    env->taskScheduler().doEventLoop(&newDemuxWatchVariable);
+
+    Boolean sessionHasTracks = False;
+    ServerMediaSubsession* smss;
+    while((smss = matroskaDemux->newServerMediaSubsession()) != NULL){
+        sms->addSubsession(smss);
+        sessionHasTracks = True;
+    }
+    if(sessionHasTracks){
+        rtsp->addServerMediaSession(sms);
+    }
+
+
+
+
 }
 
 //! Metodo encargado de remover una cancion del stream de RTSP
@@ -250,13 +298,13 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 this->login = true;
                 cout << "Login Succesful" << endl;
                 this->sendLoginInfo("success");
-                usleep(500000);
+                usleep(5000000);
                 this->sendFileJava(8081, "../coms/coms.xml");
                 return;
             }
         }else{
             this->sendLoginInfo("failed");
-            usleep(500000);
+            usleep(5000000);
             this->sendFileJava(8081, "../coms/coms.xml");
         }
     }
@@ -286,6 +334,39 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
             this->treeName->add(add.getName(), add);
             this->artistTree->insert(add.getArtist());
             this->generateAlbumList();
+            c->setDB("OdysseyDB");
+            ResultSet *r = nullptr;
+            r = c->executeQuery("insert into Canciones values('" + add.getName() + "','" +
+                    add.getAlbum() + "','" + add.getGenre() + "','" + add.getArtist() + "'," + std::to_string(add.getRating().length()) +", '" + add.getFilename() + "');");
+        }
+        pRoot = doc2->FirstChildElement("Video");
+        Song video;
+        if (pRoot) {
+            pParm = pRoot->FirstChildElement("Title");
+            string name = pParm->GetText();
+            std::replace(name.begin(), name.end(), ' ', '_');
+            video.setName(name);
+            pParm = pRoot->FirstChildElement("Album");
+            video.setAlbum(pParm->GetText());
+            pParm = pRoot->FirstChildElement("Genre");
+            video.setGenre(pParm->GetText());
+            pParm = pRoot->FirstChildElement("Artist");
+            video.setArtist(pParm->GetText());
+            pParm = pRoot->FirstChildElement("Rating");
+            video.setRating(pParm->GetText());
+            video.setFilename("../library/" + video.getName() + ".mkv");
+            cout << "Receiving" << endl;
+            this->recieveFile(video.getFilename());
+            this->addMKV(video.getFilename().c_str(), video.getName().c_str());
+            video.setStreamAdress(this->getURL(video.getName().c_str()));
+            this->songList->add(video);
+            this->treeName->add(video.getName(), video);
+            this->artistTree->insert(video.getArtist());
+            this->generateAlbumList();
+            c->setDB("OdysseyDB");
+            ResultSet *r = nullptr;
+            r = c->executeQuery("insert into Canciones values('" + video.getName() + "','" +
+                                video.getAlbum() + "','" + video.getGenre() + "','" + video.getArtist() + "'," + std::to_string(video.getRating().length()) +", '" + video.getFilename() + "');");
         }
         pRoot = doc2->FirstChildElement("Register");
         User userAux;
@@ -309,7 +390,25 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 pParm = pParm->NextSiblingElement("Friend");
             }
             cout << userAux << endl;
-            this->userTree->add(userAux.getUsrName(), userAux);
+            c->setDB("OdysseyDB");
+            ResultSet *r = nullptr;
+            r = c->executeQuery("Select _userName from Usuarios where _userName = '" + userAux.getName() +  "';");
+            if(r->rowsCount() == 0) {
+                r = c->executeQuery("insert into Usuarios values('" + userAux.getUsrName() + "','" +
+                        userAux.getHashPass() + "','" + userAux.getName() + "', " + userAux.getAge() + ");");
+                for(int i = 0; i < userAux.getFavGenres().getSize(); i++){
+                    r = c->executeQuery("insert into UsuariosGeneros values('" + userAux.getUsrName() +
+                            "','" + userAux.getFavGenres().get(i) + "');");
+                }
+
+                for(int i = 0; i < userAux.getFriendList().getSize(); i++){
+                    r = c->executeQuery("insert into Amigos values('" + userAux.getUsrName()
+                            + "','" + userAux.getFriendList().get(i) + "');");
+                }
+                this->userTree->add(userAux.getUsrName(), userAux);
+            }else {
+                cout << "Usuario ya existe" << endl;
+            }
             saveUserDB();
         }
         pRoot = doc2->FirstChildElement("Delete");
@@ -322,17 +421,34 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
             pParm = pRoot->FirstChildElement("Artist");
             del.setArtist(pParm->GetText());
             this->stop();
+            int indeAux = this->songList->search(del);
+            del = this->songList->get(indeAux);
             this->songList->del(del);
             this->remove(del.getName().c_str());
-            this->artistTree->remove(del.getArtist());
+            free(this->artistTree);
+            this->artistTree = new AVLTree();
+            for(int i = 0; i < this->songList->getSize(); i++){
+                Song aux = this->songList->get(i);
+                this->artistTree->insert(aux.getArtist());
+            }
             this->treeName->deleteValue(del.getName());
-            string path = "../library/";
-            path.append(del.getName());
-            path.append(".mp3");
-            unlink(path.c_str());
+            unlink(del.getFilename().c_str());
             this->run();
             this->pageCount = 0;
+
+
+            c->setDB("OdysseyDB");
+            ResultSet *r = nullptr;
+            r = c->executeQuery(" delete from Recomendaciones\n"
+                                "                    where\n"
+                                "                                          titulo = '" + del.getName() + "'\n"
+                                "                                                   and\n"
+                                "                                                   artista = '" + del.getArtist() + "';");
+
+            r = c->executeQuery("delete from Canciones where titulo = '" + del.getName() + "' and artista = '" + del.getArtist() + "';");
+
             sendLibrary("../coms/coms.xml", songList);
+            usleep(100000);
             this->sendFileJava(8081, "../coms/coms.xml");
 
         }
@@ -359,45 +475,97 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
         pRoot = doc2->FirstChildElement("Recomendation");
         if(pRoot) {
             pParm = pRoot->FirstChildElement("UserName");
-            S_List<string> *aux = &this->userTree->searchUsr(pParm->GetText())->getFriendList();
-            if (aux) {
+            if (true) {
+                Song *songAux = new Song();
                 pParm = pRoot->FirstChildElement("Recomend");
-                while (pParm) {
-                    int search = 0;
-                    Song auxS;
-                    auxS.setName(pParm->GetText());
-                    search = this->songList->search(auxS);
-                    if (search != 0) {
-                        aux->add(pParm->GetText());
-                    }
-                    pParm = pParm->NextSiblingElement("Recomend");
-                }
+                songAux->setName(pParm->GetText());
+                string userName;
+                pParm = pRoot->FirstChildElement("UserName");
+                userName = pParm->GetText();
+                string friendName;
+                pParm = pRoot->FirstChildElement("Friend");
+                friendName = pParm->GetText();
+                pParm = pRoot->FirstChildElement("Artist");
+                songAux->setArtist(pParm->GetText());
+
+
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("insert into Recomendaciones values\n"
+                                    "('" + userName + "','" + friendName + "', '" + songAux->getName() + "','" + songAux->getArtist() + "');");
+
             }
             saveUserDB();
+        }
+        pRoot = doc2->FirstChildElement("RecomReq");
+        if(pRoot){
+            User *usrAux = new User();
+            S_List<string> *recList = new S_List<string>();
+            pParm = pRoot->FirstChildElement("UserName");
+            usrAux->setName(pParm->GetText());
+            c->setDB("OdysseyDB");
+            ResultSet *r = nullptr;
+            r = c->executeQuery("select * from Recomendaciones where _userNameTo = '" + usrAux->getName() + "';");
+            while(r->next()){
+                string rec = "";
+                rec.append(r->getString(1));
+                rec.append("-");
+                rec.append(r->getString(3));
+                rec.append("-");
+                rec.append(r->getString(4));
+                recList->add(rec);
+            }
+            this->recXML(recList);
+            this->sendFileJava(8081, "../coms/coms.xml");
+
         }
         pRoot = doc2->FirstChildElement("Edit");
         if (pRoot) {
             Song edit;
+            Song edited;
             pParm = pRoot->FirstChildElement("Title");
             edit.setName(pParm->GetText());
             int index = 0;
             index = songList->search(edit);
             if(index != 0){
-                pParm = pRoot->FirstChildElement("Album");
-                edit.setAlbum(pParm->GetText());
-                pParm = pRoot->FirstChildElement("Genre");
-                edit.setGenre(pParm->GetText());
                 pParm = pRoot->FirstChildElement("Artist");
                 edit.setArtist(pParm->GetText());
-                pParm = pRoot->FirstChildElement("Rating");
-                edit.setRating(pParm->GetText());
+                pParm = pRoot->FirstChildElement("nTitle");
+                edited.setName(pParm->GetText());
+                pParm = pRoot->FirstChildElement("nArtist");
+                edited.setArtist(pParm->GetText());
+                pParm = pRoot->FirstChildElement("nAlbum");
+                edited.setAlbum(pParm->GetText());
+                pParm = pRoot->FirstChildElement("nGenre");
+                edited.setGenre(pParm->GetText());
+                pParm = pRoot->FirstChildElement("nRating");
+                edited.setRating(pParm->GetText());
+                edited.setFilename(songList->get(index).getFilename());
+
+                songList->del(index);
+                songList->add(edited);
                 this->albumList->del(edit);
-                this->albumList->add(edit);
-                this->artistTree->remove(edit.getArtist());
-                this->artistTree->insert(edit.getArtist());
+                this->albumList->add(edited);
+                free(this->artistTree);
+                this->artistTree = new AVLTree();
+                for(int i = 0; i < this->songList->getSize(); i++){
+                    this->artistTree->insert(this->songList->get(i).getArtist());
+                }
                 this->treeName->deleteValue(edit.getName());
-                this->treeName->add(edit.getName(), edit);
-                saveSongInfo();
+                this->treeName->add(edited.getName(), edited);
+                //saveSongInfo();
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("update Canciones\n"
+                                    "  set\n"
+                                    "    titulo = '" + edited.getName() + "',\n"
+                                    "    album = '" + edited.getAlbum() + "',\n"
+                                    "    genero = '" + edited.getGenre() + "',\n"
+                                    "    artista = '" + edited.getArtist() + "',\n"
+                                    "    rating = " + std::to_string(edited.getRating().size()) + ",\n"
+                                    "    path = '" + edited.getFilename() + "'\n"
+                                    "  where titulo = '" + edit.getName() + "' and artista = '" + edit.getArtist() + "';");
+
             }
         }
         pRoot = doc2->FirstChildElement("Library");
@@ -408,6 +576,7 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 pParm = pRoot->FirstChildElement("Index");
                 this->pageCount = stoi(pParm->GetText());
                 sendLibrary("../coms/coms.xml", this->sortByTitle());
+                usleep(5000000);
                 this->sendFileJava(8081, "../coms/coms.xml");
             }
             if(ident == "Album"){
@@ -415,6 +584,7 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 this->pageCount = stoi(pParm->GetText());
                 pParm = pRoot->FirstChildElement("Index");
                 sendLibrary("../coms/coms.xml", this->sortByAlbum());
+                usleep(5000000);
                 this->sendFileJava(8081, "../coms/coms.xml");
             }
             if(ident == "Artist"){
@@ -422,12 +592,111 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
                 this->pageCount = stoi(pParm->GetText());
                 pParm = pRoot->FirstChildElement("Index");
                 sendLibrary("../coms/coms.xml", this->sortByArtist());
+                usleep(5000000);
                 this->sendFileJava(8081, "../coms/coms.xml");
             }else{
                 pParm = pRoot->FirstChildElement("Index");
                 this->sendRecomend(ident);
+                //usleep(200000);
                 this->sendFileJava(8081, "../coms/coms.xml");
             }
+
+        }
+        pRoot = doc2->FirstChildElement("UsrRequest");
+        if(pRoot){
+            usleep(5000000);
+            this->sendUsrs();
+        }
+        pRoot = doc2->FirstChildElement("Search");
+        if(pRoot){
+            S_List<Song> *songList = new S_List<Song>;
+            pParm = pRoot->FirstChildElement("Type");
+            string type = pParm->GetText();
+            pParm = pRoot->FirstChildElement("Search");
+            string search = pParm->GetText();
+            if(type == "Title"){
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("SELECT * FROM Canciones WHERE titulo LIKE '%" + search + "%';");
+                while(r->next()){
+                    Song *songAux = new Song;
+                    songAux->setName(r->getString(1));
+                    songAux->setAlbum(r->getString(2));
+                    songAux->setGenre(r->getString(3));
+                    songAux->setArtist(r->getString(4));
+                    songAux->setRating(r->getString(5));
+                    songList->add(*songAux);
+                    free(songAux);
+                }
+
+            }
+
+            if(type == "Album"){
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("SELECT * FROM Canciones WHERE album LIKE '%" + search + "%';");
+                while(r->next()){
+                    Song *songAux = new Song;
+                    songAux->setName(r->getString(1));
+                    songAux->setAlbum(r->getString(2));
+                    songAux->setGenre(r->getString(3));
+                    songAux->setArtist(r->getString(4));
+                    songAux->setRating(r->getString(5));
+                    songList->add(*songAux);
+                    free(songAux);
+                }
+
+            }
+
+            if(type == "Artist"){
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("SELECT * FROM Canciones WHERE artista LIKE '%" + search + "%';");
+                while(r->next()){
+                    Song *songAux = new Song;
+                    songAux->setName(r->getString(1));
+                    songAux->setAlbum(r->getString(2));
+                    songAux->setGenre(r->getString(3));
+                    songAux->setArtist(r->getString(4));
+                    songAux->setRating(r->getString(5));
+                    songList->add(*songAux);
+                    free(songAux);
+
+                }
+
+            }
+
+            if(type == "Genre"){
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("SELECT * FROM Canciones WHERE genero LIKE '%" + search + "%';");
+                while(r->next()){
+                    Song *songAux = new Song;
+                    songAux->setName(r->getString(1));
+                    songAux->setAlbum(r->getString(2));
+                    songAux->setGenre(r->getString(3));
+                    songAux->setArtist(r->getString(4));
+                    songAux->setRating(r->getString(5));
+                    songList->add(*songAux);
+                    free(songAux);
+                }
+
+            }
+
+            if(type == "Rating"){
+                c->setDB("OdysseyDB");
+                ResultSet *r = nullptr;
+                r = c->executeQuery("Select _userName from Usuarios where _userName = '" + userAux.getName() +  "';");
+                while(r->next()){
+                    Song *songAux = new Song;
+
+                }
+
+            }
+
+            this->sendLibrary("../coms/coms.xml", songList);
+            this->sendFileJava(8081, "../coms/coms.xml");
+
 
         }
         cout << this->songList->getSize() << endl;
@@ -435,34 +704,50 @@ void StreamServer::parseXML(std::string file, TiXmlDocument *doc2) {
     }
 }
 
+string ratingToStars(string rating){
+    int number = atoi(rating.c_str());
+    string stars = "";
+    for(int i = 0; i < number; i++){
+        stars.append("*");
+    }
+    if(number == 0){
+        stars = "0";
+    }
+    return stars;
+}
+
 /*!
  * Metodo encargado de cargar toda la informacion de la libreria musical a la hora de iniciar el servidor
  */
 void StreamServer::loadSongInfo() {
-            using namespace json;
-            Object jsonInfo;
-            ifstream libInfo("../library/info.json");
-            Reader::Read(jsonInfo, libInfo);
-            int size = Number(jsonInfo["size"]).Value();
-            Array songArray = jsonInfo["library"];
-            for(int i = 0; i < size; i++){
-                Object tempSong = songArray[i];
-                string title = String(tempSong["Title"]).Value();
-                string album = String(tempSong["Album"]).Value();
-                string genre = String(tempSong["Genre"]).Value();
-                string artist = String(tempSong["Artist"]).Value();
-                string rating = String(tempSong["Rating"]).Value();
-                string fileName = String(tempSong["FileName"]).Value();
-                Song songAux(title, artist, rating, "", genre, fileName, album);
-                this->addMP3(songAux.getFilename().c_str(), songAux.getName().c_str());
-                songAux.setStreamAdress(this->getURL(songAux.getName().c_str()));
-                this->songList->add(songAux);
-                this->treeName->add(songAux.getName(), songAux);
-                this->artistTree->insert(songAux.getArtist());
-            }
-            cout << this->songList->getSize() << endl;
-            this->generateAlbumList();
+
+    c->setDB("OdysseyDB");
+    ResultSet *r = nullptr;
+    User *usrNew;
+    r = c->executeQuery("select * from Canciones;");
+    Song *songAux = new Song();
+    while(r->next()){
+        songAux->setName(r->getString(1));
+        songAux->setAlbum(r->getString(2));
+        songAux->setGenre(r->getString(3));
+        songAux->setArtist(r->getString(4));
+        songAux->setRating(ratingToStars(r->getString(5)));
+        songAux->setFilename(r->getString(6));
+
+        if(strstr(songAux->getFilename().c_str(), ".mkv")){
+            this->addMKV(songAux->getFilename().c_str(), songAux->getName().c_str());
+            songAux->setStreamAdress(this->getURL(songAux->getName().c_str()));
+        }else{
+            this->addMP3(songAux->getFilename().c_str(), songAux->getName().c_str());
+            songAux->setStreamAdress(this->getURL(songAux->getName().c_str()));
         }
+        this->songList->add(*songAux);
+        this->treeName->add(songAux->getName(), *songAux);
+        this->artistTree->insert(songAux->getArtist());
+        //this->generateAlbumList();
+    }
+
+}
 
         /*!
          * Metodo enargado de guardar toda la biblioteca en un archivo json
@@ -562,41 +847,29 @@ void StreamServer::generateAlbumList(){
          * Metodo encargado de cargar los datos de los usuarios desde el archivo json
          */
 void StreamServer::loadUserDB() {
-            using namespace json;
-            Object jsonData;
-            Array jsonArray;
-            ifstream file("../coms/userDb.json");
-            Reader::Read(jsonData, file);
-            file.close();
-
-            int size = Number(jsonData["size"]).Value();
-            jsonArray = jsonData["users"];
-            for(int i = 0; i < size; i++){
-                User aux;
-                aux.setUsrName(String(jsonArray[i]["UserName"]).Value());
-                if(aux.getUsrName() != "master"){
-                    aux.setHashPass(String(jsonArray[i]["Password"]).Value());
-                    aux.setAge(String(jsonArray[i]["Age"]).Value());
-                    aux.setName(String(jsonArray[i]["Name"]).Value());
-                    int contAux = Number(jsonArray[i]["Fsize"]).Value();
-                    Array arrayAux = jsonArray[i]["Friend"];
-                    for(int j = 0; j < contAux; j++){
-                        aux.addFriend(String(arrayAux[j]).Value());
-                    }
-                    arrayAux = jsonArray[i]["Genre"];
-                    contAux = Number(jsonArray[i]["Gsize"]);
-                    for(int j = 0; j < contAux; j++){
-                        aux.addFavGenre(String(arrayAux[j]).Value());
-                    }
-                    arrayAux = jsonArray[i]["Recomend"];
-                    contAux = Number(jsonArray[i]["Rsize"]);
-                    for(int j = 0; j < contAux; j++){
-                        aux.addRecomendation(String(arrayAux[j]).Value());
-                    }
-                    this->userTree->add(aux.getUsrName(), aux);
-                }
-            }
-    return;
+   c->setDB("OdysseyDB");
+   ResultSet *r = nullptr;
+   User *usrNew;
+   r = c->executeQuery("select * from Usuarios where _userName <> 'master';");
+   while(r->next()){
+       usrNew = new User();
+       usrNew->setUsrName(r->getString(1));
+       usrNew->setHashPass(r->getString(2));
+       usrNew->setName(r->getString(3));
+       usrNew->setAge(r->getString(4));
+       ResultSet *r2 = nullptr;
+       r2 = c->executeQuery("select genero from UsuariosGeneros where _userName = '" + usrNew->getUsrName() +"';");
+       while(r2->next()){
+           usrNew->addFavGenre(r2->getString(1));
+       }
+       r2 = c->executeQuery("select _userNameAmigo from Amigos where _userName = '" + usrNew->getUsrName() + "';");
+       while(r2->next()){
+           cout << r2->getString(1) << endl;
+           usrNew->addFriend(r2->getString(1));
+       }
+       this->userTree->add(usrNew->getUsrName(), *usrNew);
+       free(usrNew);
+   }
 }
 
 /*!
@@ -840,7 +1113,6 @@ string StreamServer::generateHash(std::string pass) {
  */
 void StreamServer::sendLibrary(std::string file, S_List<Song> *songList) {
     cout << "Start: " << this->pageCount << endl;
-    bool reset = false;
     string xml = "<?xml version=\"1.0\" ?>\n";
     string libraryStart = "<Library>\n";
     string libraryEnd = "</Library>\n";
@@ -859,10 +1131,18 @@ void StreamServer::sendLibrary(std::string file, S_List<Song> *songList) {
     string urlStart = "   <Path>";
     string urlEnd = "</Path>\n";
     xml.append(libraryStart);
-    int start = this->pageCount * 5;
-    int end = start + 5;
+    int start = 0;
+    int end = this->pageCount * 5;
+    if(end != 0){
+        start = (this->pageCount * 5) - 5;
+    }
     if(end >= songList->getSize()){
         end = songList->getSize();
+    }
+
+    if(this->pageCount == 0){
+        start = 0;
+        end = start + 5;
     }
     cout << start << endl;
     for(int i = start; i < end; i++){
@@ -915,8 +1195,12 @@ int StreamServer::sendFileJava(int port, char *lfile ){
     char remoteFILE[4096];
     int count1=1,count2=1, percent;
 
+    int temp = 4;
 
-    hostINFO = gethostbyname("localhost");
+    int& holis = temp;
+
+
+    hostINFO = gethostbyname("192.168.100.21");
     if (hostINFO == NULL) {
         printf("Problem interpreting host\n");
         return 1;
@@ -1013,3 +1297,73 @@ S_List<Song>* StreamServer::sortByArtist() {
             sendLibrary("../coms/coms.xml", artist);
             return artist;
         }
+
+void StreamServer::query(std::string query) {
+    c->setDB("OdysseyDB");
+    ResultSet *r = nullptr;
+    r = c->executeQuery(query);
+    //cout « r->first() « endl;
+    while(r->next())
+    {
+        cout << r->getString(1) << endl;
+    }
+}
+
+void StreamServer::sendUsrs() {
+    S_List<string> *usrs = new S_List<string>;
+    c->setDB("OdysseyDB");
+    ResultSet *r = nullptr;
+    r = c->executeQuery("select * from Usuarios");
+    while(r->next()){
+        usrs->add(r->getString(1));
+    }
+    this->usrXML(usrs);
+    this->sendFileJava(8081, "../coms/coms.xml");
+
+}
+
+void StreamServer::usrXML(S_List<string> *usrs) {
+    string xml = "<?xml version=\"1.0\" ?>\n";
+    string openR = "<UsrRqst>\n";
+    string openF = "</UsrRqst>\n";
+    string libraryStart = "    <Users>\n";
+    string libraryEnd = "   </Users>\n";
+    string usrNameStart = "         <UsrName>";
+    string usrNameEnd = "</UsrName>\n";
+    xml.append(openR);
+    for(int i = 0; i < usrs->getSize(); i++){
+        xml.append(libraryStart);
+        string uOpen = usrNameStart;
+        string uClose = usrNameEnd;
+        uOpen.append(usrs->get(i));
+        uOpen.append(uClose);
+        xml.append(uOpen);
+        xml.append(libraryEnd);
+    }
+    xml.append(openF);
+    ofstream fileWrire("../coms/coms.xml");
+    fileWrire << xml;
+    fileWrire.close();
+}
+
+void StreamServer::recXML(S_List<string> *recList) {
+    string xml = "<?xml version=\"1.0\" ?>\n";
+    string openR = "<Recomendation>\n";
+    string openF = "</Recomendation>\n";
+    string libraryStart = "    <Rec>\n";
+    string libraryEnd = "   </Rec>\n";
+    string usrNameStart = "         <Info>";
+    string usrNameEnd = "</Info>\n";
+    xml.append(openR);
+    for(int i = 0; i < recList->getSize(); i++){
+        xml.append(libraryStart);
+        xml.append(usrNameStart);
+        xml.append(recList->get(i));
+        xml.append(usrNameEnd);
+        xml.append(libraryEnd);
+    }
+    xml.append(openF);
+    ofstream fileWrire("../coms/coms.xml");
+    fileWrire << xml;
+    fileWrire.close();
+}

@@ -1,5 +1,5 @@
 {
-	"size" : 2,
+	"size" : 3,
 	"users" : [
 		{
 			"UserName" : "chizco06",
@@ -13,6 +13,24 @@
 			],
 			"Friend" : [
 				"master"
+			],
+			"Fsize" : 1,
+			"Gsize" : 3,
+			"Recomend" : [],
+			"Rsize" : 0
+		},
+		{
+			"UserName" : "loop",
+			"Password" : "120768095511111111",
+			"Name" : "Alejandro Campos",
+			"Age" : "21",
+			"Genre" : [
+				"Rock",
+				"Heavy Metal",
+				"Rap"
+			],
+			"Friend" : [
+				"chizco06"
 			],
 			"Fsize" : 1,
 			"Gsize" : 3,

@@ -14,6 +14,7 @@
 #include <netinet/in.h>
 #include <fstream>
 #include <tinyxml.h>
+#include <include/Connector.h>
 
 TiXmlDocument *doc2 = new TiXmlDocument();
 
@@ -30,6 +31,7 @@ void socketServer(int port, StreamServer *server);
 //192.168.1.11
 int main(int argc, char *argv[])
 {
+
     StreamServer *server = new StreamServer();
     server->loadUserDB();
     server->loadSongInfo();

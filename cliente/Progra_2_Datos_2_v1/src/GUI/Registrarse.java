@@ -122,6 +122,8 @@ public class Registrarse extends JFrame
 		}
 
 		
+		comboBox_1 = new JComboBox();
+		
 		for(int i = 0; i < users.getCantidad_de_nodos(); i++) {
 			comboBox_1.addItem(users.get_dato_por_indice(i));
 		}

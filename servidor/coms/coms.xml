@@ -14,7 +14,7 @@
       <Artist>No se</Artist>
        <Genre>Blues</Genre>
       <Rating>***</Rating>
-   <Path></Path>
+   <Path>rtsp://192.168.100.21:8544/Bla</Path>
     </Song>
     <Song>
        <Title>Chala</Title>

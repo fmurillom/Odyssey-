@@ -243,6 +243,21 @@ public class XMLizer
 		}
 	}
 	
+	public static void marshallSearch(Search req) {
+		try
+		{
+			JAXBContext jc = JAXBContext.newInstance(Search.class);
+			Marshaller ms = jc.createMarshaller();
+			ms.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+			ms.marshal(req, System.out);
+			ms.marshal(req,  new File("../"+"Search"+".xml"));
+		}
+		catch(Exception e)
+		{
+			e.printStackTrace();
+		}
+	}
+	
 	public static User unMarshallUser(String userName)
 	{
 		try

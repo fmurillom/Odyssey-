@@ -5,40 +5,32 @@
        <Album>Inaho</Album>
       <Artist>Olympus Knights</Artist>
        <Genre>Blues</Genre>
-      <Rating>****</Rating>
-   <Path>rtsp://192.168.100.21:8544/Aldnoah</Path>
+      <Rating>4</Rating>
+   <Path></Path>
     </Song>
     <Song>
        <Title>Bla</Title>
        <Album>Yo</Album>
       <Artist>No se</Artist>
        <Genre>Blues</Genre>
-      <Rating>***</Rating>
+      <Rating>3</Rating>
    <Path></Path>
-    </Song>
-    <Song>
-       <Title>Chala</Title>
-       <Album>DBGZ</Album>
-      <Artist>Mario Castaneda</Artist>
-       <Genre>Clasica</Genre>
-      <Rating>*</Rating>
-   <Path>rtsp://192.168.100.21:8544/Chala</Path>
-    </Song>
-    <Song>
-       <Title>Flamingo</Title>
-       <Album>Memes</Album>
-      <Artist>Berd</Artist>
-       <Genre>Pop</Genre>
-      <Rating>*****</Rating>
-   <Path>rtsp://192.168.100.21:8544/Flamingo</Path>
     </Song>
     <Song>
        <Title>HeMan</Title>
        <Album>Memes</Album>
       <Artist>HeMan</Artist>
        <Genre>Cumbia</Genre>
-      <Rating>****</Rating>
-   <Path>rtsp://192.168.100.21:8544/HeMan</Path>
+      <Rating>4</Rating>
+   <Path></Path>
+    </Song>
+    <Song>
+       <Title>Make_a_Move</Title>
+       <Album>Why</Album>
+      <Artist>Icon for Hire</Artist>
+       <Genre>Blues</Genre>
+      <Rating>1</Rating>
+   <Path></Path>
     </Song>
 </Library>
 

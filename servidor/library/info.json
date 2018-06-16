@@ -1,5 +1,5 @@
 {
-	"size" : 10,
+	"size" : 11,
 	"library" : [
 		{
 			"Title" : "Aldnoah",
@@ -9,6 +9,15 @@
 			"Rating" : "****",
 			"FileName" : "../library/Aldnoah.mkv",
 			"StreamAdress" : "rtsp://192.168.100.21:8544/Aldnoah"
+		},
+		{
+			"Title" : "Bla",
+			"Album" : "Yo",
+			"Genre" : "Blues",
+			"Artist" : "No se",
+			"Rating" : "***",
+			"FileName" : "../library/Bla.mp3",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/Bla"
 		},
 		{
 			"Title" : "Chala",
@@ -83,13 +92,13 @@
 			"StreamAdress" : "rtsp://192.168.100.21:8544/Space_Jam"
 		},
 		{
-			"Title" : "Bla",
-			"Album" : "Yo",
-			"Genre" : "Blues",
-			"Artist" : "No se",
-			"Rating" : "***",
-			"FileName" : "../library/Bla.mp3",
-			"StreamAdress" : ""
+			"Title" : "The_Wolf",
+			"Album" : "Wolf",
+			"Genre" : "Country",
+			"Artist" : "Siamese",
+			"Rating" : "****",
+			"FileName" : "../library/The_Wolf.mkv",
+			"StreamAdress" : "rtsp://192.168.100.21:8544/The_Wolf"
 		}
 	]
 }
